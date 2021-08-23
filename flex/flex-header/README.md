@@ -6,6 +6,7 @@ Use flexbox rules to create this very common webpage header style. The benefit t
 
 narrow:
 ![narrow](./desired-outcome-narrow.png)
+
 wide: 
 ![wide](./desired-outcome-wide.png)
 
