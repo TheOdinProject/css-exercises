@@ -10,8 +10,10 @@ These exercises should be done when instructed during the course of the curricul
 2. Go to an exercise directory and open the HTML file in your browser. You can either open the file directly, or use something like VSCode's live-server.
 3. View the README, and edit the CSS file to make the output in your browser look like the images provided.
 4. Each README has a "Self Check" list. Use this to make sure you haven't missed any important details in your implementation.
+5. Don't check the solutions until you're done!
 
 ## Some hints
+- The official solutions put all changes at the _end_ of the CSS file, which may duplicate some selectors (i.e. there might be a `body {}` in the given CSS, and another `body {}` in the solution). When you are working on the exercise it is best practice to add your CSS to existing selectors instead of duplicating them at the end of the file. We're sacrificing this best practice in our official solutions to make it extra clear to you what things we changed to solve the exercise.
 - Unless listed in the self-check section, do not worry about getting the exact pixel value for things like margin, padding and font-size. These exercises are intended to test your knowledge of CSS, not your ability to guess that a screenshot is using `font: sans-serif bold 16px`, or that the margin is _exactly_ `42px`.
 - You may need to add some elements to your HTML to get things into the right spot. (for the first few exercises we make it explicit when this needs to happen)
 - You may need to add more selectors to your CSS file. The first few exercises have almost everything already done for you, but as you progress you'll find that you need to add more and more to get the correct result.

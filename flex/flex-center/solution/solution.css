@@ -3,11 +3,6 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
-
-  /* look at this! */
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .box {
@@ -17,4 +12,18 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+}
+
+/* SOLUTION */
+
+/* disclaimer: duplicating the `.container` selector here isn't best practice.
+In your solution you probably put it right inside the existing `.container`,
+which _is_ the best practice. 
+
+We separated it out here to make it extra clear what has changed. */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -5,9 +5,6 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-
-  display: flex;
-  flex-direction: column;
 }
 
 img {
@@ -19,8 +16,6 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-
-  padding: 8px 16px;
 }
 
 input {
@@ -29,6 +24,17 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+/* SOLUTION */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
 }
 
 .content {

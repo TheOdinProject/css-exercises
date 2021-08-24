@@ -1,0 +1,62 @@
+body {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+}
+
+.title {
+  background: #e3f4ff;
+}
+
+.content {
+  background: #e3f4ff;
+}
+
+.button {
+  background: #e3f4ff;
+}
+
+button {
+  background: white;
+  border: 1px solid #eee;
+}
+
+/* SOLUTION */
+
+/* disclaimer: duplicating the selectors here isn't best practice.
+In your solution you probably put it right inside the existing selectors,
+which _is_ the best practice.
+
+We separated it out here to make it extra clear what has changed. */
+
+.card {
+  padding: 8px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.content {
+  margin-bottom: 8px;
+  padding: 16px 8px;
+}
+
+.button {
+  text-align: center;
+  padding: 8px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
+}
