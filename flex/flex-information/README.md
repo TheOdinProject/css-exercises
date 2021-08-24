@@ -16,3 +16,4 @@ For this one you will need to edit the HTML a little bit too. We can't be making
 - 52px between each item
 - Items are arranged horizontally on the page
 - Items are only 200px wide and the text wraps
+- Item text is centered
