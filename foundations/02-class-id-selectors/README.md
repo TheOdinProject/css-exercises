@@ -13,7 +13,8 @@ It isn't entirely important what class or ID values you use, as the focus here i
 Quick tip: in VS Code, you can change which format colors are displayed in (RGB, HEX, or HSL) by hovering over the color value in the CSS and clicking the top of the popup that appears!
 
 ## Desired Outcome
-<!-- Insert Outcome Image -->
+![outcome](https://user-images.githubusercontent.com/70952936/131268858-5360bb32-27ba-4ce0-be59-5fda97f5eb12.png)
+
 
 ### Self Check
 - Do the odd numbered `div` elements share a class?
