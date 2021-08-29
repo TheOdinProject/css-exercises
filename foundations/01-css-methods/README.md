@@ -10,7 +10,8 @@ The properties you need to add to each element are:
 * `button`: an orange background and a font size of 18px
 
 ## Desired Outcome
-<!-- Insert Outcome Image -->
+![outcome](https://user-images.githubusercontent.com/70952936/131268832-f3a3bbde-c9e6-4e73-9b99-79ffa3d2144a.png)
+
 
 ### Self Check
 - Did you use all three methods of adding CSS to an HTML file?
