@@ -1,0 +1,93 @@
+.para,
+.small-para {
+  color: hsl(0, 100%, 50%);
+}
+
+.para {
+  font-size: 22px;
+}
+
+.button {
+  background-color: #ffc0cb;
+  color: black;
+  font-size: 20px;
+}
+
+div.text {
+  color: green;
+  font-size: 28px;
+}
+
+/* SOLUTION */
+
+/* 
+  For the following rule, we removed it from its original position in the file:
+
+  .small-para {
+    font-size: 12px;
+  } 
+
+  Then we placed it after the .para selector, taking advantage of the rule order since both selectors have the same specificity. 
+  
+  Another solution would be keeping it in its original place and just chaining selectors, giving this rule a higher specificity:
+
+  p.small-para {
+    font-size: 12px;
+  }
+*/
+
+.small-para {
+  font-size: 12px;
+}
+
+/* 
+  For the following rule we removed the original .confirm selector:
+
+  .confirm {
+    background: green;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  } 
+
+  Then we used an ID selector instead, since it has a higher specificity than the .button selector.
+
+  Other solutions would be to simply move the .confirm rule below the .button rule, or to use the .button.confirm selector without moving it:
+
+  .button.confirm {
+    background: green;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+*/
+
+#confirm-button {
+  background: green;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*
+  For the following rule we first removed it from its original position in the file: 
+
+  .child {
+    color: red;
+    font-size: 14px;
+  }
+
+  Then we added another selector to create a descendant combinator. If we only created a descendant combinator, the specificity would be tied with the div.text selector and it would come down to rule order, and if we only moved it the div.text selector would still have a higher specificity.
+  
+  Another solution would be to keep the rule where it was and just replace the div selector with the .text selector:
+
+  .text .child {
+    color: red;
+    font-size: 14px;
+  }
+*/
+
+div .child {
+  color: red;
+  font-size: 14px;
+}
