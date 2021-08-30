@@ -8,7 +8,7 @@ Specificity issues will require you to either add or remove a selector from an a
 Issues with the cascade can be the bane for many when it comes to CSS, so once you complete this exercise you'll be one step ahead of the curve and on your way to loving CSS (or at the very least being friendly acquaintances with it).
 
 ## Desired Outcome
-<!-- Insert Outcome Image -->
+![outcome](https://user-images.githubusercontent.com/70952936/131411210-47ff21dd-6d0c-4a7f-b6b1-1ec40f93dd8c.jpg)
 
 ### Self Check
 - Do all rules for elements labeled "Fix specificity" have the correct selector added or removed?
