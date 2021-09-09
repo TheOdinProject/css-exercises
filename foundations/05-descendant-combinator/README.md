@@ -3,7 +3,7 @@ Understanding how combinators work can become a lot easier when you start playin
 
 The goal of this exercise is to apply styles to elements that are descendants of another element, while leaving elements that *aren't* descendants of that element unstyled.
 
-You can use either type or class selectors for this exercise, whichever you may feel you want to practice with more. The HTML file is setup (so no need to edit anything in it) where any combination of selectors will work, so if you're feeling adventurous you can even try combining a type *and* class selector for the descendant combinator.
+You can use either type or class selectors for this exercise, whichever you may feel you want to practice with more. The HTML file is set up (so no need to edit anything in it) where any combination of selectors will work, so if you're feeling adventurous you can even try combining a type *and* class selector for the descendant combinator.
 
 The properties you need to add are:
 
