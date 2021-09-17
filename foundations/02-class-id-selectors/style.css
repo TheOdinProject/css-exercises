@@ -1,0 +1,16 @@
+.class1{
+    background-color: rgb(226, 148, 148);
+    font-family: verdana, sans-serif;
+}
+#id1{
+    color: #0000ff;
+    font-size: 36px;
+}
+.class2{
+    font-size: 24px;
+}
+#id2{
+    background-color: hsl(120, 55%, 65%);
+    font-size: 24px;
+    font-weight: 700;
+}
