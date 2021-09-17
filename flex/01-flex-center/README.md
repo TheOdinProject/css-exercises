@@ -8,5 +8,7 @@ All you need to do is center the red div inside the blue container.
 
 ### Self Check
 - Is the red div centered?
+    Yes, I was able to center it.
 - Did you _only_ use flexbox to center it?
+    yes, setting the display to flex and justifying the content and aligning the items was all it took.
 
