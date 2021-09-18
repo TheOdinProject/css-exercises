@@ -19,12 +19,13 @@ These exercises should be done when instructed during the course of the curricul
 - Unless listed in the self-check section, do not worry about getting the exact pixel value for things like margin, padding and font-size. These exercises are intended to test your knowledge of CSS, not your ability to guess that a screenshot is using `font: sans-serif bold 16px`, or that the margin is _exactly_ `42px`.
 - You may need to add some elements to your HTML to get things into the right spot. (for the first few exercises we make it explicit when this needs to happen)
 - You may need to add more selectors to your CSS file. The first few exercises have almost everything already done for you, but as you progress you'll find that you need to add more and more to get the correct result.
-- In many cases, there will be multiple correct ways to solve these problems. The official solution isn't necessarily the _right_ way, but it is possible to do things in ways that are overall unhelpful. If your solution differs wildly from the official solution (and still passes the self-check criteria), feel free to ask about it in the chatroom.
+- In many cases, there will be multiple correct ways to solve these pros
+blems. The official solution isn't necessarily the _right_ way, but it is possible to do things in ways that are overall unhelpful. If your solution differs wildly from the official solution (and still passes the self-check criteria), feel free to ask about it in the chatroom.
 
 ## Checklist for exercises (insert check ✅ into [ ] upon completion)
 
 1. Foundations:
-  - 01-css-methods [&#2714]
+  - 01-css-methods []
   - 02-class-id-selectors [ ]
   - 03-grouping-selectors [ ]
   - 04-chaining-selectors [ ]
@@ -43,3 +44,4 @@ These exercises should be done when instructed during the course of the curricul
   - 05-flex-modal [ ]
   - 06-flex-layout [ ]
   - 07-flex-layout-2 [ ]
+![alt text](https://github.githubassets.com/images/icons/emoji/unicode/2714.png)
