@@ -19,3 +19,5 @@ As with the last example, this one needs to be flexible in the middle, with item
 - Items are arranged horizontally as seen in the outcome image.
 - There is 16px between each item on both sides of the header.
 - Used flex to arrange everything.
+
+I was able to complete this exercise, had to go back to my notes and rememeber how to space an item from the others.  many of the properties I used are similar to the solution,  when comparing the solution I noticed that instead of separating the items with the approach I took, the solution created two new classes to group the items and apply the properties to separate them.
