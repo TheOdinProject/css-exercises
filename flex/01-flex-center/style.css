@@ -1,4 +1,7 @@
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: dodgerblue;
   border: 4px solid midnightblue;
   width: 400px;

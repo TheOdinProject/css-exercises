@@ -16,3 +16,5 @@ wide:
 - list-items are horizontal, and are centered vertically inside the header
 - left-links and right-links are pushed all the way to the left and right, and stay at the edge of the header when the page is resized.
 - This exercise does not use floats, inline-block, or absolute positioning.
+
+This exercise took me some time, my initial approach was to inspect the html file, there I noticed that two classes where created "Left link and right link" and those were not being used in the CSS file, so I created them and attempted to apply properties, that just ended up confusing me a lot, and ofcourse, after getting frustrated, I ended up in discord help.  there @tatianatothe#5216 explained that those classes where more for visual interpretation, and she help me with my frustration.  Thanks @tatianatothe#5216.   The Odin Community is awsome.
