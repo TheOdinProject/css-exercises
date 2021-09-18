@@ -25,7 +25,7 @@ blems. The official solution isn't necessarily the _right_ way, but it is possib
 ## Checklist for exercises (insert check ✅ into [ ] upon completion)
 
 1. Foundations:
-  - 01-css-methods []
+  - 01-css-methods [✅]
   - 02-class-id-selectors [ ]
   - 03-grouping-selectors [ ]
   - 04-chaining-selectors [ ]
@@ -44,4 +44,4 @@ blems. The official solution isn't necessarily the _right_ way, but it is possib
   - 05-flex-modal [ ]
   - 06-flex-layout [ ]
   - 07-flex-layout-2 [ ]
-![alt text](https://github.githubassets.com/images/icons/emoji/unicode/2714.png)
+
