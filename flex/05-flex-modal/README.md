@@ -16,3 +16,5 @@ Depending on how to approach this one, you might need to revisit the `flex-shrin
 - The header, text, and buttons are aligned with each other.
 - The header is bold and a slightly larger text-size than the text.
 - The close button is vertically aligned with the header, and aligned in the top-right of the card.
+
+My Approach to complete this exercise was to create two additional containers to separate the top heading items and the content text, as well to separate the buttons at the end.

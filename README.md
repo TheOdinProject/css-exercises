@@ -41,7 +41,8 @@ blems. The official solution isn't necessarily the _right_ way, but it is possib
   - 02-flex-header [✅]
   - 03-flex-header-2 [✅]
   - 04-flex-information [✅]
-  - 05-flex-modal [ ]
+  - 04-flex-information [✅]
+  - 05-flex-modal [✅]
   - 06-flex-layout [ ]
   - 07-flex-layout-2 [ ]
 
