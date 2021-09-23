@@ -8,21 +8,55 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 16px;
+}
+
+.a{
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.complete{
+  display: flex;
+  gap: 8px;
+  
+}
+
+.container{
+  display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+ /* flex: 1 1 auto;  */
+  padding: 32px;
 }
 
 .card {
+  width: 300px;
+  padding: 15px 15px 150px 15px;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+ 
 }
