@@ -1,0 +1,13 @@
+.container .text { 
+	color: rgb(255,0,0);
+	background-color: #ffff00;
+	font-size: 20px;
+	text-align: center;
+}
+/* you can also style them this way.*/
+div p {
+	color: rgb(100%,0%,0%);
+	background-color: #ff0;
+	font-size: 20px;
+	text-align: center;
+}

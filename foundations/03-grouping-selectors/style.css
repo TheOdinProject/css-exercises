@@ -1,0 +1,13 @@
+
+.me,
+.fancy {
+	font-size: 28px;
+	font-family: Helvetica, "Times New Roman", sans-serif;
+}
+.fancy {
+	background-color: rgb(255,255,0);
+}
+.me {
+	color: #ffffff;
+	background-color: #000000;
+}
