@@ -2,3 +2,15 @@
     background-color: #FFC0CB;
     font-family: "Verdana", sans-serif;
 }
+.three {
+    font-size: 24px;
+}
+.two {
+    color: #0000FF;
+    font-size: 36px;
+}
+.four {
+    background-color: #90ee90;
+    font-size: 24px;
+    font-strength: bold;
+}
