@@ -5,11 +5,11 @@
 .three {
     font-size: 24px;
 }
-.two {
+#two {
     color: #0000FF;
     font-size: 36px;
 }
-.four {
+#four {
     background-color: #90ee90;
     font-size: 24px;
     font-strength: bold;
