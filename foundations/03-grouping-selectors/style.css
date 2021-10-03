@@ -3,11 +3,12 @@
   font-family: Helvetica, Times New Roman, sans-serif ;
 }
 
-.color {
-  background-color: #FFFF00 ;
-  color: Black;
-}
 .black {
   background-color: black ;
   color: white ;
+}
+
+.color {
+  background-color: #FFFF00 ;
+  color: Black;
 }
