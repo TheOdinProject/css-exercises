@@ -1,4 +1,13 @@
 .button {
-  font-size:28px;
-  font-family: Helvetica, Times New Roman, sans-serif
+  font-size:28px ;
+  font-family: Helvetica, Times New Roman, sans-serif ;
+}
+
+.color {
+  background-color: #FFFF00 ;
+  color: #FFFFFF;
+}
+.black {
+  background-color: black ;
+  color: #000000 ;
 }
