@@ -11,4 +11,4 @@ Use this section to check your work. On _these_ projects, your goal isn't to att
 - Div One has 12px between it and any other element on the page.
 - There is a 48px gap between Div Two and Div Three.
 - Div Three is aligned to the right.
-- Div Three's alignment is achieved using `margin` (and not float, flexbox, etc.)
+- Div Three's alignment is achieved using `margin` (and not float, flexbox, etc.).
