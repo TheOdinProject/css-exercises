@@ -12,6 +12,9 @@ It isn't entirely important which class or ID values you use, as the focus here 
 
 Quick tip: in VS Code, you can change which format colors are displayed in RGB, HEX, or HSL by hovering over the color value in the CSS and clicking the top of the popup that appears!
 
+> ### Note:
+> Disregard the font styles in the outcome image here. Your browser's default font might be different than the one displayed, that's OK for this exercise.
+
 ## Desired Outcome
 ![outcome](https://user-images.githubusercontent.com/70952936/131268858-5360bb32-27ba-4ce0-be59-5fda97f5eb12.png)
 
