@@ -1,0 +1,16 @@
+.oddity {
+    background-color: rgb(223, 18, 137);
+    font-family: 'Verdana', sans-serif;
+}
+.special {
+    font-size: 24px;
+}
+#num2 {
+    font-size: 36px;
+    color: rgb(45, 45, 163);
+}
+#num4 {
+    background-color: rgb(66, 189, 66);
+    font-size: 24px;
+    font-weight: bold;
+}

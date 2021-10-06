@@ -1,0 +1,11 @@
+.mine, .no-mine {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+}
+.mine {
+    background-color: black;
+    color: white;
+}
+.no-mine {
+    background-color: yellow;
+}
