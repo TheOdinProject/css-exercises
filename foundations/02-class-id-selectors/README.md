@@ -16,7 +16,7 @@ Quick tip: in VS Code, you can change which format colors are displayed in RGB, 
 > Part of your task is to add a font to _some_ of these items. Do not worry about the font of the rest of them. Your browser's default font might be different than the one displayed and that's OK for this exercise.
 
 ## Desired Outcome
-![outcome](https://user-images.githubusercontent.com/70952936/131268858-5360bb32-27ba-4ce0-be59-5fda97f5eb12.png)
+![desired outcome](./desired-outcome.png)
 
 
 ### Self Check
