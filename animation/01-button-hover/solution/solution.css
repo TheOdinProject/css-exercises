@@ -1,0 +1,36 @@
+#transition-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  width: 158px;
+  height: 55px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: small;
+  text-align: center;
+}
+
+/* SOLUTION */
+
+/* disclaimer: duplicating the `button` element here isn't best practice.
+In your solution you probably put it right inside the existing `button`,
+which _is_ the best practice. 
+We separated it out here to make it extra clear what has changed. */
+
+button {
+  transition: font-size 1s ease-out 0.25s;
+}
+
+button:hover {
+  font-size: x-large;
+  cursor: pointer;
+}
