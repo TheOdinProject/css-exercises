@@ -16,7 +16,7 @@
   position: relative;
 }
 
-.dropdown-button {
+button {
   background-color: rgb(108, 238, 255);
   padding: 16px;
   font-size: 16px;
