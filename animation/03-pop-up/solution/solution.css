@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#popup-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-modal {
+  position: absolute;
+  width: 30%;
+  border: 1px solid black;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
