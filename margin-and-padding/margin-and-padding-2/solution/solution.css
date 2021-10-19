@@ -17,7 +17,7 @@ body {
   background: #e3f4ff;
 }
 
-.button-container {
+.button {
   background: #e3f4ff;
 }
 
@@ -50,7 +50,7 @@ We separated it out here to make it extra clear what has changed. */
   padding: 16px 8px;
 }
 
-.button-container {
+.button {
   text-align: center;
   padding: 8px;
 }
