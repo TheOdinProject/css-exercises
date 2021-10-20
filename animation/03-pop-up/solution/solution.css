@@ -3,12 +3,25 @@
   margin: 0;
 }
 
-#popup-container {
+.popup-container {
   width: 100vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #ffffff;
+  opacity: 1;
+  transition: background-color 0.5s ease-in, opacity 0.5s ease-in;
+}
+
+.popup-container.show {
+  background-color: #000000;
+  opacity: 40%;
+}
+
+#trigger-modal,
+.popup-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .popup-modal {
@@ -21,6 +34,6 @@
   visibility: hidden;
 }
 
-.show {
+.popup-modal.show {
   visibility: visible;
 }
