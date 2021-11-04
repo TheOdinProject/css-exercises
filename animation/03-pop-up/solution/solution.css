@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.button-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  opacity: 100%;
+}
+
+#trigger-modal,
+.popup-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#trigger-modal {
+  padding: 20px;
+  color: #ffffff;
+  background-color: #0e79dd;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.popup-modal {
+  width: 30%;
+  height: 15%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  opacity: 0;
+}
+
+#close-modal {
+  padding: 20px;
+  color: #ffffff;
+  background-color: #0e79dd;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+/* SOLUTION */
+
+/* 
+  Disclaimer: duplicating selectors here isn't best practice.
+  We separated it out here to make it extra clear what has changed. 
+*/
+
+.button-container {
+  transition: background-color 0.5s ease-in, opacity 0.5s ease-in;
+}
+
+.button-container.show {
+  background-color: #000000;
+  opacity: 40%;
+}
+
+#trigger-modal:hover,
+#close-modal:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 2px #000000;
+}
+
+/* 
+  Keep this '.popup-modal' selector separate from the main 
+  .popup-modal selector, for the reasons outlined above 
+  .pop-up-modal.show
+*/
+.popup-modal {
+  visibility: hidden;
+  transition: margin-top 0.5s ease-out, opacity 0.5s ease-out,
+    visibility 0.5s linear;
+}
+
+/* 
+  The common properties between .popup-modal and .popup-modal.show 
+  can easily be added by just adding this selector to the main 
+  .popup-modal selector
+*/
+.popup-modal.show {
+  width: 30%;
+  height: 15%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90px;
+}
+
+/* 
+  Keep this selector separate from the main '.popup-modal.show'
+  selector.
+*/
+.popup-modal.show {
+  opacity: 1;
+  visibility: visible;
+  margin-top: 0;
+  transition: margin-top 0.5s ease-out, opacity 0.5s ease-out,
+    visibility 0.5s linear;
+}
