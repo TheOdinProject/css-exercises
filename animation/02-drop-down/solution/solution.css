@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-menu {
+  position: relative;
+}
+
+button {
+  background-color: rgb(108, 238, 255);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+ul {
+  position: absolute;
+  left: -25%;
+  background-color: rgb(189, 188, 188);
+  width: 160px;
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  padding: 16px;
+}
+
+/* SOLUTION */
+
+/* disclaimer: duplicating the `ul` element here isn't best practice.
+In your solution you probably put it right inside the existing `ul`,
+which _is_ the best practice. 
+We separated it out here to make it extra clear what has changed. */
+
+ul {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.25s ease-out;
+}
+
+.dropdown-menu:hover ul {
+  max-height: 500px;
+  transition: max-height 0.5s ease-out;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(59, 232, 255);
+}
+
+ul li:hover {
+  cursor: pointer;
+  background-color: #ddd;
+}
