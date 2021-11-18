@@ -18,17 +18,15 @@ body {
   padding: 8px;
 }
 
-.left {
+.left,
+.right {
   display: flex;
+  gap: 16px;
 }
 
-.links {
+/* .links {
   display: flex;
-}
-
-.right{
-  display: flex;
-}
+} */
 
 .profile-image {
   background: rebeccapurple;
@@ -51,17 +49,19 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  margin: 16px
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
-  margin:16px
 }
 
 ul {
   list-style-type: none;
-  padding-left:0
+  margin:0;
+  padding:0;
+  display:flex;
+  gap: 16px;
+  align-items: center;
 }
