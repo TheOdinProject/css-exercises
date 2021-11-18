@@ -82,10 +82,12 @@ button.cancel {
 .full-header{
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
+  align-items: center;
 }
 
 .text{
-  padding:16px 0
+  padding:8px 0 16px 0
 }
+
