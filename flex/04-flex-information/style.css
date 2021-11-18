@@ -27,7 +27,7 @@ img {
 
 /* SOLUTION */
 
-body{
+/* body{
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -46,5 +46,23 @@ body{
   width:200px;
   align-items: center;
   text-align: center;
+} */
+
+/* SOLUTION 2*/
+
+body{
+  text-align: center
+}
+
+.content{
+  display:flex;
+  gap: 52px;
+  margin-top: 32px;
+  justify-content: center;
+  align-items:center
+}
+
+.comm_img{
+  max-width: 200px;
 }
 
