@@ -26,3 +26,69 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+/* SOLUTION */
+
+body{
+ display:flex;
+ flex-direction: column; 
+ justify-content: space-between;
+ align-content: space-between;
+}
+
+.header{
+  display:flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px 
+}
+
+.footer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.content{
+  display:flex;
+  flex:1
+}
+
+.sidebar{
+  width: 300px;
+  flex: 0 0 auto;
+  padding: 8px
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+
+li{
+  padding:8px
+}
+
+a{
+  text-decoration: none;
+  color:white;
+  font-size: 24px;
+}
+
+.cards{
+  padding:32px;
+  display:flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  gap:16px
+}
+
+.card{
+  width:250px;
+  height:200px;
+  padding:16px
+}
