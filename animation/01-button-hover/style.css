@@ -17,4 +17,11 @@ button {
   color: black;
   font-size: small;
   text-align: center;
+  transition: font-size 1s ease-out 0.25s;
+  
+}
+
+button:hover {
+  font-size: x-large;
+  cursor: pointer;
 }
