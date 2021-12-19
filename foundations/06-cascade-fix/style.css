@@ -25,11 +25,11 @@
 }
 
 .child {
-  color: red;
+  color: green;
   font-size: 14px;
 }
 
 div.text {
-  color: green;
+  color: blue;
   font-size: 28px;
 }
