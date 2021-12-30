@@ -1,0 +1,15 @@
+.click-left, .click-right{
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.click-left{
+    color: white;
+    background-color: black;
+}
+
+.click-right{
+    color: black;
+    background-color: yellow;
+}
+

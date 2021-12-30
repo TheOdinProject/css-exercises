@@ -1,0 +1,20 @@
+.odd {
+    background-color: coral;
+    color: black;
+    font-family: Verdana, sans-serif;
+}
+
+#num2{
+   color:blue;
+   font-size: 36px;
+}
+
+#line3{
+    font-size: 24px;
+}
+
+#line4{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
