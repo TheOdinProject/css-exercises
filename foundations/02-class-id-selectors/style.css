@@ -1,0 +1,17 @@
+p{
+    background-color: pink;
+    /*font family with fallback*/
+    font-family: Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.two{
+    color: blue;
+    font-size: 36px;
+}
+
+.four{
+    background-color: lightgreen;
+    font size: 24px;
+}
