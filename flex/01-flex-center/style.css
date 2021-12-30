@@ -6,6 +6,10 @@
 }
 
 .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
   background: palevioletred;
   font-weight: bold;
   text-align: center;
