@@ -12,3 +12,9 @@
 .biglett {
     font-size: 24px;
 }
+
+#green {
+    background-color: rgb(79, 255, 79);
+    font-weight: bolder;
+    font-size: 24px;
+}
