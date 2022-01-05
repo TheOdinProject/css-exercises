@@ -6,4 +6,6 @@ Now it's time to practice the Grid tools we've learned and create a layout that 
 
 ## Desired Outcome
 
+![desired outcome](./desired-outcome.png)
+
 ### Self Check
