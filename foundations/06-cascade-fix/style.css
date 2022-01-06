@@ -8,16 +8,9 @@
 }
 
 .small-para {
+
   font-size: 10px;
 }
-
-
-/* .confirm {
-  background: green;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-} 
 
 .button {
   background-color: #ffc0cb;
@@ -25,12 +18,19 @@
   font-size: 20px;
 }
 
-.child {
+.confirm {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+} 
+
+div .child {
   color: red;
   font-size: 14px;
 }
 
-div.text {
+div {
   color: green;
   font-size: 28px;
-} */
+}
