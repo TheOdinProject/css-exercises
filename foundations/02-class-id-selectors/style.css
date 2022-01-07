@@ -1,4 +1,12 @@
 .odds {
-    background-color:rgb(228, 46, 219);
+    background-color:rgb(192, 46, 228);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#second {
+    color: blue;
+}
+#fourth {
+    background-color: rgb(12, 236, 150);
+    font-size: 24px;
+    font-weight: 700px;
 }
