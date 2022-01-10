@@ -6,4 +6,6 @@ Now that you've made your Holy Grail layout responsive, we are going to have som
 
 ## Desired Outcome
 
+![desired outcome](./desired-outcome.png)
+
 ### Self Check
