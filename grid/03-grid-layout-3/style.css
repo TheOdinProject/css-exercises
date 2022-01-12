@@ -5,7 +5,6 @@
 
 .container {
   text-align: center;
-  
 }
 
 .container div {
@@ -18,30 +17,24 @@
 
 .header {
   background-color: #393f4d;
-  
 }
 
 .logo {
-
 }
 
 .menu {
-
 }
 
 .menu ul {
-
 }
 
 .menu ul,
 .menu li {
   font-size: 16px;
-
 }
 
 .sidebar {
   background-color: #FF7755;
-
 }
 
 .sidebar .photo {
@@ -53,7 +46,6 @@
 }
 
 .photo  {
-
 }
 
 .sidebar .side-content {
@@ -61,16 +53,13 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
-  
 }
 
 .nav {
   background-color: #FF7755;
-  
 }
 
 .nav ul {
-
 }
 
 .nav ul li {
@@ -80,7 +69,6 @@
 
 .article {
   background-color: #bccbde;
-
 }
 
 .article p {
@@ -94,14 +82,12 @@
   background-color: #FFFFFF;
   color: black;
   text-align: center;
-  
 }
 
 .card p {
   color: black;
   font-weight: normal;
   font-size: 14px;
-
 }
 
 .card .title {
@@ -111,7 +97,6 @@
 
 .footer {
   background-color: #393f4d;
-  
 }
 
 .footer p {
