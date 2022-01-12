@@ -5,7 +5,7 @@ There are several elements in the HTML file provided, which you will have to add
 
 It isn't entirely important which class or ID values you use, as the focus here is on being able to add the attributes and use the correct selector syntax to style elements. For the colors in this exercise, try using a non-keyword value (RGB, HEX, or HSL). The properties you need to add to each element are:
 
-* **All odd numbered elements**: a light red/pink background, and a list of fonts containing `Verdana` as the first option and `sans-serif` as a fallback
+* **All odd numbered elements**: a light red/pink background, and a list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` as a fallback
 * **The second element**: blue text and a font size of 36px
 * **The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px
 * **The fourth element**: a light green background, a font size of 24px, and bold
