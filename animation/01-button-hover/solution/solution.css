@@ -9,28 +9,21 @@
 }
 
 button {
-  width: 158px;
-  height: 55px;
-  border: 1px solid black;
-  border-radius: 5px;
-  background-color: white;
-  color: black;
-  font-size: small;
+  border-radius: 8px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  font-size: 18px;
+  padding: 16px 24px;
   text-align: center;
 }
 
 /* SOLUTION */
 
-/* disclaimer: duplicating the `button` element here isn't best practice.
-In your solution you probably put it right inside the existing `button`,
-which _is_ the best practice. 
-We separated it out here to make it extra clear what has changed. */
-
 button {
-  transition: font-size 1s ease-out 0.25s;
+  transition: transform .3s ease-in-out;
 }
 
 button:hover {
-  font-size: x-large;
-  cursor: pointer;
+  transform: scale(1.2)
 }
