@@ -6,8 +6,7 @@ Now that you've made your Holy Grail layout responsive, we are going to have som
 - Take the layout one section at a time
 - You don't need to add or change anything to the HTML, but it will be helpful to look through the parent and child relationships between elements
 - You only need to add to the current CSS selectors
-- You don't always have to set explicit row tracks for a parent container
-- Just like with Flexbox, you can easily center an item by making it into it's own grid
+- Just like with Flexbox, you can easily center an item by making it into a grid
 - Don't worry about the placeholder image element stretching when resizing the browser window. This will be covered in the Responsive lessons
 
 ## Desired Outcome
