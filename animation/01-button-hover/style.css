@@ -9,12 +9,11 @@
 }
 
 button {
-  width: 158px;
-  height: 55px;
-  border: 1px solid black;
-  border-radius: 5px;
-  background-color: white;
-  color: black;
-  font-size: small;
+  border-radius: 8px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  font-size: 18px;
+  padding: 16px 24px;
   text-align: center;
 }

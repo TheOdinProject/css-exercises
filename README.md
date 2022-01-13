@@ -1,14 +1,14 @@
 # CSS Exercises
 
-These exercises are a series of css related tasks intended to complement the HTML and CSS content on The Odin Project.
+These exercises are a series of CSS related tasks intended to complement the HTML and CSS content on The Odin Project.
 
 These exercises should be done when instructed during the course of the curriculum.
 
-> When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
+> When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use Google, do what you need to do (besides checking the solutions) to get them done.
 
 ## How to use these exercises
 
-1. Fork and copy this repository. Copies of repositories on your machine are called clones. If you need help cloning to your local environment you can learn how [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository).
+1. Fork and copy this repository. To learn how to fork a repository, see [this link](https://docs.github.com/en/get-started/quickstart/fork-a-repo). Copies of repositories on your machine are called clones. If you need help cloning to your local environment you can learn how [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository).
 2. Go to an exercise directory and open the HTML file in your browser. You can either open the file directly, or use something like VSCode's Live Server.
 3. For each exercise, view the README, and edit the CSS file to make the output in your browser look like the images provided.
 4. Each README has a "Self Check" list. Use this to make sure you haven't missed any important details in your implementation.
