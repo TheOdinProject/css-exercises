@@ -1,7 +1,7 @@
 # A common 'modal' style
 This one is another very common pattern on the web. The solution to this one is _simple_... but it might not be immediately obvious to you. You'll need to edit the HTML a bit to get everything where it needs to be.
 
-### a hint
+### A hint
 Depending on how you approach this one, you might need to revisit the `flex-shrink` property to keep a flex item from getting smashed.
 
 ## Desired outcome
