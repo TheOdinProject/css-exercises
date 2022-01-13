@@ -115,18 +115,15 @@
 
 .header {
   grid-column: 1 / 3;
-  grid-row: 1 / 2;
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
 
 .logo {
-  grid-column: 1 / 2;
   justify-self: start;
 }
 
 .menu {
-  grid-column: 2 / 3;
   align-self: center;
 }
 
@@ -141,7 +138,6 @@
 }
 
 .sidebar {
-  grid-column: 1 / 2;
   grid-row: 2 / 4;
   display: grid;
   gap: 50px;
@@ -157,11 +153,6 @@
   align-items: center;
 }
 
-.nav {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-}
-
 .nav ul {
   list-style-type: none;
   display: grid;
@@ -169,8 +160,6 @@
 }
 
 .article {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-template-rows: repeat(2, 1fr);
@@ -187,5 +176,4 @@
 
 .footer {
   grid-column: 1 / 3;
-  grid-row:  4 / 5;
 }
