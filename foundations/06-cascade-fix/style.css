@@ -4,7 +4,7 @@
 }
 
 .small-para {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .para {
@@ -14,13 +14,12 @@
 .confirm {
   background: green;
   color: white;
-  font-size: 20px;
   font-weight: bold;
 } 
 
 .button {
-  background-color: #ffc0cb;
-  color: black;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
@@ -31,5 +30,5 @@
 
 div.text {
   color: green;
-  font-size: 28px;
+  font-size: 22px;
 }

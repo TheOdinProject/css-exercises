@@ -8,14 +8,14 @@
 }
 
 .button {
-  background-color: #ffc0cb;
-  color: black;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
 div.text {
   color: green;
-  font-size: 28px;
+  font-size: 22px;
 }
 
 /* SOLUTION */
@@ -24,7 +24,7 @@ div.text {
   For the following rule, we removed it from its original position in the file:
 
   .small-para {
-    font-size: 12px;
+    font-size: 14px;
   } 
 
   Then we placed it after the .para selector, taking advantage of the rule order since both selectors have the same specificity. 
@@ -37,7 +37,7 @@ div.text {
 */
 
 .small-para {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* 
@@ -46,7 +46,6 @@ div.text {
   .confirm {
     background: green;
     color: white;
-    font-size: 20px;
     font-weight: bold;
   } 
 
@@ -57,7 +56,6 @@ div.text {
   .button.confirm {
     background: green;
     color: white;
-    font-size: 20px;
     font-weight: bold;
   }
 */
@@ -65,7 +63,6 @@ div.text {
 #confirm-button {
   background: green;
   color: white;
-  font-size: 20px;
   font-weight: bold;
 }
 
