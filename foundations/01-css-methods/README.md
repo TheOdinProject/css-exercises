@@ -25,5 +25,6 @@ The properties you need to add to each element are:
 - I created a branch to add my solution
 - branch name "myfoundation-solutions"
 - solution file name "mySolu.css"
+- then i merged my branch to the main branch
 
 
