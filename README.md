@@ -8,7 +8,7 @@ These exercises should be done when instructed during the course of the curricul
 
 ## How to use these exercises
 
-1. Fork and copy this repository. To learn how to fork a repository, see [this link](https://docs.github.com/en/get-started/quickstart/fork-a-repo). Copies of repositories on your machine are called clones. If you need help cloning to your local environment you can learn how [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository).
+1. Fork and copy this repository. To learn how to fork a repository, see the GitHub documentation on how to [fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo). Copies of repositories on your machine are called clones. If you need help cloning to your local environment you can learn how from the GitHub documentation on [cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository).
 2. Go to an exercise directory and open the HTML file in your browser. You can either open the file directly, or use something like VSCode's Live Server.
 3. For each exercise, view the README, and edit the CSS file to make the output in your browser look like the images provided.
 4. Each README has a "Self Check" list. Use this to make sure you haven't missed any important details in your implementation.
