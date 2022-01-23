@@ -121,7 +121,7 @@ Once you have the repo forked and cloned, and the upstream remote has been set, 
 
 ### Opening a Pull Request
 
-1. After pushing your changes, go to your forked repo on GitHub and click the "Compare & pull request" button.
+1. After pushing your changes, go to your forked repo on GitHub and click the "Compare & pull request" button. If you have multiples of this button, be sure you click the one for the correct branch.
    * If you don't see this button, you can click the branch dropdown menu and then select the branch you just pushed from your local clone:
    
       ![GitHub branch dropdown menu](https://user-images.githubusercontent.com/70952936/150646139-bc080c64-db57-4776-8db1-6525b7b47be2.jpg)
