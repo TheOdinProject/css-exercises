@@ -8,7 +8,7 @@ As with the previous exercise, we've left a little more for you to do.
 - You will need to change the flex-direction to push the footer down.
 - You will need to add some divs as containers to get things to line up correctly.
 - `flex-wrap` will help get the cards aligned correctly.
--  Make sure cards know how much space they should take for `flex-wrap` to work correctly.
+-  Make sure cards know how much space they should take for `flex-wrap` to work as intended.
 
 ## Desired outcome
 
