@@ -31,6 +31,7 @@ The labels that get applied to issues and PRs have specific meanings and are bro
 * Investigating: Something is being looked into by a maintainer, but the issue/PR is not being actively reviewed
 * Needs Review: This PR needs a review from one or more maintainers
 * On Hold: There is a temporary hold on any continued work or review
+* Stale: This issue/PR has been inactive for over 30 days and may be closed if inactivity continues
 * Under Review: This issue/PR is actively being reviewed by at least one maintainer
 
 ### Type Labels
