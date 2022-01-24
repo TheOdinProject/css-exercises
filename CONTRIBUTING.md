@@ -23,13 +23,14 @@ The labels that get applied to issues and PRs have specific meanings and are bro
 * Awaiting Changes: Waiting for requested changes to be made
 * Awaiting Response: Waiting for a response from the contributor
 * Completed: This issue has been completed and a PR has been made
+* Discussion: This issue/PR is actively being discussed
 * Do Not Merge: This PR should not be merged
-* Do Not Review: This PR should not be reviewed
+* Do Not Review: This issue/PR should not be reviewed
 * Help Wanted: Contributors can ask to be assigned this issue
 * In Progress: This issue/PR is actively being worked on
 * Invalid: The template or another item in the issue/PR is invalid or not relevant
 * Investigating: Something is being looked into by a maintainer, but the issue/PR is not being actively reviewed
-* Needs Review: This PR needs a review from one or more maintainers
+* Needs Review: This issue/PR needs a review from one or more maintainers
 * On Hold: There is a temporary hold on any continued work or review
 * Stale: This issue/PR has been inactive for over 30 days and may be closed if inactivity continues
 * Under Review: This issue/PR is actively being reviewed by at least one maintainer
@@ -42,7 +43,7 @@ The labels that get applied to issues and PRs have specific meanings and are bro
 * Duplicate: This issue/PR already exists and should not be worked on or reviewed
 * Enhancement: Involves a new feature or enhancement request
 * Good First Issue: Good for beginner contributors
-* Hacktoberfest: This issue is a good Hacktoberfest participation
+* Hacktoberfest: This issue/PR is a good Hacktoberfest participation
 * Maintainer Only: This issue is available only to maintainers
 
 ## How to Contribute
