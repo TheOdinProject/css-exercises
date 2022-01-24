@@ -24,9 +24,9 @@ The labels that get applied to issues and PRs have specific meanings and are bro
 * Awaiting Response: Waiting for a response from the contributor
 * Completed: This issue has been completed and a PR has been made
 * Discussion: This issue/PR is actively being discussed
-* Do Not Merge: This PR should not be merged
-* Do Not Review: This issue/PR should not be reviewed
-* Help Wanted: Contributors can ask to be assigned this issue
+* Do Not Merge: This PR should not be merged until further notice
+* Do Not Review: This issue/PR should not be reviewed until further notice
+* Help Wanted: This issue can be assigned to other contributors
 * In Progress: This issue/PR is actively being worked on
 * Invalid: The template or another item in the issue/PR is invalid or not relevant
 * Investigating: Something is being looked into by a maintainer, but the issue/PR is not being actively reviewed
