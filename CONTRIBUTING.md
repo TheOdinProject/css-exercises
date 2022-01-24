@@ -130,10 +130,11 @@ Once you have the repo forked and cloned, and the upstream remote has been set, 
    
    * Once you have switched to the correct branch on GitHub, click the "Contribute" dropdown and then click the "Open pull request" button.
 
-2. **Read the PR template in its entirety and fill out all applicable sections** before submitting your PR.
+2. **Read the PR template in its entirety before filling it out and submitting a PR**. Not filling out the template correctly will delay a PR getting merged.
+   * If a checkbox is not required and is not applicable to your PR, do not complete it. If your PR isn't related to an open issue, for example, you shouldn't complete the checkbox for linking an issue.
    * The title of the PR should be in `file/exercise/folder: brief description of change` format, e.g. `01 flex center: add hint for XYZ`. This makes it easier for anyone to quickly see what a PR is for, reducing the possibility of a duplicate PR from being made.
-   * Be sure you describe the change(s) you are proposing in more detail in Step 1 of the PR template. If the PR is not related to an open issue, you should also include why your proposed changes are beneficial or what problem(s) it solves.
-   * If the PR is related to an open issue, be sure to link that issue in Step 2 of the PR template by replacing the `XXXXX` with the issue number, e.g. `Closes #2013` 
+   * Be sure you describe the change(s) you are proposing in more detail in Step 1 of the PR template. If the PR is not related to an open issue, you should also include why your proposed changes are beneficial or what problem(s) it solves. This gives maintainers the information to consider when deciding whether a PR should be merged.
+   * If the PR is related to an open issue, be sure to link that issue in Step 2 of the PR template. This can be done either by replacing the `XXXXX` with the issue number, e.g. `Closes #2013`, or if the issue is in another TOP repo replacing the `#XXXXX` with the URL of the issue, e.g. `Closes https://github.com/TheOdinProject/curriculum/issues/XXXXX`. This streamlines the issue closing process, as an issue that is linked to a PR will be closed when that PR gets merged.
 
 3. At this point a maintainer will either leave general comments, request changes, or approve and merge your PR.
    * It is important to respond to any comments or requested changes in a timely manner, otherwise your PR may be closed without being merged due to inactivity.
