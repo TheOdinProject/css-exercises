@@ -2,7 +2,7 @@
 name: Feature Request
 about: Suggest a new feature for this project 
 title: ''
-labels: ['Type: Enhancement', 'Status: Needs Review']
+labels: 'Status: Needs Review, Type: Enhancement'
 assignees: ''
 
 ---
