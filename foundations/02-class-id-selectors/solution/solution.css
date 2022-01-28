@@ -1,6 +1,9 @@
+* {
+  font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
 .odd {
   background-color: rgb(255, 167, 167);
-  font-family: Verdana, DejaVu Sans, sans-serif;
 }
 
 .oddly-cool {
