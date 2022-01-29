@@ -5,6 +5,7 @@ Thank you for expressing interest in contributing to The Odin Project! If you ar
 **Please do not open an issue or pull request (PR) with your solutions to any exercise repo**. Your PR will be immediately closed without being merged. The exercise repos are for you to do and keep any work on your own local machine or your personal GitHub.
 
 ## Table of Contents
+* [Common Verbiage](#common-verbiage)
 * [Label Meanings](#label-meanings)
 * [How to Contribute](#how-to-contribute)
 * [Repo Specific Instructions](#repo-specific-instructions)
@@ -15,6 +16,15 @@ Thank you for expressing interest in contributing to The Odin Project! If you ar
 * [Working on an Issue](#working-on-an-issue)
 * [Opening a Pull Request](#opening-a-pull-request)
 * [Further Help](#further-help)
+
+## Curriculum Structure
+
+Between the website, repos, and Discord server, you're bound to see certain terms being used in regards to the curriculum structure. It can be important to keep these terms in mind when referring to certain parts of the curriculum, both for consistency and to make sure everyone understands what you mean.
+
+* **Path**: The broadest level of the curriculum structure. When you first start The Odin Project, you will be on the Foundations path. Upon completion of Foundations, you choose one of two different Full Stack paths to continue down.
+* **Course**: A path is made up of different courses. A course splits a path into more distinct topics, and each course has its own completion percentage. When asked what course you're on, you might say "I'm on the Getting Hired course!"
+* **Section**: A course is made up for different sections. A section splits a course into even more distinct topics. When asked what section you're on, you might say "I just started the Basic Ruby section!"
+* **Lesson**: Finally, a section is made of different lessons. This is the most specific level of the curriculum structure. This is the exact thing you're currently on. When asked what lesson you're on, you might say "I'm reading through the Webpack lesson!"
 
 ## Label Meanings
 
