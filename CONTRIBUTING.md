@@ -6,6 +6,7 @@ Thank you for expressing interest in contributing to our CSS exercises! Please b
 
 ## Table of Contents
 * [Label Meanings](#label-meanings)
+* [How to Contribute](#how-to-contribute)
 * [Being Assigned an Issue](#being-assigned-an-issue)
 * [Creating an Issue](#creating-an-issue)
 * [Setting Up Your Local Clone](#setting-up-your-local-clone)
@@ -18,35 +19,53 @@ Thank you for expressing interest in contributing to our CSS exercises! Please b
 The labels that get applied to issues and PRs have specific meanings and are broken into two categories: status and type. An issue/PR should only ever have one status label, but can have multiple type labels.
 
 ### Status Labels
-* Abandoned: This issue/PR has been abandoned, and no further work or review should be done
-* Accepted: This PR has been accepted and merged
-* Awaiting Changes: Waiting for requested changes to be made
-* Awaiting Response: Waiting for a response from the contributor
-* Completed: This issue has been completed and a PR has been made
-* Discussion: This issue/PR is actively being discussed
-* Do Not Merge: This PR should not be merged until further notice
-* Do Not Review: This issue/PR should not be reviewed until further notice
-* Help Wanted: This issue can be assigned to other contributors
-* In Progress: This issue/PR is actively being worked on
-* Invalid: The template or another item in the issue/PR is invalid or not relevant
-* Investigating: Something is being looked into by a maintainer, but the issue/PR is not being actively reviewed
-* Needs Review: This issue/PR needs a review from one or more maintainers
-* On Hold: There is a temporary hold on any continued work or review
-* Stale: This issue/PR has been inactive for over 30 days and may be closed if inactivity continues
-* Under Review: This issue/PR is actively being reviewed by at least one maintainer
+* **Abandoned**: This issue/PR has been abandoned, and no further work or review should be done
+* **Accepted**: This PR has been accepted and merged
+* **Awaiting** Changes: Waiting for requested changes to be made
+* **Awaiting** Response: Waiting for a response from the contributor
+* **Completed**: This issue has been completed and a PR has been made
+* **Discussion**: This issue/PR is actively being discussed
+* **Do Not Merge**: This PR should not be merged until further notice
+* **Do Not Review**: This issue/PR should not be reviewed until further notice
+* **Help Wanted**: This issue can be assigned to other contributors
+* **In Progress**: This issue/PR is actively being worked on
+* **Invalid**: The template or another item in the issue/PR is invalid or not relevant
+* **Investigating**: Something is being looked into by a maintainer, but the issue/PR is not being actively reviewed
+* **Needs Review**: This issue/PR needs a review from one or more maintainers
+* **On Hold**: There is a temporary hold on any continued work or review
+* **Stale**: This issue/PR has been inactive for over 30 days and may be closed if inactivity continues
+* **Under Review**: This issue/PR is actively being reviewed by at least one maintainer
 
 ### Type Labels
-* Accessibility: Involves an accessibility feature or requires review for accessibility
-* Bug: Something isn't working as intended
-* Chore: Involves changes to the build process or internal tooling
-* Documentation: Involves an update to the documentation
-* Duplicate: This issue/PR already exists and should not be worked on or reviewed
-* Enhancement: Involves a new feature or enhancement request
-* Good First Issue: Good for beginner contributors
-* Hacktoberfest: This issue/PR is a good Hacktoberfest participation
-* Maintainer Only: This issue is available only to maintainers
+* **Accessibility**: Involves an accessibility feature or requires review for accessibility
+* **Bug**: Something isn't working as intended
+* **Chore**: Involves changes to the build process or internal tooling
+* **Documentation**: Involves an update to the documentation
+* **Duplicate**: This issue/PR already exists and should not be worked on or reviewed
+* **Enhancement**: Involves a new feature or enhancement request
+* **Good First Issue**: Good for beginner contributors
+* **Hacktoberfest**: This issue/PR is a good Hacktoberfest participation
+* **Maintainer Only**: This issue is available only to maintainers
 
 ## How to Contribute
+
+The complexity of a change can determine how exactly you should go about contributing. Generally, simpler or more minor changes can just have an issue made or a PR created rather than needing to bring it up on our Discord server. Things that are simple or more minor that you should feel free to just create an issue or PR can include:
+
+* Typo or grammar fixes - "I noticed that this sentence in this lesson is using incorrect grammar."
+* Simple syntax errors - "This line of code is missing a closing element tag."
+* Clarifying questions - "This lesson says to use this syntax, but in a previous lesson we were told to use a different syntax. Which is correct?"
+* Small-scale changes - "I think including instructions about X could help minimize confusion at this step."
+
+On the other hand, if you have a more complex suggestion or notice a more urgent issue, going to our [`contribution-suggestions-bugs-disccusion` Discord channel](https://discordapp.com/channels/505093832157691914/540903304046182425) can be a great way to get more of a discussion or receive feedback. This channel can also be used to share a link to an issue or PR you have created and to ask for feedback **if** you haven't seen any activity on the actual issue/PR for a while; just keep in mind that maintainers have busy lives and may not get to things immediately.
+
+While you should also feel free to just create an issue for more complex or urgent changes rather than bring it up on our Discord, generally you should avoid spending the time to create a PR for such changes. Depending what the PR entails, it may not be something we're looking to implement at this time or is not how we wish to go about things, and we don't want all of that time and work going to waste. Changes that may be more complex or urgent can include:
+
+* A complete rewrite of a lesson
+* Adding a completely new lesson
+* HTML in lessons is not displaying properly
+* A new feature for the website
+
+Regardless of the complexity of a change, when you wish to make a contribution you should follow any further instructions in this guide.
 
 ### Being Assigned an Issue
 
