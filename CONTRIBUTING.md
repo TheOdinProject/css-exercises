@@ -1,12 +1,13 @@
 # CSS Exercises Contributing Guide
 
-Thank you for expressing interest in contributing to our CSS exercises! Please be sure to read this guide thoroughly before contributing, as it will lessen the chances of any issues arising during the process.
+Thank you for expressing interest in contributing to The Odin Project! If you are new to contributing to our repos, or to contributing to open-source in general, please be sure to read this guide thoroughly before contributing as it will lessen the chances of any issues arising during the process.
 
-**Please do not open a pull request (PR) with your solutions to any exercises in this repo**. Your PR will be immediately closed without being merged. The exercises are for you to do and keep on your own local machine or your personal GitHub.
+**Please do not open an issue or pull request (PR) with your solutions to any exercise repo**. Your PR will be immediately closed without being merged. The exercise repos are for you to do and keep any work on your own local machine or your personal GitHub.
 
 ## Table of Contents
 * [Label Meanings](#label-meanings)
 * [How to Contribute](#how-to-contribute)
+* [Check Before Doing Anything](#check-before-doing-anything)
 * [Being Assigned an Issue](#being-assigned-an-issue)
 * [Creating an Issue](#creating-an-issue)
 * [Setting Up Your Local Clone](#setting-up-your-local-clone)
@@ -16,7 +17,7 @@ Thank you for expressing interest in contributing to our CSS exercises! Please b
 
 ## Label Meanings
 
-The labels that get applied to issues and PRs have specific meanings and are broken into two categories: status and type. An issue/PR should only ever have one status label, but can have multiple type labels.
+The labels that get applied to issues and PRs in our repos have specific meanings and are broken into two categories: status and type. An issue/PR should only ever have one status label, but can have multiple type labels.
 
 ### Status Labels
 * **Abandoned**: This issue/PR has been abandoned, and no further work or review should be done
@@ -49,71 +50,80 @@ The labels that get applied to issues and PRs have specific meanings and are bro
 
 ## How to Contribute
 
-The complexity of a change can determine how exactly you should go about contributing. Generally, simpler or more minor changes can just have an issue made or a PR created rather than needing to bring it up on our Discord server. Things that are simple or more minor that you should feel free to just create an issue or PR can include:
+The complexity of a change can determine how exactly you should go about contributing. Generally, simpler changes can just have an issue made or a PR created rather than needing to bring it up on our Discord server. Simple changes that you should feel free to just create an issue or PR for can include:
 
 * Typo or grammar fixes - "I noticed that this sentence in this lesson is using incorrect grammar."
 * Simple syntax errors - "This line of code is missing a closing element tag."
 * Clarifying questions - "This lesson says to use this syntax, but in a previous lesson we were told to use a different syntax. Which is correct?"
-* Small-scale changes - "I think including instructions about X could help minimize confusion at this step."
+* Other small-scale changes - "I think including instructions about X could help minimize confusion at this step."
 
-On the other hand, if you have a more complex suggestion or notice a more urgent issue, going to our [`contribution-suggestions-bugs-disccusion` Discord channel](https://discordapp.com/channels/505093832157691914/540903304046182425) can be a great way to get more of a discussion or receive feedback. This channel can also be used to share a link to an issue or PR you have created and to ask for feedback **if** you haven't seen any activity on the actual issue/PR for a while; just keep in mind that maintainers have busy lives and may not get to things immediately.
+If you have a more complex suggestion or notice a more urgent issue, going to our [contribution-suggestions-bugs-disccusion Discord channel](https://discordapp.com/channels/505093832157691914/540903304046182425) can be a great way to start a discussion or receive feedback. This channel can also be used to share a link to an issue or PR you have created **if** you haven't seen any activity on the actual issue/PR for a while; just keep in mind that maintainers have busy lives and may not get to things immediately.
 
-While you should also feel free to just create an issue for more complex or urgent changes rather than bring it up on our Discord, generally you should avoid spending the time to create a PR for such changes. Depending what the PR entails, it may not be something we're looking to implement at this time or is not how we wish to go about things, and we don't want all of that time and work going to waste. Changes that may be more complex or urgent can include:
+While you should also feel free to just create an issue on a repo for more complex or urgent changes rather than bring it up on our Discord, generally you should avoid opening a PR for such changes. Depending what the PR entails, it may not be something we're looking to implement at this time or is not how we wish to go about things, and we don't want all of that time and work going to waste. Changes that may be more complex or urgent can include:
 
 * A complete rewrite of a lesson
 * Adding a completely new lesson
 * HTML in lessons is not displaying properly
 * A new feature for the website
 
-Regardless of the complexity of a change, when you wish to make a contribution you should follow any further instructions in this guide.
+Regardless of the complexity of a change, when you wish to make a contribution on a TOP repo you should follow any further instructions in this guide.
+
+### Check Before Doing Anything
+
+It's important that you look through any open issues or PRs in a repo before attempting to submit a new issue or work on a change, regardless of the complexity. This will help avoid any duplicates from being made, as well as prevent more than one person working on the same thing at the same time.
+
+If your proposal already exists in an open issue or PR, but you feel therer are details missing, comment on the issue/PR to let those involved know of those missing details.
 
 ### Being Assigned an Issue
 
-If you would like to work on an existing issue in the repo:
+If you would like to work on an existing issue in a repo:
 
 1) Find an issue that is not currently assigned to anyone.
-    * A couple of good places to start are ["help wanted" issues](https://github.com/TheOdinProject/css-exercises/labels/Status%3A%20Help%20Wanted) or ["good first issue" issues](https://github.com/TheOdinProject/css-exercises/labels/Type%3A%20Good%20First%20Issue)
+    * A couple of good places to start are issues with the `Status: Help Wanted` or `Type: Good First Issue` labels. You can filter the issues list to only show ones with these (or any) specific labels to make them easier to find.
 
 2) Ask to be assigned the issue by a maintainer.
     * **If you are not a maintainer, do not give others permission to work on an issue**
 
 3) **Wait to be assigned the issue before starting any work**.
 
-4) After being assigned, address each item listed in the acceptance criteria.
-    * If there are no acceptance criteria stated in the issue, ask the maintainer that assigned you the issue if any exist.
+4) After being assigned, address each item listed in the acceptance criteria, if any exist.
+   * If an issue doesn't have any acceptance criteria, feel free to go about resolving the issue however you wish. You can also ask the maintainer that assigned you the issue if there are any specific acceptance criteria.
 
 ### Creating an Issue
 
-If you would like to make a small change (fixing a typo, updating a link, etc.) that is not part of an existing issue, you are welcome to make the change and submit a PR without creating an official issue.
+1. If you would like to make a simple change that is not part of an existing issue, you are welcome to skip the next step and just submit a PR with your proposed change(s).
 
-If you do not wish to make a small change yourself and instead want to create an issue for it, or if you would like to propose a more significant change:
-
-1. Go through the open issues and make sure an issue doesn't already exist.
-    * If the issue already exists, but there are details you feel are missing, leave a comment on the already opened issue
-
-2. If the issue doesn't already exist, create a new one and **read the issue template in its entirety and fill out all applicable sections**.
+2. Create a new issue and **read the issue template in its entirety and fill out all applicable sections**.
    * The title of the issue should be in `file/exercise/folder: brief description of issue` format. This makes it easier for anyone to quickly see what an issue is for, reducing the possibility of a duplicate issue from being made.
    * If you would like to be assigned the issue you are creating, complete the applicable checkbox in the issue template. Note that this does not guarantee that you will be assigned the issue, but rather it lets maintainers know that you are interested.
 
 ### Setting Up Your Local Clone
 
-Before you begin working on anything, be sure you follow these steps in order to set up a clone on your local machine:
+Before you begin working on anything, make sure you follow these steps in order to set up a clone on your local machine:
 
 1. Fork this repo to your own GitHub account. If you don't know how to do so, follow the GitHub documentation on how to [fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 
-2. Clone this repo to your local machine with one of the following commands, replacing the `<your username>` text with your actual GitHub username:
+2. Clone this repo to your local machine with one of the commands below. Be sure the `<your username>` text is replaced with your actual GitHub username, and the `<repo name>` with the actual repo name. You can also read the GitHub documentaiton on [cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
     ```bash
-    # If you have SSH set up with Git
-    git clone git@github.com:<your username>/css-exercises.git
-    # Otherwise for HTTPS
-    git clone https://github.com/<your username>/css-exercises.git
+    # If you have SSH set up with Git:
+    git clone git@github.com:<your username>/<repo name>.git
+    # Otherwise for HTTPS:
+    git clone https://github.com/<your username>/<repo name>.git
+    
+    # An example:
+    git clone git@github.com:Odinson/css-exercises.git
     ```
 
-3. `cd` into the directory of your local clone, then set the upstream remote so you can keep your local clone synced with TOP's original repo:
+3. `cd` into the directory of your local clone, then set the upstream remote so you can keep your local clone synced with TOP's original repo. The `<repo name>` below should be the same as the one you used when creating your local clone in the previous step.
+
     ```bash
-    # If you have SSH set up with Git
-    git remote add upstream git@github.com:TheOdinProject/css-exercises.git
-    # Otherwise for HTTPS
+    # If you have SSH set up with Git:
+    git remote add upstream git@github.com:TheOdinProject/<repo name>.git
+    # Otherwise for HTTPS:
+    git remote add upstream https://github.com/TheOdinProject/<repo name>.git
+    
+    # An example:
     git remote add upstream https://github.com/TheOdinProject/css-exercises.git
     ```
 
@@ -121,21 +131,33 @@ Before you begin working on anything, be sure you follow these steps in order to
 
 Once you have the repo forked and cloned, and the upstream remote has been set, you can begin working on your issue:
 
-1. Create a new branch, replacing the `<your branch name>` with an actual branch name, e.g. "flex_exercises":
+1. Create a new branch, replacing the `<your branch name>` with an actual branch name:
+
     ```bash
     git checkout -b <your branch name>
+    
+    # An example:
+    git checkout -b flex_exercises
     ```
 
 2. Add commits as you work on your issue, replacing the `<your commit message>` text with your actual commit message:
+
    ```bash
    git commit -m "<your commit message>"
+   
+   # An example:
+   git commit -m "Update solution files"
    ```
 
-3. Sync your work with the upstream remote every so often. Follow the [ongoing workflow](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/using-git-in-the-real-world#ongoing-workflow) section in our Using Git in the Real World lesson.
+3. Sync your work with the upstream remote every so often. Follow the [ongoing workflow](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/using-git-in-the-real-world#ongoing-workflow) instructions in our Using Git in the Real World lesson.
 
 4. Push your branch to your forked repo, replacing the `<your branch name>` with the branch you've been working on locally:
+
     ```bash
     git push origin <your branch name>
+    
+    # An example:
+    git push origin flex_exercises
     ```
 
 5. Preview your proposed changes by locally opening any applicable HTML files (or using VS Code's Live Server extension). If the preview matches the existing "Desired Outcome" image(s) for the exercise, continue to open a pull request. Otherwise, update any images in your local clone and commit + push those changes before opening a pull request.
@@ -151,7 +173,7 @@ Once you have the repo forked and cloned, and the upstream remote has been set, 
 
 2. **Read the PR template in its entirety before filling it out and submitting a PR**. Not filling out the template correctly will delay a PR getting merged.
    * If a checkbox is not required and is not applicable to your PR, do not complete it. If your PR isn't related to an open issue, for example, you shouldn't complete the checkbox for linking an issue.
-   * The title of the PR should be in `file/exercise/folder: brief description of change` format, e.g. `01 flex center: add hint for XYZ`. This makes it easier for anyone to quickly see what a PR is for, reducing the possibility of a duplicate PR from being made.
+   * The title of the PR should follow the format described in the PR template, which is usually some variation of `file or lesson: brief description of changes`. This makes it easier for anyone to quickly see what a PR is for, reducing the possibility of a duplicate PR from being made.
    * Be sure you describe the change(s) you are proposing in more detail in Step 1 of the PR template. If the PR is not related to an open issue, you should also include why your proposed changes are beneficial or what problem(s) it solves. This gives maintainers the information to consider when deciding whether a PR should be merged.
    * If the PR is related to an open issue, be sure to link that issue in Step 2 of the PR template. This can be done either by replacing the `XXXXX` with the issue number, e.g. `Closes #2013`, or if the issue is in another TOP repo replacing the `#XXXXX` with the URL of the issue, e.g. `Closes https://github.com/TheOdinProject/curriculum/issues/XXXXX`. This streamlines the issue closing process, as an issue that is linked to a PR will be closed when that PR gets merged.
 
@@ -163,4 +185,4 @@ Once you have the repo forked and cloned, and the upstream remote has been set, 
 
 
 ## Further Help
-Please let us know if you require any further help with any of the steps in this guide in our Discord's [contribution-suggestions channel](https://discordapp.com/channels/505093832157691914/540903304046182425).
+Please let us know if you require any further help with any of the steps in this guide in our [contribution-suggestions-bugs-disccusion Discord channel](https://discordapp.com/channels/505093832157691914/540903304046182425).
