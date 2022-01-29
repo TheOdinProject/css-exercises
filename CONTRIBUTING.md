@@ -1,4 +1,4 @@
-# CSS Exercises Contributing Guide
+# The Odin Project Contributing Guide
 
 Thank you for expressing interest in contributing to The Odin Project! If you are new to contributing to our repos, or to contributing to open-source in general, please be sure to read this guide thoroughly before contributing as it will lessen the chances of any issues arising during the process.
 
@@ -7,6 +7,7 @@ Thank you for expressing interest in contributing to The Odin Project! If you ar
 ## Table of Contents
 * [Label Meanings](#label-meanings)
 * [How to Contribute](#how-to-contribute)
+* [Repo Specific Instructions](#repo-specific-instructions)
 * [Check Before Doing Anything](#check-before-doing-anything)
 * [Being Assigned an Issue](#being-assigned-an-issue)
 * [Creating an Issue](#creating-an-issue)
@@ -17,7 +18,7 @@ Thank you for expressing interest in contributing to The Odin Project! If you ar
 
 ## Label Meanings
 
-The labels that get applied to issues and PRs in our repos have specific meanings and are broken into two categories: status and type. An issue/PR should only ever have one status label, but can have multiple type labels.
+The labels that get applied to issues and PRs in our repos have specific meanings and are broken into two categories: status and type. An issue/PR should only ever have one status label, but can have multiple type labels. 
 
 ### Status Labels
 * **Abandoned**: This issue/PR has been abandoned, and no further work or review should be done
@@ -57,7 +58,7 @@ The complexity of a change can determine how exactly you should go about contrib
 * Clarifying questions - "This lesson says to use this syntax, but in a previous lesson we were told to use a different syntax. Which is correct?"
 * Other small-scale changes - "I think including instructions about X could help minimize confusion at this step."
 
-If you have a more complex suggestion or notice a more urgent issue, going to our [contribution-suggestions-bugs-disccusion Discord channel](https://discordapp.com/channels/505093832157691914/540903304046182425) can be a great way to start a discussion or receive feedback. This channel can also be used to share a link to an issue or PR you have created **if** you haven't seen any activity on the actual issue/PR for a while; just keep in mind that maintainers have busy lives and may not get to things immediately.
+If you have a more complex suggestion or notice a more urgent issue, going to our [contribution-suggestions-bugs-discussions Discord channel](https://discordapp.com/channels/505093832157691914/540903304046182425) can be a great way to start a discussion or receive feedback. This channel can also be used to share a link to an issue or PR you have created **if** you haven't seen any activity on the actual issue/PR for a while; just keep in mind that maintainers have busy lives and may not get to things immediately.
 
 While you should also feel free to just create an issue on a repo for more complex or urgent changes rather than bring it up on our Discord, generally you should avoid opening a PR for such changes. Depending what the PR entails, it may not be something we're looking to implement at this time or is not how we wish to go about things, and we don't want all of that time and work going to waste. Changes that may be more complex or urgent can include:
 
@@ -67,6 +68,16 @@ While you should also feel free to just create an issue on a repo for more compl
 * A new feature for the website
 
 Regardless of the complexity of a change, when you wish to make a contribution on a TOP repo you should follow any further instructions in this guide.
+
+### Repo Specific Instructions
+
+#### [TOP Website Repo](https://github.com/TheOdinProject/theodinproject)
+
+Before starting any work on our main website repo, you must read and follow the instructions found on [The Odin Project Wiki](https://github.com/TheOdinProject/theodinproject/wiki). These instructions will help you get the TOP app running locally, and help you with adding new paths, courses, sections, and lessons.
+
+#### [TOP Curriculum Repo](https://github.com/TheOdinProject/curriculum)
+
+When submitting a PR for a new lesson, or when you are making significant changes to an existing lesson, you must follow our [Layout Style Guide](https://github.com/TheOdinProject/curriculum/blob/main/LAYOUT_STYLE_GUIDE.md). This helps ensure the layout and formatting is consistent across our lessons.
 
 ### Check Before Doing Anything
 
@@ -185,4 +196,4 @@ Once you have the repo forked and cloned, and the upstream remote has been set, 
 
 
 ## Further Help
-Please let us know if you require any further help with any of the steps in this guide in our [contribution-suggestions-bugs-disccusion Discord channel](https://discordapp.com/channels/505093832157691914/540903304046182425).
+Please let us know if you require any further help with any of the steps in this guide in our [contribution-suggestions-bugs-discussions Discord channel](https://discordapp.com/channels/505093832157691914/540903304046182425).
