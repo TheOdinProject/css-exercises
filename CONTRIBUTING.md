@@ -8,13 +8,13 @@ Thank you for expressing interest in contributing to The Odin Project! If you ar
 * [Curriculum Structure](#curriculum-structure)
 * [Label Meanings](#label-meanings)
 * [How to Contribute](#how-to-contribute)
-* [Repo Specific Instructions](#repo-specific-instructions)
-* [Check Before Doing Anything](#check-before-doing-anything)
-* [Being Assigned an Issue](#being-assigned-an-issue)
-* [Creating an Issue](#creating-an-issue)
-* [Setting Up Your Local Clone](#setting-up-your-local-clone)
-* [Working on an Issue](#working-on-an-issue)
-* [Opening a Pull Request](#opening-a-pull-request)
+   * [Repo Specific Instructions](#repo-specific-instructions)
+   * [Check Before Doing Anything](#check-before-doing-anything)
+   * [Being Assigned an Issue](#being-assigned-an-issue)
+   * [Creating an Issue](#creating-an-issue)
+   * [Setting Up Your Local Clone](#setting-up-your-local-clone)
+   * [Working on an Issue](#working-on-an-issue)
+   * [Opening a Pull Request](#opening-a-pull-request)
 * [Further Help](#further-help)
 
 ## Curriculum Structure
@@ -68,9 +68,9 @@ The complexity of a change can determine how exactly you should go about contrib
 * Clarifying questions - "This lesson says to use this syntax, but in a previous lesson we were told to use a different syntax. Which is correct?"
 * Other small-scale changes - "I think including an instruction about X could help minimize confusion at this step."
 
-If you have a more complex suggestion or notice a more urgent issue, going to our [contribution-suggestions-bugs-discussions Discord channel](https://discordapp.com/channels/505093832157691914/540903304046182425) can be a great way to start a discussion or receive feedback. This channel can also be used to share a link to an issue or PR you have created **if** you haven't seen any activity on the actual issue/PR for a while; just keep in mind that maintainers have busy lives and may not get to things immediately.
+If you have a more complex suggestion or notice a more urgent issue, going to our [contribution-suggestions-bugs-discussions Discord channel](https://discordapp.com/channels/505093832157691914/540903304046182425) can be a great way to start a discussion or receive feedback. This channel can also be used to share a link to an issue or PR you have created if you haven't seen any activity on the actual issue/PR for a while, or to have a more real-time discussion. Just keep in mind that maintainers have busy lives - many with day jobs - and may not get to items on our repos immediately.
 
-While you should also feel free to just create an issue on a repo for more complex or urgent changes rather than bring it up on our Discord, generally you should avoid doing work and opening a PR for such changes. Depending what the PR entails, it may not be something we're looking to implement at this time or is not how we wish to go about things, and we don't want all of that time and work going to waste. Changes that may be more complex or urgent can include:
+While you can also just create an issue on a repo for more complex or urgent changes rather than bring it up on our Discord, generally you should avoid doing work and opening a PR for such changes. Depending what the PR entails, it may not be something we're looking to implement at this time or is not how we wish to go about things, and we don't want all of that time and work going to waste. Changes that may be more complex or urgent can include:
 
 * A complete rewrite of a lesson
 * Adding a completely new lesson
