@@ -61,7 +61,7 @@ The labels that get applied to issues and PRs in our repos have specific meaning
 
 ## How to Contribute
 
-The complexity of a change can determine how exactly you should go about contributing. Generally, simpler changes can just have an issue made or a PR created rather than needing to bring it up on our Discord server. Simple changes that you should feel free to just create an issue or PR for can include:
+The complexity of a change can determine how exactly you should go about contributing. Generally, simpler changes can just have an issue made or a PR created rather than needing to bring it up on our Discord server. All of our lessons include a handy "Improve this lesson on GitHub" link to make it even easier to submit simpler change requests. Simple changes that you should feel free to just create an issue or PR for can include:
 
 * Typo or grammar fixes - "I noticed that this sentence in this lesson is using incorrect grammar."
 * Simple syntax errors - "This line of code is missing a closing element tag."
