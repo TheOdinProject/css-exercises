@@ -5,7 +5,7 @@ Thank you for expressing interest in contributing to The Odin Project! If you ar
 **Please do not open an issue or pull request (PR) with your solutions to any exercise repo**. Your PR will be immediately closed without being merged. The exercise repos are for you to do and keep any work on your own local machine or your personal GitHub.
 
 ## Table of Contents
-* [Common Verbiage](#common-verbiage)
+* [Curriculum Structure](#curriculum-structure)
 * [Label Meanings](#label-meanings)
 * [How to Contribute](#how-to-contribute)
 * [Repo Specific Instructions](#repo-specific-instructions)
@@ -19,16 +19,16 @@ Thank you for expressing interest in contributing to The Odin Project! If you ar
 
 ## Curriculum Structure
 
-Between the website, repos, and Discord server, you're bound to see certain terms being used in regards to the curriculum structure. It can be important to keep these terms in mind when referring to certain parts of the curriculum, both for consistency and to make sure everyone understands what you mean.
+Between the website, repos, and Discord server, you're bound to see certain terms being used in regards to the curriculum structure. It can be important to keep these terms in mind when referring or contributing to certain parts of the curriculum, both for consistency and to make sure everyone understands what you mean.
 
 * **Path**: The broadest level of the curriculum structure. When you first start The Odin Project, you will be on the Foundations path. Upon completion of Foundations, you choose one of two different Full Stack paths to continue down.
 * **Course**: A path is made up of different courses. A course splits a path into more distinct topics, and each course has its own completion percentage. When asked what course you're on, you might say "I'm on the Getting Hired course!"
-* **Section**: A course is made up for different sections. A section splits a course into even more distinct topics. When asked what section you're on, you might say "I just started the Basic Ruby section!"
-* **Lesson**: Finally, a section is made of different lessons. This is the most specific level of the curriculum structure. This is the exact thing you're currently on. When asked what lesson you're on, you might say "I'm reading through the Webpack lesson!"
+* **Section**: A course is made up of different sections. A section splits a course into even more distinct topics. When asked what section you're on, you might say "I just started the Basic Ruby section!"
+* **Lesson**: Finally, a section is made up of different lessons. This is the most specific level of the curriculum structure. This is the exact thing you're currently on. When asked what lesson you're on, you might say "I'm reading through the Webpack lesson!"
 
 ## Label Meanings
 
-The labels that get applied to issues and PRs in our repos have specific meanings and are broken into two categories: status and type. An issue/PR should only ever have one status label, but can have multiple type labels. 
+The labels that get applied to issues and PRs in our repos have specific meanings and are broken into two categories: status and type. An issue/PR should only ever have one status label, but can have multiple type labels. The following isn't a complete list, but rather a list of the labels that are universal across all of our repos.
 
 ### Status Labels
 * **Abandoned**: This issue/PR has been abandoned, and no further work or review should be done
@@ -66,11 +66,11 @@ The complexity of a change can determine how exactly you should go about contrib
 * Typo or grammar fixes - "I noticed that this sentence in this lesson is using incorrect grammar."
 * Simple syntax errors - "This line of code is missing a closing element tag."
 * Clarifying questions - "This lesson says to use this syntax, but in a previous lesson we were told to use a different syntax. Which is correct?"
-* Other small-scale changes - "I think including instructions about X could help minimize confusion at this step."
+* Other small-scale changes - "I think including an instruction about X could help minimize confusion at this step."
 
 If you have a more complex suggestion or notice a more urgent issue, going to our [contribution-suggestions-bugs-discussions Discord channel](https://discordapp.com/channels/505093832157691914/540903304046182425) can be a great way to start a discussion or receive feedback. This channel can also be used to share a link to an issue or PR you have created **if** you haven't seen any activity on the actual issue/PR for a while; just keep in mind that maintainers have busy lives and may not get to things immediately.
 
-While you should also feel free to just create an issue on a repo for more complex or urgent changes rather than bring it up on our Discord, generally you should avoid opening a PR for such changes. Depending what the PR entails, it may not be something we're looking to implement at this time or is not how we wish to go about things, and we don't want all of that time and work going to waste. Changes that may be more complex or urgent can include:
+While you should also feel free to just create an issue on a repo for more complex or urgent changes rather than bring it up on our Discord, generally you should avoid doing work and opening a PR for such changes. Depending what the PR entails, it may not be something we're looking to implement at this time or is not how we wish to go about things, and we don't want all of that time and work going to waste. Changes that may be more complex or urgent can include:
 
 * A complete rewrite of a lesson
 * Adding a completely new lesson
