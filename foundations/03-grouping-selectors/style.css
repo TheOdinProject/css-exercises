@@ -1,3 +1,10 @@
+.firstbutton,
+.secondbutton {
+    font-size: 28px;
+    font-family: Arial, Times New Roman, sans-serif;
+
+}
+
 .firstbutton {
     background-color: black;
     color: white;
