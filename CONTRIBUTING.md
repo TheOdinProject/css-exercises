@@ -1,6 +1,6 @@
 # The Odin Project Contributing Guide
 
-Thank you for expressing interest in contributing to The Odin Project! If you are new to contributing to our repos, or to contributing to open-source in general, please be sure to read this guide thoroughly before contributing as it will lessen the chances of any issues arising during the process.
+Thank you for expressing interest in contributing to The Odin Project (TOP)! If you are new to contributing to our repos, or to contributing to open-source in general, please be sure to read this guide thoroughly before contributing as it will lessen the chances of any issues arising during the process.
 
 **Please do not open an issue or pull request (PR) with your solutions to any exercise repo**. Your PR will be immediately closed without being merged. The exercise repos are for you to do and keep any work on your own local machine or your personal GitHub.
 
@@ -21,7 +21,7 @@ Thank you for expressing interest in contributing to The Odin Project! If you ar
 
 Between the website, repos, and Discord server, you're bound to see certain terms being used in regards to the curriculum structure. It can be important to keep these terms in mind when referring or contributing to certain parts of the curriculum, both for consistency and to make sure everyone understands what you mean.
 
-* **Path**: The broadest level of the curriculum structure. When you first start The Odin Project, you will be on the Foundations path. Upon completion of Foundations, you choose one of two different Full Stack paths to continue down.
+* **Path**: The broadest level of the curriculum structure. When you first start TOP, you will be on the Foundations path. Upon completion of Foundations, you choose one of two different Full Stack paths to continue down.
 * **Course**: A path is made up of different courses. A course splits a path into more distinct topics, and each course has its own completion percentage. When asked what course you're on, you might say "I'm on the Getting Hired course!"
 * **Section**: A course is made up of different sections. A section splits a course into even more distinct topics. When asked what section you're on, you might say "I just started the Basic Ruby section!"
 * **Lesson**: Finally, a section is made up of different lessons. This is the most specific level of the curriculum structure. This is the exact thing you're currently on. When asked what lesson you're on, you might say "I'm reading through the Webpack lesson!"
@@ -61,7 +61,7 @@ The labels that get applied to issues and PRs in our repos have specific meaning
 
 ## How to Contribute
 
-The complexity of a change can determine how exactly you should go about contributing. Generally, simpler changes can just have an issue made or a PR created rather than needing to bring it up on our Discord server. All of our lessons include a handy "Improve this lesson on GitHub" link to make it even easier to submit simpler change requests. Simple changes that you should feel free to just create an issue or PR for can include:
+The complexity of a change can determine how exactly you should go about contributing. Generally, simpler changes can just have an issue made or a PR created rather than needing to bring it up on our Discord server. Simple changes that you should feel free to just create an issue or PR for can include:
 
 * Typo or grammar fixes - "I noticed that this sentence in this lesson is using incorrect grammar."
 * Simple syntax errors - "This line of code is missing a closing element tag."
@@ -77,7 +77,7 @@ While you can also just create an issue on a repo for more complex or urgent cha
 * HTML in lessons is not displaying properly
 * A new feature for the website
 
-Regardless of the complexity of a change, when you wish to make a contribution on a TOP repo you should follow any further instructions in this guide.
+Regardless of the complexity of a change, when you wish to make a contribution on one of TOP's repos you should follow any further instructions in this guide.
 
 ### Repo Specific Instructions
 
@@ -88,6 +88,8 @@ Before starting any work on our main website repo, you must read and follow the 
 #### [TOP Curriculum Repo](https://github.com/TheOdinProject/curriculum)
 
 When submitting a PR for a new lesson, or when you are making significant changes to an existing lesson, you must follow our [Layout Style Guide](https://github.com/TheOdinProject/curriculum/blob/main/LAYOUT_STYLE_GUIDE.md). This helps ensure the layout and formatting is consistent across our lessons.
+
+If you're new to contributing to open-source, or if you just want to make a really quick change, you can click the "Improve this lesson on GitHub" link found at the end of each lesson instead of going through the methods described later in this guide. 
 
 ### Check Before Doing Anything
 
@@ -114,7 +116,7 @@ If you would like to work on an existing issue in a repo:
 
 1. If you would like to make a simple change that is not part of an existing issue, you are welcome to skip the next step and just submit a PR with your proposed change(s).
 
-2. Create a new issue and **read the issue template in its entirety and fill out all applicable sections**.
+2. Create a new issue and **read the issue template in its entirety and fill out all applicable sections**. If you aren't sure how to create an issue, you can read the GitHub documentation on [creating an issue from a repository](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository).
    * The title of the issue should be in `file/exercise/folder: brief description of issue` format. This makes it easier for anyone to quickly see what an issue is for, reducing the possibility of a duplicate issue from being made.
    * If you would like to be assigned the issue you are creating, complete the applicable checkbox in the issue template. Note that this does not guarantee that you will be assigned the issue, but rather it lets maintainers know that you are interested.
 
