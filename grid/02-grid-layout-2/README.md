@@ -21,7 +21,7 @@ When the browser is stretched wide:
 - The grid has two columns
 - The grid has four rows
 - The grid tracks do not use static sizes (no pixels!)
-- The first column is three times larger than the other
+- The second column is three times larger than the other
 - The third row is five times larger than the others
 - The rows and columns stretch wider when making the browser window bigger
 - The rows and columns stretch taller when making the browser window smaller
