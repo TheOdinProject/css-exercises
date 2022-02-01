@@ -81,15 +81,15 @@ Regardless of the complexity of a change, when you wish to make a contribution o
 
 ### Repo Specific Instructions
 
-#### [TOP Website Repo](https://github.com/TheOdinProject/theodinproject)
-
-Before starting any work on our main website repo, you must read and follow the instructions found on [The Odin Project Wiki](https://github.com/TheOdinProject/theodinproject/wiki). These instructions will help you get the TOP app running locally, and help you with adding new paths, courses, sections, and lessons.
-
 #### [TOP Curriculum Repo](https://github.com/TheOdinProject/curriculum)
 
 When submitting a PR for a new lesson, or when you are making significant changes to an existing lesson, you must follow our [Layout Style Guide](https://github.com/TheOdinProject/curriculum/blob/main/LAYOUT_STYLE_GUIDE.md). This helps ensure the layout and formatting is consistent across all of our lessons.
 
 If you're new to contributing to open-source, or if you just want to make a really quick PR, you can click the "Improve this lesson on GitHub" link found at the end of each lesson instead of going through the steps to fork + clone one of our repos.
+
+#### [TOP Website Repo](https://github.com/TheOdinProject/theodinproject)
+
+Before starting any work on our main website repo, you must read and follow the instructions found on [The Odin Project Wiki](https://github.com/TheOdinProject/theodinproject/wiki). These instructions will help you get the TOP app running locally, and help you with adding new paths, courses, sections, and lessons.
 
 ### Check Before Doing Anything
 
