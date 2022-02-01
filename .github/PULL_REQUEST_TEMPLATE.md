@@ -2,7 +2,7 @@
 
 <!-- Complete the following REQUIRED checkboxes by replacing the whitespace between the square brackets with an 'x', e.g. [x]. -->
 - [ ] I have thoroughly read and understand the [CSS Exercises Contributing Guide](https://github.com/TheOdinProject/css-exercises/blob/main/CONTRIBUTING.md)
-- [ ] The title of this PR is in `file/exercise/folder: brief description of changes` format e.g. `01 flex center: add hint for XYZ`
+- [ ] The title of this PR is similar to the `file, exercise/lesson, or folder: brief description of changes` format e.g. `01 flex center: add hint for XYZ`
 
 <!-- Complete the following checkboxes only if they are applicable to your PR. You can complete these later if they are not currently applicable. -->
 - [ ] If one exists, I have linked a related open issue to this PR in Step 2 below
