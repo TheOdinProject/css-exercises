@@ -10,7 +10,7 @@ assignees: ''
 
 <!-- Complete the following REQUIRED checkboxes by replacing the whitespace between the square brackets with an 'x', e.g. [x]. -->
 - [ ] I have thoroughly read and understand the [CSS Exercises Contributing Guide](https://github.com/thatblindgeye/css-exercises/blob/main/CONTRIBUTING.md)
-- [ ] The title of this issue is in `file/exercise/folder: brief description of bug` format, e.g. `01 flex center: solution files do not match desired outcome`
+- [ ] The title of this issue is similar to the `file, exercise/lesson, or folder: brief description of bug` format, e.g. `01 flex center: solution files do not match desired outcome`
 
 <!-- The following checkbox is OPTIONAL. Completing it does not guarantee you will be assigned this issue, but rather lets us know you are interested in working on it. -->
 - [ ] If approved, I would like to be assigned this issue to work on it
