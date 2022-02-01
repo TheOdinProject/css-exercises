@@ -1,6 +1,6 @@
 # The Odin Project Contributing Guide
 
-Thank you for expressing interest in contributing to The Odin Project (TOP)! If you are new to contributing to our repos, or to contributing to open-source in general, please be sure to read this guide thoroughly before contributing as it will lessen the chances of any issues arising during the process.
+Thank you for expressing interest in contributing to The Odin Project (TOP)! Whether you are a first time contributor or you have made several contributions to our repos, please be sure to read this guide thoroughly before contributing as it will lessen the chances of any issues arising during the process.
 
 **Please do not open an issue or pull request (PR) with your solutions to any exercise repo**. Your PR will be immediately closed without being merged. The exercise repos are for you to do and keep any work on your own local machine or your personal GitHub.
 
@@ -19,7 +19,7 @@ Thank you for expressing interest in contributing to The Odin Project (TOP)! If 
 
 ## Curriculum Structure
 
-Between the website, repos, and Discord server, you're bound to see certain terms being used in regards to the curriculum structure. It can be important to keep these terms in mind when referring or contributing to certain parts of the curriculum, both for consistency and to make sure everyone understands what you mean.
+Between our website, repos, and Discord server, you're bound to see certain terms being used in regards to the curriculum structure. It can be important to keep these terms in mind when referring or contributing to certain parts of our curriculum, both for consistency and to make sure everyone understands what you mean.
 
 * **Path**: The broadest level of the curriculum structure. When you first start TOP, you will be on the Foundations path. Upon completion of Foundations, you choose one of two different Full Stack paths to continue down.
 * **Course**: A path is made up of different courses. A course splits a path into more distinct topics, and each course has its own completion percentage. When asked what course you're on, you might say "I'm on the Getting Hired course!"
@@ -28,7 +28,7 @@ Between the website, repos, and Discord server, you're bound to see certain term
 
 ## Label Meanings
 
-The labels that get applied to issues and PRs in our repos have specific meanings and are broken into two categories: status and type. An issue/PR should only ever have one status label, but can have multiple type labels. The following isn't a complete list, but rather a list of the labels that are universal across all of our repos.
+The labels that get applied to issues and PRs in our repos have specific meanings and are broken into two categories: status and type. An issue/PR should only ever have one status label, but can have multiple type labels. The following isn't a complete list, but rather a list of the labels that are more universal across all of our repos.
 
 ### Status Labels
 * **Abandoned**: This issue/PR has been abandoned, and no further work or review should be done
@@ -77,7 +77,7 @@ While you can also just create an issue on a repo for more complex or urgent cha
 * HTML in lessons is not displaying properly
 * A new feature for the website
 
-Regardless of the complexity of a change, when you wish to make a contribution on one of TOP's repos you should follow any further instructions in this guide.
+Regardless of the complexity of a change, when you wish to make a contribution on one of TOP's repos you must follow any further instructions in this guide.
 
 ### Repo Specific Instructions
 
@@ -87,9 +87,9 @@ Before starting any work on our main website repo, you must read and follow the 
 
 #### [TOP Curriculum Repo](https://github.com/TheOdinProject/curriculum)
 
-When submitting a PR for a new lesson, or when you are making significant changes to an existing lesson, you must follow our [Layout Style Guide](https://github.com/TheOdinProject/curriculum/blob/main/LAYOUT_STYLE_GUIDE.md). This helps ensure the layout and formatting is consistent across our lessons.
+When submitting a PR for a new lesson, or when you are making significant changes to an existing lesson, you must follow our [Layout Style Guide](https://github.com/TheOdinProject/curriculum/blob/main/LAYOUT_STYLE_GUIDE.md). This helps ensure the layout and formatting is consistent across all of our lessons.
 
-If you're new to contributing to open-source, or if you just want to make a really quick change, you can click the "Improve this lesson on GitHub" link found at the end of each lesson instead of going through the methods described later in this guide. 
+If you're new to contributing to open-source, or if you just want to make a really quick PR, you can click the "Improve this lesson on GitHub" link found at the end of each lesson instead of going through the steps to fork + clone one of our repos.
 
 ### Check Before Doing Anything
 
@@ -103,6 +103,7 @@ If you would like to work on an existing issue in a repo:
 
 1) Find an issue that is not currently assigned to anyone.
     * A couple of good places to start are issues with the `Status: Help Wanted` or `Type: Good First Issue` labels. You can filter the issues list to only show ones with these (or any) specific labels to make them easier to find.
+    * You can also filter out any issues with the `Status: In Progress` label, so that you only see issues that haven't been assigned to anyone.
 
 2) Ask to be assigned the issue by a maintainer.
     * **If you are not a maintainer, do not give others permission to work on an issue**
