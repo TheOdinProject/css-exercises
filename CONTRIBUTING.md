@@ -31,33 +31,35 @@ Between our website, repos, and Discord server, you're bound to see certain term
 The labels that get applied to issues and PRs in our repos have specific meanings and are broken into two categories: status and type. An issue/PR should only ever have one status label, but can have multiple type labels. The following isn't a complete list, but rather a list of the labels that are more universal across all of our repos.
 
 ### Status Labels
-* **Abandoned**: This issue/PR has been abandoned, and no further work or review should be done
-* **Accepted**: This PR has been accepted and merged
-* **Awaiting** Changes: Waiting for requested changes to be made
-* **Awaiting** Response: Waiting for a response from the contributor
-* **Completed**: This issue has been completed and a PR has been made
-* **Discussion**: This issue/PR is actively being discussed
+* **Abandoned**: This issue/PR has been abandoned and will not be implemented
+* **Accepted**: This PR has been accepted and is able to be merged
+* **Awaiting Changes**: Waiting for requested changes to be made by the contributor
+* **Awaiting Response**: Waiting for a response from the contributor
+* **Discussion**: This issue/PR has an ongoing discussion
 * **Do Not Merge**: This PR should not be merged until further notice
 * **Do Not Review**: This issue/PR should not be reviewed until further notice
 * **Help Wanted**: This issue can be assigned to other contributors
-* **In Progress**: This issue/PR is actively being worked on
-* **Invalid**: The template or another item in the issue/PR is invalid or not relevant
-* **Investigating**: Something is being looked into by a maintainer, but the issue/PR is not being actively reviewed
-* **Needs Review**: This issue/PR needs a review from one or more maintainers
+* **In Progress**: This issue/PR has ongoing work being done
+* **Invalid**: This issue/PR is invalid or is not relevant
+* **Investigating**: Something in this issue/PR is being investigated
+* **Needs Review**: This issue/PR needs an initial or additional review
 * **On Hold**: There is a temporary hold on any continued work or review
 * **Stale**: This issue/PR has been inactive for over 30 days and may be closed if inactivity continues
-* **Under Review**: This issue/PR is actively being reviewed by at least one maintainer
+* **Under Review**: This issue/PR is being reviewed by at least one maintainer
 
 ### Type Labels
-* **Accessibility**: Involves an accessibility feature or requires review for accessibility
+* **Accessibility**: Involves an accessibility feature or requires accessibility review
 * **Bug**: Something isn't working as intended
 * **Chore**: Involves changes to the build process or internal tooling
 * **Documentation**: Involves an update to the documentation
-* **Duplicate**: This issue/PR already exists and should not be worked on or reviewed
+* **Duplicate**: This issue/PR already exists
+* **Easy Fix**: Involves a minor fix such as grammar, syntax, etc.
 * **Enhancement**: Involves a new feature or enhancement request
+* **Epic**: This issue is a larger, unnamed project with several moving parts
 * **Good First Issue**: Good for beginner contributors
-* **Hacktoberfest**: This issue/PR is a good Hacktoberfest participation
+* **Hacktoberfest**: This issue is a good Hacktoberfest participation
 * **Maintainer Only**: This issue is available only to maintainers
+* **Priority**: This issue/PR should be resolved ASAP
 
 ## How to Contribute
 
@@ -83,9 +85,13 @@ Regardless of the complexity of a change, when you wish to make a contribution o
 
 #### [TOP Curriculum Repo](https://github.com/TheOdinProject/curriculum)
 
-When submitting a PR for a new lesson, or when you are making significant changes to an existing lesson, you must follow our [Layout Style Guide](https://github.com/TheOdinProject/curriculum/blob/main/LAYOUT_STYLE_GUIDE.md). This helps ensure the layout and formatting is consistent across all of our lessons.
+  If you're new to contributing to open-source, or if you just want to make a really quick PR, you can click the "Improve this lesson on GitHub" link found at the end of each lesson instead of going through the steps to fork + clone one of our repos.
 
-If you're new to contributing to open-source, or if you just want to make a really quick PR, you can click the "Improve this lesson on GitHub" link found at the end of each lesson instead of going through the steps to fork + clone one of our repos.
+  While working on an existing or a new lesson, you must follow our [Layout Style Guide](https://github.com/TheOdinProject/curriculum/blob/main/LAYOUT_STYLE_GUIDE.md) to ensure the layout and formatting is consistent across our curriculum.
+
+  Before submitting a PR for an existing or a new lesson, you must use our [Lesson Preview Tool](https://www.theodinproject.com/lessons/preview) to ensure the lesson Markdown is correctly formatted and rendering properly.
+  
+<hr>
 
 #### [TOP Website Repo](https://github.com/TheOdinProject/theodinproject)
 
