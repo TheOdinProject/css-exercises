@@ -12,14 +12,17 @@ body {
 
 .title {
   background: #e3f4ff;
+  margin: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  margin: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  margin: 8px;
 }
 
 button {
