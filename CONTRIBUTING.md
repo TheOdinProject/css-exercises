@@ -63,23 +63,21 @@ The labels that get applied to issues and PRs in our repos have specific meaning
 
 ## How to Contribute
 
-The complexity of a change can determine how exactly you should go about contributing. Generally, simpler changes can just have an issue made or a PR created rather than needing to bring it up on our Discord server. Simple changes that you should feel free to just create an issue or PR for can include:
+**Simple Issues and Changes**: These don't have an overall significant impact on our repos. You can just open an issue or a PR in the appropriate repo rather than needing to bring it up on our Discord server. Simple issues and changes can include:
 
 * Typo or grammar fixes - "I noticed that this sentence in this lesson is using incorrect grammar."
 * Simple syntax errors - "This line of code is missing a closing element tag."
 * Clarifying questions - "This lesson says to use this syntax, but in a previous lesson we were told to use a different syntax. Which is correct?"
 * Other small-scale changes - "I think including an instruction about X could help minimize confusion at this step."
 
-If you have a more complex suggestion or notice a more urgent issue, going to our [contribution-suggestions-bugs-discussions Discord channel](https://discordapp.com/channels/505093832157691914/540903304046182425) can be a great way to start a discussion or receive feedback. This channel can also be used to share a link to an issue or PR you have created if you haven't seen any activity on the actual issue/PR for a while, or to have a more real-time discussion. Just keep in mind that maintainers have busy lives - many with day jobs - and may not get to items on our repos immediately.
+**Significant Issues and Changes**: These will have a more significant impact on our repos, or require more work to be done in order to resolve the issue or implement the change. You should never submit a PR for a significant issue or change without first getting approval from maintainers, as we don't want your time and work to go to waste if your proposal isn't accepted. You can either go to our [contribution-suggestions-bugs-discussions Discord channel](https://discordapp.com/channels/505093832157691914/540903304046182425) to mention an issue or a proposed change, or you can simply open an issue in the appropriate repo and wait to receive a response. This channel can also be used to share a link to an issue or PR you have created if you haven't seen any activity on the actual issue/PR for a while, or to have a more real-time discussion. Just keep in mind that maintainers have busy lives - many with day jobs - and may not get to items on our repos immediately. 
 
-While you can also just create an issue on a repo for more complex or urgent changes rather than bring it up on our Discord, generally you should avoid doing work and opening a PR for such changes. Depending what the PR entails, it may not be something we're looking to implement at this time or is not how we wish to go about things, and we don't want all of that time and work going to waste. Changes that may be more complex or urgent can include:
+Significant issues and changes can include:
 
 * A complete rewrite of a lesson
 * Adding a completely new lesson
 * HTML in lessons is not displaying properly
 * A new feature for the website
-
-Regardless of the complexity of a change, when you wish to make a contribution on one of TOP's repos you must follow any further instructions in this guide.
 
 ### Repo Specific Instructions
 
@@ -189,8 +187,6 @@ Once you have the repo forked and cloned, and the upstream remote has been set, 
     # An example:
     git push origin flex_exercises
     ```
-
-5. Preview your proposed changes by locally opening any applicable HTML files (or using VS Code's Live Server extension). If the preview matches the existing "Desired Outcome" image(s) for the exercise, continue to open a pull request. Otherwise, update any images in your local clone and commit + push those changes before opening a pull request.
 
 ### Opening a Pull Request
 
