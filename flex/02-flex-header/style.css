@@ -1,4 +1,6 @@
 .header  {
+  display: flex;
+
   font-family: monospace;
   background: papayawhip;
 }
