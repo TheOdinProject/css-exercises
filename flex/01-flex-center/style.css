@@ -1,4 +1,7 @@
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: dodgerblue;
   border: 4px solid midnightblue;
   width: 400px;
@@ -6,9 +9,12 @@
 }
 
 .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: palevioletred;
-  font-weight: bold;
   text-align: center;
+  font-weight: bold;
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
