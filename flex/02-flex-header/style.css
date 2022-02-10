@@ -1,3 +1,7 @@
+* {
+  border: 1px solid black;
+}
+
 .header  {
   display: flex;
   justify-content: space-between;
@@ -7,16 +11,26 @@
 }
 
 .logo {
+  display: flex;
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 10px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  gap: 10px;
+
+}
+
+.left-links {
+  display: flex;
+  justify-content: flex-end;
 }
 
 a {
