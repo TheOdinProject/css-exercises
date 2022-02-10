@@ -1,8 +1,9 @@
 <!-- Thank you for taking the time to contribute to The Odin Project. In order to get pull requests (PRs) closed in a reasonable amount of time, you must include a baseline of information about the changes you are proposing. Please read this template in its entirety before filling it out to ensure that it is filled out correctly. -->
 
 <!-- Complete the following REQUIRED checkboxes by replacing the whitespace between the square brackets with an 'x', e.g. [x]. -->
-- [ ] I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/css-exercises/blob/main/CONTRIBUTING.md)
-- [ ] The title of this PR is similar to the `file, exercise/lesson, or folder: brief description of changes` format e.g. `01 flex center: add hint for XYZ`
+- [ ] I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/theodinproject/blob/main/CONTRIBUTING.md)
+- [ ] The title of this PR is similar to the `file, exercise/lesson, or folder: brief description of changes` format e.g. `Intro to HTML and CSS lesson: Fix link text`
+- [ ] I have ensured that the Desired Outcome image is still accurate for the exercise solution
 
 <!-- Complete the following checkboxes ONLY IF they are applicable to your PR. You can complete these later if they are not currently applicable. -->
 - [ ] If one exists, I have linked a related open issue to this PR in Step 2 below
