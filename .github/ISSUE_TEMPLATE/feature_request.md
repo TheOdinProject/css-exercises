@@ -10,7 +10,7 @@ assignees: ''
 
 <!-- Complete the following REQUIRED checkboxes by replacing the whitespace between the square brackets with an 'x', e.g. [x]. -->
 - [ ] I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/theodinproject/blob/main/CONTRIBUTING.md)
-- [ ] The title of this issue is similar to the `file, exercise/lesson, or folder: brief description of request` format, e.g. `Global SCSS file: Buttons should have XYZ`
+- [ ] The title of this issue follows the `where the change occurs: brief description of request` format, e.g. `Global SCSS file: Buttons should have XYZ`
 
 <!-- The following checkbox is OPTIONAL. Completing it does not guarantee you will be assigned this issue, but rather lets us know you are interested in working on it. -->
 - [ ] I would like to be assigned this issue to work on it
