@@ -3,9 +3,9 @@
 <!-- Complete the following REQUIRED checkboxes by replacing the whitespace between the square brackets with an 'x', e.g. [x]. -->
 - [ ] I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/theodinproject/blob/main/CONTRIBUTING.md)
 - [ ] The title of this PR follows the `where the change occurs: brief description of change` format, e.g. `Intro to HTML and CSS lesson: Fix link text`
-- [ ] I have ensured that the Desired Outcome image is still accurate for the exercise solution
 
 <!-- Complete the following checkboxes ONLY IF they are applicable to your PR. You can complete these later if they are not currently applicable. -->
+- [ ] If updates were made to any solution code, I have ensured that the Desired Outcome image is accurate
 - [ ] If one exists, I have linked a related open issue to this PR in Step 2 below
 - [ ] If changes were requested, I have made them and re-requested a review from the maintainer (top of the right sidebar)
 
