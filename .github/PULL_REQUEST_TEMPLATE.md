@@ -2,7 +2,7 @@
 
 <!-- Complete the following REQUIRED checkboxes by replacing the whitespace between the square brackets with an 'x', e.g. [x]. -->
 - [ ] I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/theodinproject/blob/main/CONTRIBUTING.md)
-- [ ] The title of this PR is similar to the `file, exercise/lesson, or folder: brief description of changes` format e.g. `Intro to HTML and CSS lesson: Fix link text`
+- [ ] The title of this PR follows the `where the change occurs: brief description of change` format, e.g. `Intro to HTML and CSS lesson: Fix link text`
 - [ ] I have ensured that the Desired Outcome image is still accurate for the exercise solution
 
 <!-- Complete the following checkboxes ONLY IF they are applicable to your PR. You can complete these later if they are not currently applicable. -->
