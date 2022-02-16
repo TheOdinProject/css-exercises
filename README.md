@@ -18,6 +18,7 @@ If you have a suggestion to improve an exercise, an idea for a new exercise, or 
 5. Make your edits in the `index.html` and/or the `style.css` files in order to make the output in your browser look like the Desired Outcome image(s). 
     * Depending on the instructions of the exercise, you may only need to make edits in one of these files.
 6. Don't check the solutions until you're done!
+7. Do not submit your solutions to this repo, as any PRs that do so will be closed without merging.
 
 ## Some Hints
 - The official solutions put all changes at the _end_ of the CSS file, which may duplicate some selectors (e.g. there might be a `body {}` in the given CSS, and another `body {}` in the solution). When you are working on an exercise, it is best practice to add your CSS to existing selectors instead of duplicating them at the end of the file. We're sacrificing this best practice in our official solutions to make it extra clear to you what things we changed to solve the exercise.
