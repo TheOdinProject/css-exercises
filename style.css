@@ -1,0 +1,17 @@
+.parent > .child{
+    color: blue;
+}
+.child.older{
+    color: green;
+}
+
+.child{
+    color: rebeccapurple;
+}
+
+.margins-in-depths{
+    background-color: rgb(94, 94, 94);
+    color: wheat;
+    width: 500px;
+    margin: 0 auto;
+}

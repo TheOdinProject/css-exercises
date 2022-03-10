@@ -64,6 +64,7 @@ ul {
 
 .left, .right {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 16px;
 }
