@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 0 64px;
+    max-width: 1440px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.hero--wrapper{
+    background-color: #1f2937;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 12px 16px;
+}
+
+.logo--text{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.nav--items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav--items a{
+    text-decoration: underline;
+    text-decoration-color: #e5e5e8;
+    color: #e5e5e8;
+}
+
+
+/* HERO SECTION */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    padding: 64px 12px;
+}
+
+.hero--text--wrapper{
+  width: 40%;
+}
+
+.hero--text--main{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+.hero--text--secondary{
+    color: #e5e7e8;
+    margin-bottom: 16px;
+}
+.hero--button{
+    background: #3882f6;
+    color: white;
+    padding: 12px 24px;
+    border-color: #1f2937;
+    border-radius: 16px;
+}
+
+
+.hero img{
+    width: 50%;
+}
+
+/* FEATURES SECTIONS */
+.container.features--section{
+    padding: 24px 12px;
+}
+
+.features--header--text{
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.features--wrapper{
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+.features{
+    max-width: 200px;
+    text-align: center;
+}
+.features img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 8px;
+}
+
+
+/* QUOTE SECTION */
+
+.quote--section{
+    padding: 56px 12px;
+    background-color: #e5e7e8;
+}
+
+.quote--section .container{
+    width: 70%;
+}
+
+.quote--text{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.quote--text--author{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: end;
+    margin: 12px 0;
+}
