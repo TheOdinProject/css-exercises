@@ -1,15 +1,18 @@
 .container {
-  background: dodgerblue;
-  border: 4px solid midnightblue;
-  width: 400px;
-  height: 300px;
+    background: dodgerblue;
+    border: 4px solid midnightblue;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box {
-  background: palevioletred;
-  font-weight: bold;
-  text-align: center;
-  border: 6px solid maroon;
-  width: 80px;
-  height: 80px;
+    background: palevioletred;
+    font-weight: bold;
+    text-align: center;
+    border: 6px solid maroon;
+    width: 80px;
+    height: 80px;
 }
