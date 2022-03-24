@@ -4,3 +4,11 @@
   font-size: 20px;
   text-align: center;
 }
+
+/* Other possible combinations of selectors
+
+div p
+div .text
+.container p
+
+*/
