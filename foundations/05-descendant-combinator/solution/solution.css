@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-/* Other possible combinations of selectors
+/* Below are some other possible descendant combinators:
 
 div p
 div .text
