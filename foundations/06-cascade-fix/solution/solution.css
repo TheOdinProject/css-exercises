@@ -32,7 +32,7 @@ div.text {
   Another solution would be keeping it in its original place and just chaining selectors, giving this rule a higher specificity:
 
   p.small-para {
-    font-size: 12px;
+    font-size: 14px;
   }
 */
 
@@ -74,7 +74,8 @@ div.text {
     font-size: 14px;
   }
 
-  Then we added another selector to create a descendant combinator. If we only created a descendant combinator, the specificity would be tied with the div.text selector and it would come down to rule order, and if we only moved it the div.text selector would still have a higher specificity.
+  Then we added another selector to create a descendant combinator. If we only created a descendant combinator, the specificity would be tied with the
+  div.text selector and it would come down to rule order, and if we only moved it the div.text selector would still have a higher specificity.
   
   Another solution would be to keep the rule where it was and just replace the div selector with the .text selector:
 
