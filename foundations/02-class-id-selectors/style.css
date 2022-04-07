@@ -1,6 +1,25 @@
-.odd-elements {
-  /* Hexadecimal value */
-  background-color: #ff0000;
-  background-color: #ffc0cb;
+.odd-1,
+.odd-3,
+.odd-5 {
+  /* RGB value */
+  background-color: rgb(247, 8, 8);
+  background-color: rgb(251, 176, 188);
   font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+.odd-3 {
+  /* unique declaration */
+  font-size: 24px;
+}
+
+#blue-baby {
+  /* Hexadecimal value */
+  color: blue;
+  font-size: 36px;
+}
+
+#green-baby {
+  /* HSL value */
+  background-color: hsl(120, 73%, 75%);
+  font-size: 24px;
+  font-weight: bold;
 }
