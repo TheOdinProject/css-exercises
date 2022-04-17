@@ -143,13 +143,8 @@
   gap: 50px;
 }
 
-.photo  {
-  display: grid;
-  align-items: center;
-}
-
-.sidebar .side-content {
-  display: grid;
+.side-content, .photo {
+  display: grid; 
   align-items: center;
 }
 
