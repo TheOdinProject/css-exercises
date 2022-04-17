@@ -1,0 +1,16 @@
+.odd{
+    font-family:Verdana,"DeJavu Sans",sans-serif;
+    background-color:rgb(230,50,120);
+}
+#second{
+    font-size:36px;
+    color:blue;
+}
+.odd.pro{
+    font-size:24px;
+}
+#fourth{
+    font-weight:bold;
+    font-size:24px;
+    background-color:hsl(170,100%,34%);
+}

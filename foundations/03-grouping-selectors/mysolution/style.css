@@ -1,0 +1,11 @@
+.both.first{
+        background-color:hsl(0,100%,10%);
+        color:white;
+    }
+.both.second{
+        background-color:rgb(225,225,0);
+    }
+.both{
+    font-size:28px;
+    font-family:helvetica,"Times New Roman",sans-serif;
+    }
