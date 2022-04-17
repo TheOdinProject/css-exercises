@@ -1,0 +1,38 @@
+
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #ffffff;
+}
+div.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+div > div {
+	width: 3vw;
+	height: 3vw;
+    border-radius:10%;
+	margin: 2vw;
+}
+.yellow {
+	background-color: #f7ea00;
+}
+
+.red {
+	background-color: #ff0062;
+	animation-delay: 0.1s;
+}
+
+.blue {
+	background-color: #00dbf9;
+	animation-delay: 0.2s;
+}
+
+.green {
+	background-color: #09f700;
+	animation-delay: 0.3s;
+}
