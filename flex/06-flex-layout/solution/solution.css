@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   height: 100vh;
@@ -66,5 +66,5 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 16px
+  gap: 16px;
 }
