@@ -11,7 +11,7 @@
   font-size: 22px;
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -23,12 +23,12 @@
   font-size: 20px;
 }
 
-.child {
-  color: red;
-  font-size: 14px;
-}
-
 div.text {
   color: green;
   font-size: 22px;
+}
+
+div > .child {
+  color: red; 
+  font-size: 14px;
 }
