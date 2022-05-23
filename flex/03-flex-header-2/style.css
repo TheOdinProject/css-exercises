@@ -12,9 +12,12 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
 }
 
-.profile-image {
+.profile-image {  
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
@@ -44,5 +47,27 @@ a {
 }
 
 ul {
+  /* this removes the points symbol of the list items */
   list-style-type: none;
+  display: flex;
+  gap: 16px ;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.right-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+} 
+
+.left-content ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
