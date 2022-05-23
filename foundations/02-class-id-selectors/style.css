@@ -1,3 +1,20 @@
 .odd-numbers{
-    background-color: rgb(184, 93, 93);
+    background-color: rgb(219, 125, 125);
+    font-family: Verdana, sans-serif, DejaVuSans;
 }
+#num2{
+ color: blue;
+ font-size: 36px;
+}
+#num3{
+ font-size: 24px;
+}
+#num4{
+ background-color: rgb(111, 228, 208);
+ font-size: 24px;
+ font-weight: bold;
+}
+
+/* **The second element**: blue text and a font size of 36px
+* **The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px
+* **The fourth element**: a light green background, a font size of 24px, and bold*/
