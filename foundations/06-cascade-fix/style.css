@@ -7,7 +7,7 @@
   font-size: 14px;
 }
 
-.para {
+.para.big-para {
   font-size: 22px;
 }
 
@@ -15,7 +15,7 @@
   background: green;
   color: white;
   font-weight: bold;
-} 
+}
 
 .button {
   background-color: rgb(255, 255, 255);
