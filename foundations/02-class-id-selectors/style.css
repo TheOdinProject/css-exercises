@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #E4D1B9;
+    min-width: 10%;
+    height: 45vh;
+}
+.class-1{
+    background-color: #446A46;
+    color: #E3FCBF;
+    font-weight: 300;
+    font-size: 4rem;
+    text-align: center;
+    border: 5px solid #E3FCBF;
+    padding: 0 2rem;
+
+}
+
+#id-two{
+    background: #CC704B;
+    color: #E8C07D;
+    font-size: 1.5rem;
+    padding: 0 5rem;
+    border: 3px solid #E8C07D;
+
+}
+#id-two:hover{
+    background-color: #AC7D88;
+    color: #F8ECD1;
+}
+
+.cooler{
+    background: #5D8BF4;
+    color: #051367;
+    font-size: xx-large;
+    padding: 0 6rem;
+    border: 3px solid #051367;
+}
+
+#four{
+    border: 3px  groove #F47C7C;
+    background: #F2F2F2;
+    color: #F7CCAa;
+    font-size: 2rem;
+    padding: 0 7rem;
+    border: 3px solid #F7CCAa;
+}
+
+.five{
+    background-color: #3A3845;
+    color: #F2F2F2;
+    padding: 0 8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: large;
+}

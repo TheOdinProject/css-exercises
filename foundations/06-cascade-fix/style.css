@@ -1,6 +1,10 @@
+body{
+  background-color: #16003B;
+  padding: 2rem 6rem;
+}
 .para,
 .small-para {
-  color: hsl(0, 100%, 50%);
+  color: #F73D93;
 }
 
 .small-para {
@@ -12,15 +16,17 @@
 }
 
 .confirm {
-  background: green;
+  background: whitesmoke;
   color: white;
   font-weight: bold;
 } 
 
 .button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
+  background-color: #F806CC;
+  color: #A91079;
+  font-size: 32px;
+  border: 2px solid whitesmoke;
+  margin-bottom: 1rem;
 }
 
 .child {
@@ -29,6 +35,6 @@
 }
 
 div.text {
-  color: green;
+  color: whitesmoke;
   font-size: 22px;
 }

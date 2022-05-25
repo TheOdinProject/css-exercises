@@ -1,0 +1,7 @@
+div{
+    background: #e455e4;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2rem;
+    gap: 2rem;
+}

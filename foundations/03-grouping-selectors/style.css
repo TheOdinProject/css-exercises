@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background: #A97155;
+    width: 100%;
+    height: 50vh;
+    margin-top: 10rem;
+    font-size: 100%;
+    
+}
+
+main{
+    
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+
+main button{
+    
+    background: #733C3C;
+    width: 250px;
+    height: 150px;
+    color: #f2f2f2;
+    font-size: 2em;
+    border: 2px double rgba(249, 247, 247, 0.9);
+    box-shadow:  0 2px 40px 0 rgb(235, 233, 233);
+    cursor: pointer;
+    
+
+    
+
+
+}
+
+.button-2{
+    
+}

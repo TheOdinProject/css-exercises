@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    
+  }
+  body{
+    background: #E8F9FD;
+    height: 30vh;
+    min-width: 60px;
+    margin: 0 auto;
+  }
+  div{
+    background: #293462;
+    color: #EF9F9F;
+    max-width: 100%;
+    font-size: larger;
+    text-align: center;
+    border: 2px solid #FFE3A9;
+  }
