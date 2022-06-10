@@ -1,16 +1,16 @@
 #numberTwo {
-    color: mediumblue;
+    color: 	#4169E1;
     font-size: 36px;
 }
 
 #numberFour {
-    background-color: lightseagreen;
+    background-color: #20B2AA;
     font-size: 24px;
     font-weight: bold;
 }
 
 .oddNumbers {
-    background-color: lightcoral;
+    background-color: #FFB6C1;
     font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
 }
 
