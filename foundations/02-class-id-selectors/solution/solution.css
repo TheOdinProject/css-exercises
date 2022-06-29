@@ -3,7 +3,7 @@
   font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
-.oddly-cool {
+.adjust-font-size {
   font-size: 24px;
 }
 
@@ -14,6 +14,5 @@
 
 #four {
   background-color: hsl(120, 100%, 75%);
-  font-size: 24px;
   font-weight: bold;
 }
