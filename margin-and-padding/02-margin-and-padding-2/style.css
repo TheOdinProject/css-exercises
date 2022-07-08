@@ -6,13 +6,8 @@ body {
 .card {
   width: 400px;
   background: #fff;
-<<<<<<< HEAD
   margin: 8px auto;
   padding: 8px;
-=======
-  margin: 16px auto;
-  padding: 4px;
->>>>>>> 01d6eb6cb0f668bb1624071abbc525518b66ce1b
 }
 
 .title {
@@ -39,10 +34,6 @@ button {
   background: white;
   border: 1px solid #eee;
   padding: 8px 24px;
-<<<<<<< HEAD
   display: block;
   margin: 0 auto;
-=======
-  
->>>>>>> 01d6eb6cb0f668bb1624071abbc525518b66ce1b
 }
