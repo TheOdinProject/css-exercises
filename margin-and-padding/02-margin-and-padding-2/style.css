@@ -1,3 +1,4 @@
+/* my 1st solution */
 body {
   background: #eee;
   font-family: sans-serif;
@@ -7,21 +8,111 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 1px;
+}
+
+.item {
+  margin: 8px;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
+
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
+  display: block;
+  margin: 0 auto;
 }
+
+/* my second solution */
+/* body {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+  padding: 8px;
+}
+
+.item {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+.title {
+  background: #e3f4ff;
+  font-size: 16px;
+}
+
+.content {
+  background: #e3f4ff;
+  padding: 16px 8px;
+}
+
+.button-container {
+  background: #e3f4ff;
+  text-align: center;
+  margin-bottom: 0px;
+} */
+
+
+/* given solution */
+
+/* body {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+  padding: 8px;
+}
+
+.title {
+  background: #e3f4ff;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.content {
+  background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 16px 8px;
+}
+
+.button-container {
+  background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
+} */
+
