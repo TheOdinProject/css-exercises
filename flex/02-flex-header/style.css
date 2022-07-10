@@ -1,6 +1,7 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
 }
 
 .logo {
@@ -9,12 +10,23 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 10px;
+}
+
+.left-links, .right-links {
+  display: flex;
+  flex: auto;
+  align-items: center;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  flex: auto;
+  justify-content: space-around;
 }
+
 
 a {
   font-size: 22px;
@@ -23,3 +35,4 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
