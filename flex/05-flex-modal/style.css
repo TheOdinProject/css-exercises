@@ -4,6 +4,10 @@ html, body {
   height: 100%;
 }
 
+/* * {
+  border: 1px dotted red;
+} */
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -22,6 +26,11 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.container {
+  display: flex;
+  padding: 20px;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -33,6 +42,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 1 0 auto;
+  margin-right: 20px;
+}
+
+.h-wrapper-1 {
+  display: flex;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+
 }
 
 .close-button {
@@ -46,6 +68,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
+}
+
+.text {
+  margin-bottom: 20px;
 }
 
 button {
