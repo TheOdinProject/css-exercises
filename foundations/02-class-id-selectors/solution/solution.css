@@ -3,7 +3,7 @@
   font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
-.oddly-cool {
+.adjust-font-size {
   font-size: 24px;
 }
 
@@ -12,8 +12,16 @@
   font-size: 36px;
 }
 
+/*
+    In the id selector 'four' below, we could have also
+    added a rule to set the font size to 24px.
+
+    However, since the elements 'Number 3' and 'Number 4'
+    in the HTML file share the same font size, we reused
+    the 'adjust-font-size' class above to help reduce
+    duplicate code.
+*/
 #four {
   background-color: hsl(120, 100%, 75%);
-  font-size: 24px;
   font-weight: bold;
 }
