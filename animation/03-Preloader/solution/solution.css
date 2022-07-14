@@ -1,0 +1,57 @@
+ body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div > div {
+    width: 3vw;
+    height: 3vw;
+    border-radius:10%;
+    margin: 2vw;
+
+    /*SOLUTION STEP 1*/
+    animation: bounce 1.5s 0.5s linear infinite; 
+  }
+  .yellow {
+    background-color: #f7ea00;
+  }
+  
+  .red {
+    background-color: #ff0062;
+    animation-delay: 0.1s;
+  }
+  
+  .blue {
+    background-color: #00dbf9;
+    animation-delay: 0.2s;
+  }
+  
+  .green {
+    background-color: #09f700;
+    animation-delay: 0.3s;
+  }
+
+  /*SOLUTION STEP 2*/
+  
+   @keyframes bounce {
+    0%, 50%, 100% {
+      transform: scale(1);
+      filter: blur(0px);
+    }
+    25% {
+      transform: scale(0.6);
+      filter: blur(3px);
+    }
+    75% {
+      filter: blur(3px);
+      transform: scale(1.4);
+    }
+  } 
