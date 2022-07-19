@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OTP Animation Using HTML, CSS and JavaScript</title>
+
+  <!--Style CSS-->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      height: 100vh;
+      width: 100%;
+      background: #060c21;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .otp-field {
+      display: flex;
+    }
+
+    .otp-field input {
+      width: 37px;
+      font-size: 18px;
+      padding: 10px;
+      text-align: center;
+      border-radius: 5px;
+      margin: 4px;
+      border: 2px solid rgb(255, 255, 255, 0.2);
+      background: rgb(100, 100, 100, 0.2);
+      color: #fff;
+      outline: none;
+      transition: all 0.1s;
+    }
+
+    .otp-field input:focus {
+      border: 2px solid green;
+      box-shadow: 0 0 2px 2px green;
+    }
+
+    .disabled {
+      opacity: 0.5;
+    }
+
+    .space {
+      margin-right: 1rem !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="otp-field">
+      <input type="text" maxlength="1" />
+      <input type="text" maxlength="1" />
+      <input class="space" type="text" maxlength="1" />
+      <input type="text" maxlength="1" />
+      <input type="text" maxlength="1" />
+      <input type="text" maxlength="1" />
+    </div>
+  </div>
+
+  <!--JavaScript-->
+  <script>
+    const inputs = document.querySelectorAll(".otp-field input");
+    inputs.forEach((input, index) => {
+      input.dataset.index = index;
+      input.addEventListener("paste", handleOnPasteOtp);
+      input.addEventListener("keyup", handleOtp);
+    });
+
+    function handleOnPasteOtp(e) {
+      const data = e.clipboardData.getData("text");
+      const value = data.split("");
+      if (value.length == inputs.length) {
+        inputs.forEach((input, index) => (input.value = value[index]));
+        submit();
+      }
+    }
+
+    function handleOtp(e) {
+      const input = e.target;
+      let value = input.value;
+      input.value = "";
+      input.value = value ? value[0] : "";
+
+      let fieldIndex = input.dataset.index;
+      if (value.length > 0 && fieldIndex < inputs.length - 1) {
+        input.nextElementSibling.focus();
+      }
+
+      if (e.key == "Backspace" && fieldIndex > 0) {
+        input.previousElementSibling.focus();
+      }
+
+      if (fieldIndex == inputs.length - 1) {
+        submit();
+      }
+    }
+
+    function submit() {
+      let otp = "";
+      inputs.forEach((inout) => {
+        otp += input.value;
+        input.disabled = true;
+        input.classList.add("disabled");
+      });
+      console.log(otp);
+    }
+  </script>
+</body>
+
+</html>
