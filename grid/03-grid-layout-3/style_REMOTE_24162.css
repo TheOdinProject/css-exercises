@@ -19,7 +19,6 @@
   background-color: #393f4d;
 }
 
-
 .menu ul,
 .menu li {
   font-size: 16px;
@@ -48,7 +47,6 @@
 .nav {
   background-color: #FF7755;
 }
-
 
 .nav ul li {
   font-size: 16px;
@@ -90,71 +88,4 @@
 .footer p {
   font-size: 13px;
   font-weight: normal;  
-}
-
-/* SOLUTION */
-
-.container {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  gap: 4px;
-}
-
-.header {
-  grid-column: 1 / 3;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-
-.logo {
-  justify-self: start;
-}
-
-.menu {
-  align-self: center;
-}
-
-.menu ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.menu ul,
-.menu li {
-  list-style-type: none;
-}
-
-.sidebar {
-  grid-row: 2 / 4;
-  display: grid;
-  gap: 50px;
-}
-
-.side-content, .photo {
-  display: grid; 
-  align-items: center;
-}
-
-.nav ul {
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.article {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 15px;
-}
-
-.article .card {
-  height: 200px;
-}
-
-.card p {
-  padding: 5px;
-}
-
-.footer {
-  grid-column: 1 / 3;
 }

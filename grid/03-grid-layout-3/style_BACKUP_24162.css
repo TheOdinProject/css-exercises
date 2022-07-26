@@ -43,6 +43,7 @@
   grid-template-columns: 1fr 4fr;
 }
 
+<<<<<<< HEAD
 .logo {
 }
 
@@ -53,6 +54,8 @@
   display: grid;
 }
 
+=======
+>>>>>>> 622a59a4bcdaad6d159d9590001aa88574c4c093
 .menu ul,
 .menu li {
   font-size: 16px;
@@ -73,8 +76,11 @@
   border-radius: 10px;
 }
 
+<<<<<<< HEAD
 .photo {
 }
+=======
+>>>>>>> 622a59a4bcdaad6d159d9590001aa88574c4c093
 
 .sidebar .side-content {
   background-color: white;
