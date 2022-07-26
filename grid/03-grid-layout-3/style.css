@@ -3,8 +3,31 @@
   padding: 0;
 }
 
+/* 
+
+- The container element has two columns *******
+- The container's second column is 4 times larger than the first column *******
+- The container element has a gap of 4px *******
+- The header element has two columns *******
+- The `ul` inside the menu element contains another grid *******
+- The `ul` inside the nav element contains another grid *******
+- The sidebar element has a gap of 50px *******
+- The text elements in the sidebar are centered with grid *******
+- The article element should set grid columns using `repeat` along with the `auto-fit` and `minmax` properties *******
+- The article columns should have a minimum value of 250px and a maximum of 1fr unit
+- The article element has a gap of 15px
+- The card elements inside the article container have a height of 200px
+- The header and footer span across both columns
+- The sidebar only spans across the first column
+- The nav and article elements only span across the second column
+
+*/
+
 .container {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 4px;
 }
 
 .container div {
@@ -17,6 +40,7 @@
 
 .header {
   background-color: #393f4d;
+  grid-template-columns: 1fr 4fr;
 }
 
 .logo {
@@ -26,6 +50,7 @@
 }
 
 .menu ul {
+  display: grid;
 }
 
 .menu ul,
@@ -34,7 +59,10 @@
 }
 
 .sidebar {
-  background-color: #FF7755;
+  background-color: #ff7755;
+  display: grid;
+  gap: 50px;
+  align-items: center;
 }
 
 .sidebar .photo {
@@ -45,7 +73,7 @@
   border-radius: 10px;
 }
 
-.photo  {
+.photo {
 }
 
 .sidebar .side-content {
@@ -56,7 +84,8 @@
 }
 
 .nav {
-  background-color: #FF7755;
+  background-color: #ff7755;
+  display: grid;
 }
 
 .nav ul {
@@ -69,6 +98,8 @@
 
 .article {
   background-color: #bccbde;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .article p {
@@ -79,7 +110,7 @@
 }
 
 .article .card {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: black;
   text-align: center;
 }
@@ -101,5 +132,5 @@
 
 .footer p {
   font-size: 13px;
-  font-weight: normal;  
+  font-weight: normal;
 }
