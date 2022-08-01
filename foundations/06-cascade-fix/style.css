@@ -5,10 +5,12 @@ body{
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
+  font-weight: 800;
 }
 
 .small-para {
   font-size: 14px;
+  font-weight: 800;
 }
 
 .para {
@@ -29,6 +31,7 @@ body{
 
 .child {
   color: rgb(0, 0, 0);
+  font-weight: 800;
   font-size: 14px;
 }
 
