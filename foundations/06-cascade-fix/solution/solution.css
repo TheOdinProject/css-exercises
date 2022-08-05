@@ -31,6 +31,7 @@ div.text {
 
   .small-para {
     font-size: 14px;
+    font-weight: 800;
   } 
 
   Then we placed it after the .para selector, taking advantage of the rule order since both selectors have the same specificity. 
@@ -39,6 +40,7 @@ div.text {
 
   p.small-para {
     font-size: 14px;
+    font-weight: 800;
   }
 */
 
@@ -77,7 +79,8 @@ div.text {
   For the following rule we first removed it from its original position in the file: 
 
   .child {
-    color: red;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
     font-size: 14px;
   }
 
@@ -87,7 +90,8 @@ div.text {
   Another solution would be to keep the rule where it was and just replace the div selector with the .text selector:
 
   .text .child {
-    color: red;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
     font-size: 14px;
   }
 */
