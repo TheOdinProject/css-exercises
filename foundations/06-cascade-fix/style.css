@@ -1,10 +1,16 @@
+body{
+  font-family:Arial, Helvetica, sans-serif
+}
+
 .para,
 .small-para {
-  color: hsl(0, 100%, 50%);
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
 }
 
 .small-para {
   font-size: 14px;
+  font-weight: 800;
 }
 
 .para {
@@ -24,11 +30,13 @@
 }
 
 .child {
-  color: red;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
   font-size: 14px;
 }
 
 div.text {
-  color: green;
+  color: rgb(0, 0, 0);
   font-size: 22px;
+  font-weight: 100;
 }
