@@ -16,7 +16,6 @@
     height: 3vw;
     border-radius:10%;
     margin: 2vw;
-
     /*SOLUTION STEP 1*/
     animation: bounce 1.5s 0.5s linear infinite; 
   }
