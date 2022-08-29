@@ -1,0 +1,19 @@
+.odd{
+    background-color: rgb(218, 134, 148);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#number-two{
+    color: blue;
+    font-size: 36px;
+}
+
+.diff-odd{
+    font-size: 24px;
+}
+
+#number-four{
+    background-color: green;
+    font-size: 24px;
+    font-weight: bold;
+}
