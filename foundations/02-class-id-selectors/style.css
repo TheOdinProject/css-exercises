@@ -1,0 +1,19 @@
+.para {
+    background-color: hsl(350, 100%, 88%);
+    font-family: "Veranda", "DejaVu Sans", sans-serif;
+}
+
+#subsection {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.fontsize {
+    font-size: 24px;
+}
+
+#secondid {
+    background-color: rgb(144, 238, 144);
+    font-size: 24px;
+    font-weight: 700;
+}
