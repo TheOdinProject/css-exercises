@@ -13,6 +13,9 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  align-items: flex-start;
 }
 
 .profile-image {
