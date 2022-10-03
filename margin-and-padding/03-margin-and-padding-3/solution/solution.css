@@ -1,0 +1,44 @@
+body {
+    background: rgb(122, 194, 242);
+    font-family: sans-serif;
+    font-weight: 700;
+  }
+  
+  .margin {
+    width: 400px;
+    background: #fff;
+    margin: 15% auto;
+  }
+  
+  .title {
+    background: #2da3f3;
+  }
+  
+  .padding {
+    background: #e3f4ff;
+  }
+  .margin {
+    padding: 18px;
+    border-radius: 10px;
+  }
+  
+  .title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 8px;
+  }
+  
+  .padding {
+    margin-bottom: 5px;
+    padding: 16px 8px;
+  }
+  .extra{
+    margin-left: 100%;
+    background: #a3d3f4;
+     margin: 8%;
+     padding: 40px 40px 40px 40px;
+     box-sizing: border-box;
+     border-radius: 5px;
+     border: 2px solid #000000 ;
+  }
