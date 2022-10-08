@@ -6,9 +6,14 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  
+  
 }
 
 .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -20,6 +25,9 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 10px;
 }
 
 .logo {
@@ -28,6 +36,12 @@ body {
   font-weight: 900;
   font-style: italic;
 }
+.links {
+  display: inline;
+  gap: 16px;
+  margin: 0px;
+}
+
 
 button {
   border: none;
@@ -35,14 +49,34 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin-left: auto;
 }
-
+.notifications{
+ display: block;
+ margin-top: 1px;
+ margin-bottom: 5px;
+ margin-left: 5px;
+ margin-right: 5px;
+}
+.left-side{
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+.right-side{
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
 }
-
-ul {
-  list-style-type: none;
+ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
+
