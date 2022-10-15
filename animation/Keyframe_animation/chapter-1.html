@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Exercise</title>
+
+    <!-- styling for Page -->
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* creating animations using css is very helpfull while 
+        quick animations */
+
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .bounce {
+            display: flex;
+            flex-direction: row;
+            width: auto;
+            margin-inline: auto;
+            margin-top: calc(25% - 50px);
+        }
+
+        #ball1,
+        #ball2,
+        #ball3,
+        #ball4 {
+            background: rebeccapurple;
+            margin-inline: 5px;
+            box-shadow: inset rgba(0, 0, 0, 0.512) 2px 2px;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation-name: bounce;
+            animation-timing-function: ease-in;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        #ball1 {
+            animation-delay: 1s;
+        }
+
+        #ball2 {
+            animation-delay: 0.75s;
+        }
+
+        #ball3 {
+            animation-delay: 0.50s;
+        }
+
+        #ball4 {
+            animation-delay: 0.25s;
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(0) rotate(45deg);
+                box-shadow: inset rgba(0, 0, 0, 0.512) 2px 2px;
+            }
+
+            50% {
+                transform: translateY(-50px) rotate(90deg);
+                box-shadow: rgba(0, 0, 0, 0.512) 2px 2px;
+            }
+
+            100% {
+                transform: translateY(0) rotate(45deg);
+                box-shadow: inset rgba(0, 0, 0, 0.512) 2px 2px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bounce">
+            <div id="ball1"></div>
+            <div id="ball2"></div>
+            <div id="ball3"></div>
+            <div id="ball4"></div>
+        </div>
+    </div>
+</body>
+
+</html>

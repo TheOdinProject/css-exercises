@@ -4,3 +4,6 @@ Here we will learn how to change static html elements by changing their properit
 `transform : function();`
 For more understanding [read](./transform_property_css.md)
 ***
+
+Now you know what is Transformation property in css,
+to Brushup your knowledge refer [chapter-1](./chapter-1.html)
