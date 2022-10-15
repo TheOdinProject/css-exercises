@@ -1,3 +1,6 @@
+<!-- creating animations using css is very helpfull while 
+quick animations  -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,9 +17,6 @@
             margin: 0;
             padding: 0;
         }
-
-        /* creating animations using css is very helpfull while 
-        quick animations */
 
         .container {
             width: 100%;
@@ -42,9 +42,14 @@
             border-radius: 50%;
             width: 50px;
             height: 50px;
+            /* here we call the keyframe function we have define */
             animation-name: bounce;
+            /* time function decides the distribution of animation in time reference
+            ease-in will make animation smooth near 0% and 100% */
             animation-timing-function: ease-in;
+            /* animation duration will decide the time required for a animation loop to complete here its 2 seconds */
             animation-duration: 2s;
+            /* Number of times the loop repeat its infinite */
             animation-iteration-count: infinite;
         }
 
