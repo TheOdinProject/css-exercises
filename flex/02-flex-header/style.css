@@ -1,25 +1,39 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-  font-size: 48px;
-  font-weight: 900;
+  font-size: 40px;
+  font-weight: 1000;
   color: tomato;
   background: white;
+  width: 150px;
+  text-align: center;
   padding: 4px 32px;
 }
-
+.right-links{
+  float: right;
+}
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  overflow: auto;
+}
+li{
+  float: left;
+  margin: 5px;
+  font-weight: bold;
 }
 
 a {
   font-size: 22px;
   background: white;
-  padding: 8px;
+  padding: 5px;
   /* this removes the line under the links */
   text-decoration: none;
 }

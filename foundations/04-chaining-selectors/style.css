@@ -1,0 +1,19 @@
+.first{
+    display: flex;
+    align-items: baseline;
+}
+.second{
+    display: flex;
+}
+
+.img11 img{
+    width: 300px;
+    margin-right: 3px;
+}
+.img12 img{
+    width: 180px;
+    height: 404px;
+}
+img{
+    margin-right: 3px;
+}

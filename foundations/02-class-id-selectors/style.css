@@ -1,0 +1,17 @@
+.para{
+    background-color: rgb(255, 167, 167);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+#cool{
+    font-size: 24px;
+}
+#first{
+    color: blue;
+    
+    font-size: 35px;
+}
+#second{
+    background-color: rgb(110, 244, 110);
+    font-weight: bold;
+    font-size: 24px;
+}

@@ -46,3 +46,28 @@ a {
 ul {
   list-style-type: none;
 }
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.first{
+  display: flex;
+  align-items: center;
+}
+ul{
+  overflow: auto;
+}
+li{
+  float: left;
+  margin-right: 25px;
+}
+.sec{
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  
+}
+.profile-image{
+  margin-left: 15px;
+}
+

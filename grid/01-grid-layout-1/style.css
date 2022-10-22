@@ -5,6 +5,7 @@ body, html {
 
 .container {
   text-align: center;
+  display: grid;
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
@@ -21,14 +22,20 @@ body, html {
 
 .header {
   background-color: #FFDE22;
+  grid-column: 1/3;
+  margin: 3px;
 }
 
 .sidebar {
   background-color: #FF7755;
+  grid-row: 2/4;
+  
+  margin: 3px;
 }
 
 .nav {
   background-color: #00DDFF;
+  /* margin: 3px; */
 }
 
 .article {
@@ -44,4 +51,6 @@ body, html {
 
 .footer {
   background-color: #393f4d;
+  grid-column: 1/3;
+  margin: 3px;
 }
