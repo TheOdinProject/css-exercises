@@ -1,0 +1,19 @@
+.main {
+    background-color: rgb(229, 157, 157);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.one {
+    font-size: 24px;
+}
+
+div#id1 {
+    color: rgb(10, 10, 241);
+    font-size: 36px;
+}
+
+div#id2 {
+    background-color: rgb(139, 232, 139);
+    font-size: 24px;
+    font-weight: bold;
+}
