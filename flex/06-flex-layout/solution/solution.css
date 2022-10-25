@@ -34,7 +34,32 @@ body {
 }
 
 button {
-  padding: 8px 16px;
+  padding: 12px 16px;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+button:first-child {
+  background-color: rgb(201, 148, 106);
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
+button:last-child {
+  color: rgb(201, 148, 106);
+}
+
+button:last-child:hover {
+  background-color: rgb(201, 148, 106);
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+button:first-child:hover {
+  background-color: gainsboro;
+  text-shadow: none;
+  color: rgb(201, 148, 106);
 }
 
 .content {
@@ -67,4 +92,24 @@ ul {
   margin: 0;
   padding: 0;
   gap: 16px
+}
+
+ul li a {
+  transition: .2s ease-in-out;
+}
+
+ul li a:hover {
+  color: rgb(201, 148, 106);
+}
+
+input {
+  font-size: 22px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  outline-color: rgb(201, 148, 106);
+  width: 550px;
+}
+
+img {
+  width: 700px;
 }
