@@ -2,20 +2,19 @@ body{
   font-family:Arial, Helvetica, sans-serif
 }
 
-.para,
-.small-para {
-  color: hsl(0, 0%, 0%);
-  font-weight: 800;
-}
-
-.small-para {
+.para.small-para {
   font-size: 14px;
-  font-weight: 800;
 }
 
 .para {
   font-size: 22px;
 }
+
+.para, .small-para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+}
+
 
 .confirm {
   background: green;
@@ -29,7 +28,7 @@ body{
   font-size: 20px;
 }
 
-.child {
+div.text > .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
