@@ -1,0 +1,20 @@
+.red-tag, .red-tag-large {
+    background-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.red-tag-large {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+#two {
+    color: blue;
+    font-size: 40px;
+}
+
+#four {
+    background-color: green;
+    font-size: 30px;
+}
