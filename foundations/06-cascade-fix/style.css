@@ -3,12 +3,9 @@ body{
 }
 
 .para {
-  font-size: 22px;
-}
-
-.para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
+  font-size: 22px;
 }
 
 .small-para {
