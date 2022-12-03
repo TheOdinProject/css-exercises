@@ -6,12 +6,18 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  display: flex;
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  flex: 1;
+align-items: center;
+padding: 10px;
+
 }
 
 .profile-image {
@@ -20,6 +26,8 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+    display: flex;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -27,6 +35,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+
 }
 
 button {
@@ -45,4 +54,15 @@ a {
 
 ul {
   list-style-type: none;
+    display: flex;
+  gap: 10px;
+
+}
+
+.container {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: auto;
+gap: 3px;
 }
