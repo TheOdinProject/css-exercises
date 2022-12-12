@@ -1,0 +1,17 @@
+.class1{
+    background-color: lightcoral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#id1{
+    color:blue;
+    font-size: 36px;
+}
+.class1.class2{
+    font-size: 24px;
+}
+#id2{
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
