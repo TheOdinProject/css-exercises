@@ -5,13 +5,3 @@ div{
     font-weight: bold;
     color: white;
   }
-
-  p{
-    background-color: green;
-    font-size: 18px;
-    color: white;
-  }
-  button{
-    font-size: 18px;
-    background-color: orange;
-  }
