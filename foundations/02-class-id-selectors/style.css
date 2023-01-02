@@ -1,0 +1,17 @@
+*{
+    font-family: "verdana", "DejaVu sans", sans-serif;
+}
+.odd{
+    background-color: lightpink;
+}
+#Number_2{
+    color: blue;
+    font-size: 36px;
+}
+.Number_3{
+    font-size: 24px;
+}
+#Number_4{
+    background-color: lightgreen;
+    font-weight: bold;
+}
