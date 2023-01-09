@@ -19,7 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 5px 10px;
+  padding: 8px 16px;
 }
 
 input {
@@ -33,19 +33,19 @@ input {
 .header, .footer {
   display: flex;
   justify-content: space-between;
-  padding: 15px;
+  padding: 16px;
 }
 
 .left-links, .right-links {
   display: flex;
-  gap: 15px;
+  gap: 16px;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 .left-links a, .right-links a {
-  color: black;
+  color: #666;
   text-decoration: none;
 }
 
