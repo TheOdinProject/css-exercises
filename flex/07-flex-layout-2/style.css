@@ -6,23 +6,65 @@ body {
 
 .header {
   height: 72px;
+  font-size: 32px;
+  font-weight: 900px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
 }
 
-.footer {
-  height: 72px;
-  background: #eee;
-  color: darkmagenta;
+.body{
+  display: flex;
+  flex: 1;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
+  display: flex;
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+  overflow: hidden;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
 }
