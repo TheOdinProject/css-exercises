@@ -1,0 +1,21 @@
+.odd-number {
+    background-color: rgb(252, 163, 176);
+    font-family:verdana, DejuaVu, sans-serif;
+}
+
+.font-size {
+    font-size: 24px;
+    
+}
+
+#heading2 {
+    color: blue;
+    font-size: 36px;
+    font-family: verdana, DejuaVu, sans-serif;
+}
+
+#heading4 {
+    font-family: verdana, DejuaVu, sans-serif;
+    font-weight: bold;
+    background-color: hsl(120, 100%, 75%);
+}
