@@ -1,0 +1,19 @@
+.first {
+    background-color: rgba(7, 81, 7, 0.653);
+    font-family: initial;
+  }
+  
+  .adjust-font-weight {
+    font-weight: bold;
+  }
+  
+  #one{
+    color: #d837a3;
+    font-size: 30px;
+  }
+  
+  #two {
+    background-color: hsl(48, 88%, 43%);
+    font-weight: bold;
+  }
+  
