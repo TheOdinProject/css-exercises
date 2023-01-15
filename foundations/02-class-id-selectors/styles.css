@@ -1,0 +1,19 @@
+.odd {
+    background-color: lightpink;
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+.blue {
+    color: blue;
+    font-size: 36px;
+}
+
+.green {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#twenty-four {
+    font-size: 24px;
+}
