@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+*,*::before,*::after {
+    box-sizing:inherit;
+}
+
+div {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    
+    border-radius: 5px;
+    border: 1px solid #3b3b3b;
+    margin: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+div header {
+    margin: 0 0 10px 0;
+}
+
+div::after {
+    content: "psuedo 150px";
+    display: block;
+    width: 150px;
+    background: orange;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.module {
+    box-sizing:content-box;
+}
+
+.module::after {
+    content: "pseudo 150px";
+    display: block;
+    width: 150px;
+    padding: 10px;
+}
+
