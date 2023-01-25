@@ -30,15 +30,17 @@ body {
   width: 300px;
   background: royalblue;
   padding: 16px;
+  flex-shrink: 0;
 }
 
 .sidebar ul {
-  min-width: 300px;
-  display: flex;
-  flex-direction: column;
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 .sidebar ul li a {
@@ -64,6 +66,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 32px;
+  padding-right: 60px;
   gap: 15px;
 }
 
