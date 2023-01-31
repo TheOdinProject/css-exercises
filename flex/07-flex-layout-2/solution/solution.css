@@ -19,6 +19,7 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  box-sizing: border-box;
 }
 
 .card {
@@ -50,7 +51,6 @@ body {
 .sidebar {
   flex-shrink: 0;
   padding: 16px;
-  box-sizing: border-box;
 }
 
 ul {
