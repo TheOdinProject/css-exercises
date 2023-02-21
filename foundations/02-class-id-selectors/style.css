@@ -1,0 +1,19 @@
+.odd-pink {
+  background-color: rgb(255, 180, 190);
+  font-family: Verdana, "DejaVu Sans", Tahoma, sans-serif;
+}
+
+#big-blue {
+  color: rgb(0,0,255);
+  font-size: 36px;
+}
+
+.odd-big {
+  font-size: 24px;
+}
+
+#green-black {
+  background-color: #90EE90;
+  font-weight: 700;
+  font-size: 24px;
+}
