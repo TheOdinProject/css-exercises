@@ -36,28 +36,38 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
 }
 
 li {
-  margin: 3px;
+  /* margin: 3px; */
 }
 
 .right-links {
   display: flex;
-  margin-right: 24px;
+  /* margin-right: 24px; */
   gap: 8px;
 }
 
 .left-links {
   display: flex;
   gap: 8px;
+  margin: 0;
+  /* margin-left: -10; */
 }
 
 .header {
-  padding: 5px;
+  padding: 15px;
   flex-shrink: 0;
   display: flex;
   justify-content: space-between;
+  margin: 8px;
+  margin-left: 0;
 }
 
 .content {
@@ -75,5 +85,5 @@ li {
   display: flex;
   justify-content: space-between;
   /* margin-right: 16px; */
-  padding: 5px;
+  padding: 15px;
 }
