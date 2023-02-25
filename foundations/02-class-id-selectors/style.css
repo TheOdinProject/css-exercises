@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+.numOdd {
+    background-color: rgb(236, 178, 188);
+}
+
+#num2 {
+    color: rgb(2, 2, 219);
+    font-size: 36px;
+}
+
+.num3 {
+    font-size: 24px;
+}
+
+#num4 {
+    font-size: 24px;
+    background-color: rgb(108, 247, 108);
+    font-weight: bold;
+}
