@@ -51,14 +51,17 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
   gap: 16px;
 }
 
-ul, .links {
-  display: flex;
-  margin-right: auto;
-  margin-left: -24px;
-}
+/* ul, .links {
+  /* display: flex; */
+  /* margin-right: auto; */
+  /* margin-left: -24px; */
+/* }
 
 /* .header-left {
   margin-right: auto;
