@@ -15,13 +15,13 @@ img {
 }
 .content-container {
   display: flex;
-  align-items:center;
+  /* align-items:center; REMOVED AFTER LOOKING AT SOLUTION */
   justify-content: center;
   gap: 52px;
   text-align: center;
 }
 .item {
-  width: 200px;
+  max-width: 200px;
 }
 
 /* do not edit this footer */
