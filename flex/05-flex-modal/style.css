@@ -17,11 +17,13 @@ body {
 }
 
 .header {
-  font-size: larger;
+  font-size: 18px;
   font-weight: 700;
-  align-items: flex-start;
+  /* align-items: flex-start; */
+  align-items: center;
+  justify-content: space-between;
   display: flex;
-  margin-right: 100px;
+  margin-bottom: 8px;
 }
 .modal {
   background: white;
@@ -29,10 +31,11 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* flex-direction: column; */
   /* flex-shrink: 1; */
-  padding: 18px;
+  gap: 16px;
+  padding: 16px;
 }
 
 .icon {
@@ -46,8 +49,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-self:flex-start;
-  gap: 4px;
+  /* gap: 4px; */
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -81,20 +84,21 @@ button.cancel {
   color: royalblue;
 }
 
-.buttons {
+/* .buttons {
   display: flex;
   justify-content: center;
   margin-left: 55px;
-}
+} */
 
-.top-row {
+/* .top-row {
     display: flex;
     justify-content: space-between;
     flex: 1;
-}
+} */
 
 .text {
-  display: flex;
-  justify-content: center;
-  margin: -10px 0 10px 55px;
+  /* display: flex;
+  justify-content: center; */
+  /* margin: -10px 0 10px 55px; */
+  margin-bottom: 16px;
 }
