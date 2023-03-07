@@ -18,7 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 7px;
+  padding: 8px 16px;
 }
 
 input {
@@ -42,10 +42,6 @@ ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 0px;
-}
-
-li {
-  /* margin: 3px; */
 }
 
 .right-links {
