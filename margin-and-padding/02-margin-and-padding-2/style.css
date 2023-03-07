@@ -42,5 +42,6 @@ button {
   padding: 8px 24px;
   margin-left: auto;
   margin-right: auto;
+  /* margin-top: 8px; */
   margin-bottom: 8px;
 }
