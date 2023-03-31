@@ -1,0 +1,21 @@
+.odd {
+  font-family: 'Delicious Handrawn', cursive;
+  background-color: rgb(232, 135, 232);
+}
+
+.special-font-size {
+  font-size: 24px;
+}
+
+#two{
+  font-family: 'Lobster', cursive;
+  color:rgba(72, 126, 183, 0.661);
+  font-size: 36px;
+}
+
+#four {
+  font-family: 'Roboto Mono', monospace;
+  font-size:24px;
+  background-color: rgb(71, 131, 77);
+  font-weight:bold;
+}
