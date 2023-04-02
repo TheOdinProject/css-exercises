@@ -1,0 +1,11 @@
+.yi, .ya {
+font-size: 28px;
+font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+.yi {
+    background-color: black;
+    color: white;
+}
+.ya {
+    background-color: yellow;
+}
