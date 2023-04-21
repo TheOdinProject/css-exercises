@@ -2,7 +2,7 @@
 
 We've set up a dropdown menu in this exercise. Load up the page, you can see a single menu title, with a dropdown menu that will open upon clicking on the title. 
 
-Your task is to add animation to the dropdown menu so that it will have an effect of growing down. Check out the desired outcome below, and notice the _bounce_ illusion when the dropdown grows close to its final end state. 
+Your task is to add animation to the dropdown menu so that it will have an effect of expanding. Check out the desired outcome below, and notice the _bounce_ illusion when the dropdown expands close to its final end state. 
 
 ### Hints
 - You need to specify a _transform-origin_ property to make the dropdown menu start transforming from the top
@@ -14,5 +14,5 @@ Your task is to add animation to the dropdown menu so that it will have an effec
 
 ### Self Check
 
-- The dropdown menu grows down after you click on the menu title
+- The dropdown menu expands after you click on the menu title
 - There's a _bounce_ illusion towards the end of the animation

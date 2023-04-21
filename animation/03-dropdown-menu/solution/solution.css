@@ -32,11 +32,11 @@ ul.dropdown-menu li:hover {
 /* SOLUTION */
 
 .visible {
-  animation: goDown 500ms ease-in-out;
+  animation: expand 500ms ease-in-out;
   transform-origin: top;
 }
 
-@keyframes goDown {
+@keyframes expand {
   0% {
     transform: scaleY(0);
   }
