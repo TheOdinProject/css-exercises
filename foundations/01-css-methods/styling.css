@@ -1,0 +1,18 @@
+div {
+    background-color: red;
+    font-weight: 550;
+    text-align: center;
+    font-size: 40px;
+    color: white
+}
+
+/* SOLUTION:
+div {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  */
