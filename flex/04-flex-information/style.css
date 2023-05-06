@@ -10,6 +10,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /* you forgot this one*/
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +25,25 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 52px;
+  overflow-wrap: break-word;
+}
+
+.text, .title {
+  text-align: center;
+}
+
+.imgbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 200px;
+  /*they used max with instead of flex basis*/
 }
