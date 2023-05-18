@@ -1,0 +1,18 @@
+p {
+    background-color: rgb(255, 79, 79);
+}
+
+.cool{
+    font-size: 30px;
+}
+
+#one{
+    font-size: 40px;
+    color: blue;
+}
+
+#bold{
+    font-weight: 700;
+    font-size: 30px;
+    background-color: rgb(64, 255, 0);
+}
