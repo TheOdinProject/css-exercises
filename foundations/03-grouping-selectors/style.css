@@ -1,0 +1,16 @@
+.bait{
+    background-color: black;
+    color: white;
+}
+.switch{
+    background-color: yellow;
+}
+
+.bait, .switch{
+    font-size: 28px;
+    height: auto;
+    width: auto;
+    flex: auto;
+    flex-direction: column;
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+}
