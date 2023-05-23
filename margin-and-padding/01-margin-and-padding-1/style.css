@@ -7,15 +7,17 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+
+  margin: 12px;
+padding: 32px;
+  
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 32px;
 }
 
 .three {
@@ -24,5 +26,8 @@ body {
   width: 200px;
   /* CHANGE ME */
   padding: 0px;
-  margin-left: 0px;
+
+
+padding: 32px;
+margin-left: auto;
 }
