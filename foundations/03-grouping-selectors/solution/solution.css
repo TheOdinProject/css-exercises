@@ -1,9 +1,7 @@
 
-@import url(https://db.onlinewebfonts.com/c/ab7131d92890e9815ec8b4caec426740?family=Ascender+Serif);
-
 .inverted,
 .fancy {
-  font-family: "Ascender Serif", sans-serif;
+  font-family: Helvetica, "Times New Roman", sans-serif;
   font-size: 28px;
 }
 
