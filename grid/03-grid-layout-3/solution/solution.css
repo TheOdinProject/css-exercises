@@ -26,7 +26,7 @@
 }
 
 .sidebar {
-  background-color: #FF7755;
+  background-color: #C50208;
 }
 
 .sidebar .photo {
@@ -46,7 +46,7 @@
 }
 
 .nav {
-  background-color: #FF7755;
+  background-color: #C50208;
 }
 
 
@@ -89,7 +89,7 @@
 
 .footer p {
   font-size: 13px;
-  font-weight: normal;  
+  font-weight: normal;
 }
 
 /* SOLUTION */
@@ -130,8 +130,9 @@
   gap: 50px;
 }
 
-.side-content, .photo {
-  display: grid; 
+.side-content,
+.photo {
+  display: grid;
   align-items: center;
 }
 
