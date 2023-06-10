@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
 }
@@ -20,21 +21,21 @@ body, html {
 }
 
 .header {
-  background-color: #FFDE22;
+  background-color: #006157;
   grid-column: 1 / 3;
 }
 
 .sidebar {
-  background-color: #FF7755;
+  background-color: #005B94;
   grid-row: 2 / 4;
 }
 
 .nav {
-  background-color: #00DDFF;
+  background-color: #642cde;
 }
 
 .article {
-  background-color: #bccbde;
+  background-color: #7E1DC3;
 }
 
 .article p {
