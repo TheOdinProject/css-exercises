@@ -1,0 +1,17 @@
+
+.odd{
+    background-color:pink;
+    font-family:'Verdana' and 'DejaVu sans' sans-serif;
+
+}
+ #first-id{
+    color:blue;
+    font-size:36px;
+ }
+.even,.cooler{
+ font-size:24px;
+}
+#second-id{
+    background-color: lightgreen;
+    font-weight: bold;
+}
