@@ -1,0 +1,16 @@
+.button-preset{
+  border: 1px solid gray;
+  font-size: 26px;
+
+}
+
+#click{
+  color: white;
+  background-color: black;
+  font-weight: 400px;
+}
+
+#not-click{
+  background-color: yellow;
+  color: black;
+}

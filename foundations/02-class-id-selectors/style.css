@@ -1,0 +1,25 @@
+.number-1{
+  color: black;
+  background-color: rgba(255, 0, 0, 0.357);
+  font-family: 'Lato', sans-serif;
+}
+
+#number-2{
+  color: blue;
+  font-size: 36px;
+  font-family: 'Lato', sans-serif;
+}
+.number-3{
+  color: black;
+  background-color: rgba(255, 0, 0, 0.357);
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+}
+
+#number-4{
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: greenyellow;
+  font-family: 'Lato', sans-serif;
+}
