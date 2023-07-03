@@ -1,0 +1,15 @@
+.click, 
+.no-click {
+    size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.click {
+    background-color: black;
+    color: white;
+}
+
+.no-click {
+    background-color: yellow;
+    color: black;
+}
