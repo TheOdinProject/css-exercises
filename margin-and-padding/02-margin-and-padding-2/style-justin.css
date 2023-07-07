@@ -1,0 +1,38 @@
+body {
+    background: #eee;
+    font-family: sans-serif;
+}
+
+.card {
+    width: 400px;
+    background: #fff;
+    margin: 16px auto;
+    padding: 8px; /* 1 */
+}
+
+.title {
+    background: #e3f4ff;
+    font-size: 16px; /* 3 */
+    padding: 8px; /* 4 */
+    margin: 0px; /* 1 - This is needed so that the default 10px margin doesn't get added */
+}
+
+.content {
+    background: #e3f4ff;
+    padding: 16px 8px; /* 5 */
+    margin: 8px 0px; /* 2 */
+}
+
+.button-container {
+    background: #e3f4ff;
+    text-align: center; /* 6 */
+    padding: 8px; /* 6 */
+}
+
+button {
+    background: white;
+    border: 1px solid #eee;
+    padding: 8px 24px; /* 8 */
+    display: block; /* 7 */
+    margin: auto; /* 7 */
+}
