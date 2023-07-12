@@ -1,27 +1,36 @@
 body {
-  background: #eee;
+  background: gainsboro;
   font-family: sans-serif;
+  margin: 16px auto;
 }
 
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  border: 10px solid white;
 }
 
 .title {
   background: #e3f4ff;
+  margin: 16px auto;
+
 }
 
 .content {
   background: #e3f4ff;
+  margin: 16px auto;
+
 }
 
 .button-container {
   background: #e3f4ff;
+  margin: 16px auto;
+  text-align: center;
 }
 
 button {
-  background: white;
-  border: 1px solid #eee;
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
 }
