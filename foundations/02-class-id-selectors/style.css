@@ -1,0 +1,19 @@
+p{
+    background-color: #ffc0cb;
+    font-family: 'Verdana','DejaVu Sans', 'sans-serif';
+}
+
+#element {
+color: blue;
+font-size: 36px;
+}
+
+#cooler {
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: #00ff00;
+    font-size: 24px;
+    font-weight: bold;
+}
