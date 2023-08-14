@@ -23,7 +23,6 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  margin-bottom: 16px;
 }
 
 /* SOLUTION */
@@ -43,6 +42,7 @@ button {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 16px;
 }
 
 a {
