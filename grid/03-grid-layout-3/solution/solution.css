@@ -13,6 +13,8 @@
   font-family: Helvetica;
   font-weight: bold;
   color: white;
+  margin-right: -4px;
+  margin-top: -4px;
 }
 
 .header {
@@ -85,6 +87,9 @@
 
 .footer {
   background-color: #393f4d;
+  box-sizing: border-box;
+  min-height: 100%;
+  margin-top: -3.7px;
 }
 
 .footer p {
