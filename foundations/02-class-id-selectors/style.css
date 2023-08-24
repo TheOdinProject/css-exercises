@@ -1,0 +1,19 @@
+.odd{
+    background-color: lightcoral;
+}
+
+#secoundElement{
+    color: blue;
+    font-size: 36px;
+
+}
+
+#thirdElement{
+    font-size: 24px;
+}
+
+#fourthElement{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}

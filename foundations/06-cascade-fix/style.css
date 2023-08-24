@@ -6,6 +6,7 @@ body {
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
+  font-size: 22px;
 }
 
 .small-para {
@@ -14,8 +15,12 @@ body {
 }
 
 .para {
-  font-size: 22px;
+  /* font-size: 22px; */
 }
+
+/* a small fix i foun was to comment the para size part that was alone because they both have
+the same class so they both got affected so i added it up on .part .small-para and then rechanged 
+it in the para alone part */
 
 .confirm {
   background: green;
@@ -24,12 +29,16 @@ body {
 } 
 
 .button {
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
+/* the solution to make the button green is commit the secound part of the color
+because they are both classes there is no specialty here so the secound part is the 
+only part that is gonna be change so a simple fix would be to commit it  */
+
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
@@ -40,3 +49,5 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
+/* the only way to solve this is to add more specialty */
