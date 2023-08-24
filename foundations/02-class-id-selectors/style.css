@@ -1,0 +1,16 @@
+.odd
+{ background-color: lightpink; /* Apply light red/pink background */
+    font-family: Verdana, "DejaVu Sans", sans-serif; /* List of fonts */}
+    .odd-number{
+        background-color: red;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 36px;
+     }
+     #two {background-color: blue;
+    font-size: 36px;}
+
+    #four
+    {background-color: greenyellow;
+    font-size: 36px ;}
+    font-weight: bold
+    
