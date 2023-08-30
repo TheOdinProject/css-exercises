@@ -1,0 +1,14 @@
+.needy {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.superNeedy {
+    background-color: #ffff00;
+}
+
+.needy,
+.superNeedy {
+    font-size: 28px;
+    font-style: Helvetica, 'Times New Roman', sans-serif;
+}
