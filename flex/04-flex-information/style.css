@@ -24,3 +24,47 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+/* Solved by warndarkahead */
+/* First solution 
+.title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+  }
+
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  }
+
+.container1,.container2,.container3,.container4{
+
+  width:200px
+}
+
+*/
+
+
+/* second solution */
+
+body{
+  text-align: center;
+}
+
+.title{
+  margin-bottom: 32px;
+  }
+
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  }
+
+.container1,.container2,.container3,.container4{
+  width:200px;
+ 
+}

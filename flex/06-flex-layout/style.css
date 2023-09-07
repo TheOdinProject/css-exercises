@@ -25,3 +25,53 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* Solved by warndarkahead */
+
+body{
+  display:flex ;
+  flex-direction: column;
+}
+
+.content{
+  flex: 1;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+.header,.footer{
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+ 
+}
+
+
+
+ul{
+  display: flex; 
+  gap: 16px;
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+ 
+}
+
+.footer{
+  background-color: #eee;
+}
+
+
+
+a{
+  color: #666;
+  text-decoration: none;
+}
+
+button{
+  padding: 8px 16px;
+}
