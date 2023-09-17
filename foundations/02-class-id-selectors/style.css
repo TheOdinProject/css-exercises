@@ -1,0 +1,31 @@
+.number1 {
+  background-color: rgb(255, 204, 203);
+  text-font: arial, verdana, sans-serif;
+  
+}
+
+#number2 {
+  color: rgb(0, 0, 255);
+  font-size: 36px;
+}
+
+.number3 {
+  background-color: rgb(255, 204, 203);
+  text-font: arial, verdana, sans-serif;
+  font-size: 24px;
+  
+}
+
+
+#number4 {
+  background-color: rgb(0, 255, 0);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.number5 {
+  background-color: rgb(255, 204, 203);
+  text-font: arial, verdana, sans-serif;
+  
+}
+
