@@ -5,3 +5,7 @@ div {
   text-align: center;
   font-weight: bold;
 }
+p{
+  color: white;
+  background-color: green;
+}
