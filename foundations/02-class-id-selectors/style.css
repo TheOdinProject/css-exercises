@@ -1,0 +1,22 @@
+.odd{
+    background-color: rgba(255,167, 167, 255);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    }
+    
+.pair#two {
+    color: rgba(0,0,255,255);
+    font-size: 36px;
+    }
+
+.odd#three{
+    font-size: 24px;
+}
+    
+.pair#four{
+    background-color: rgba(128,255,128,255);
+    font-size: 24px;
+    font-weight: bold;
+    }
+
+
+
