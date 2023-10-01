@@ -7,23 +7,69 @@ body {
 .header {
   height: 72px;
   background: darkmagenta;
-  color: white;
+  color: rgb(241, 233, 233);
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  text-align: center;
 }
 
 .sidebar {
   width: 300px;
-  background: royalblue;
+  background: rgb(7, 7, 8);
   box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+li{
+  list-style: none;
+  padding: 10px;
+}
+a{
+  color: whitesmoke;
+  text-align: center;
+  
 }
 
 .card {
-  border: 1px solid #eee;
+  border: 1px solid #0d4a90;
+  background-color: #080b0e;
+  color: whitesmoke;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  text-align: start;
+  width:auto;
+  height: 600px;
+  padding: 30px;
+  margin-left:30px ;
+ display: grid;
+ align-items: center;
+
+}
+body{
+  background-color: black;
+}
+@media (min-width: 600px) {
+  body{
+    width: 100%;
+  }
+  .card{
+    width: 30%;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+  }
+  .sidebar{
+    width: 30%;
+    height: auto;
+  }
+  li{
+    width: 30%;
+  }
 }

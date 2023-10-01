@@ -10,6 +10,9 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(61, 61, 61);
 }
 
 /* do not edit this footer */
@@ -23,4 +26,11 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+.text{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(95, 92, 92);
+  text-align: center;
 }

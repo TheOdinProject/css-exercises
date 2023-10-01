@@ -17,3 +17,15 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+
+button:hover{
+  width: 150px;
+  height: 70px;
+  cursor:pointer;
+}
+body{
+  background: linear-gradient(to left ,rgb(0, 0, 0) 0%  ,rgb(108, 107, 107) 100%);
+}
+body:hover{
+  background: linear-gradient(to left ,rgb(78, 77, 77) 0%  ,rgb(0, 0, 0) 100%);
+}

@@ -5,12 +5,15 @@
 
 body {
   overflow: hidden;
-}
 
+}
+.button-container:hover{
+  background: linear-gradient(to left ,rgb(0, 0, 0) 0%  ,rgb(108, 107, 107) 100%) !important;
+}
 .button-container {
   width: 100vw;
   height: 100vh;
-  background-color: #ffffff;
+  background: linear-gradient(to left ,rgb(155, 64, 188) 0%  ,rgb(73, 182, 232) 100%);
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -28,7 +31,7 @@ button {
 
 .popup-modal {
   padding: 32px 64px;
-  background-color: white;
+  background: linear-gradient(to left ,rgb(39, 39, 39) 0%  ,rgb(189, 189, 189) 100%);
   border: 1px solid black;
   border-radius: 10px;
   position: fixed;
@@ -49,7 +52,7 @@ button {
   pointer-events: none;
   position: fixed;
   inset: 0;
-  background: #000;
+  background: linear-gradient(to left ,rgb(0, 0, 0) 0%  ,rgb(108, 107, 107) 100%);
   opacity: 0%;
 }
 

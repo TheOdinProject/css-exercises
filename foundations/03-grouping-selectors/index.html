@@ -6,9 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grouping Selectors</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+div{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  height: 70px;
+}
+button{
+  height: 30px;
+  margin-top: 20px;
+}
+.my{
+  background-color: yellow;
+}
+    </style>
   </head>
   <body>
+  <div>
     <button>Click Me!</button>
-    <button>No, Click Me!</button>
+    <button class="my">No, Click Me!</button>
+  </div>
   </body>
 </html>

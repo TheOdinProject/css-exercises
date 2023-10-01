@@ -25,3 +25,37 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.buttons{
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+.content{
+ align-items: center;
+ text-align: center;
+}
+.left-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.right-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+li {
+  padding-left: 20px;
+  list-style: none;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: navy;
+}
