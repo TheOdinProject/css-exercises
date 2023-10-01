@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo', sans-serif;
+}   
+
+
+body{
+    background-color: #745ed9;
+}
+
+.main{
+    border: 1px solid #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+li{
+    list-style: none;
+}
+
+.content{
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 3px 5px 8px #cac9c9;
+    color: #fff;
+}
+
+.background li{
+    animation: animate 8s linear infinite;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    bottom: -150px;
+    border: 1px solid #918f8f;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+}
+
+@keyframes animate {
+    0% { 
+        transform: rotate(0deg) ;
+    }
+    50% { 
+        transform: rotate(360deg) ;
+        translate: 0 -100vh;
+    }
+    100% { 
+        transform: rotate(720deg) ;
+        translate: 0 -200vh;
+    }
+}
+
+li:first-child{
+    left: 0;
+    scale: 0.7;
+    animation-duration: 6s;
+}
+
+li:nth-child(2){
+    left: 10%;
+    scale: 0.3;
+    animation-duration: 7s;
+    animation-delay: 2s;
+}
+
+li:nth-child(3){
+    left: 20%;
+    scale: 0.6;
+    animation-duration: 10s;
+    animation-delay: 12s;
+}
+
+li:nth-child(4){
+    left: 26%;
+    scale: 1.5;
+    animation-duration: 13s;
+    animation-delay: 15s;
+}
+
+li:nth-child(5){
+    left: 37%;
+    scale: 0.3;
+    animation-duration: 9s;
+    animation-delay: 1s;
+}
+
+li:nth-child(6){
+    left: 50%;
+    scale: 1;
+    animation-duration: 15s;
+    animation-delay: 2s;
+}
+
+li:nth-child(7){
+    right: 10%;
+    scale: 0.3;
+    animation-duration: 7s;
+    animation-delay: 0s;
+}
+
+li:nth-child(8){
+    right: 20%;
+    scale: 1.5;
+    animation-duration: 18s;
+    animation-delay: 5s;
+}
+
+li:nth-child(9){
+    right: 5%;
+    scale: 0.2;
+    animation-duration: 6s;
+    animation-delay: 7s;
+}
+
+li:last-child{
+    right: 25%;
+    animation-duration: 15s;
+}

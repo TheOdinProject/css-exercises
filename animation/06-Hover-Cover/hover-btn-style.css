@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hover-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    background: #ebe2e2;
+}
+
+.button {
+    position: relative;
+    width: 500px;
+}
+
+.button-text {
+    align-items: center;
+    background: transparent;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    justify-content: center;
+    height: 80px;
+    margin-left: 100px;
+    outline: none;
+    text-transform: uppercase;
+    width: 250px;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.cirlce {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 0;
+    border-radius: 50px;
+    background: #000;
+    transition: all 0.3s;
+}
+
+.cirlce::before {
+    content: '';
+    color: white;
+    position: absolute;
+    border-top: 4px solid #ffffff;
+    border-right: 4px solid #ffffff;
+    width: 15px;
+    height: 15px;
+    top: 28px;
+    left: 26px;
+    transform: rotate(45deg);
+    transition: all 0.3s;
+}
+
+.arrow{
+    width: 35px;
+    height: 4px;
+    position: relative;
+    top: 36px;
+    left: 10px;
+    /* background: #fff; */
+    transition: all 0.3s;
+    
+}
+
+.button:hover .cirlce {
+    width: 400px;
+}
+
+.button:hover .cirlce::before {
+    transform: translate(30px, 0) rotate(45deg);
+}
+
+.button:hover .arrow{
+    transform: translate(30px, 0);
+    background: #fff;
+}
+
+.button:hover .button-text {
+    color: #fff;
+}

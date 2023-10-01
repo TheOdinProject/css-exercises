@@ -1,0 +1,90 @@
+
+body{
+    height: 100vh;
+}
+
+.container1{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.popup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ffffff;
+    border-radius: 20px/50px;
+    margin: auto;
+    position: relative;
+    top: 25%;
+    width: 60%;
+}
+
+.popup a{
+    display: inline-block;
+    border: 1px solid #06D85F;
+    border-radius: 10px/30px;
+    color: white;
+    font-size: 1.7rem;
+    padding: 10px;
+    margin: 20px;
+    /* pointer-events: none; */
+    text-decoration: none;
+    transition: 0.4s ease;
+    width: 20%;
+}
+
+.popup a:hover{
+    background: #06D85F;
+}
+
+.poped{
+    position: absolute;
+    border: 1px solid #000;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 20px;
+    left: 30vw;
+    /* top: 0; */
+    top: -35%;
+    width: 35%;
+    transition: all 1s ease;
+    /* transition: opacity 1s ease; */
+}
+
+.poped h2{
+    margin-bottom: 25px;
+}
+
+.poped a{
+    position: absolute;
+    font-size: 3vw;
+    font-weight: 600;
+    right: 2vw;
+    text-decoration: none;
+    top: 10%;
+}
+
+/* .positioning{
+    top: 35%;
+}
+
+
+.opacity{
+    opacity: 0.5;
+} */
+
+#close{
+    transition: all 1s ease;
+}
+
+

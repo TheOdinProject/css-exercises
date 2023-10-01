@@ -1,0 +1,512 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #5b5b8b;
+}
+
+.loader {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.element {
+    /* border: 1px solid #000; */
+    margin: 300px;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+/* CLOCK TIMER */
+
+.clock {
+    width: 500px;
+    height: 500px;
+    box-shadow: inset 0px 0px 0px 15px #fff;
+    border-radius: 50%;
+}
+
+.clock::before,
+.clock::after {
+    content: " ";
+    position: absolute;
+    color: white;
+    background: white;
+    left: 220px;
+    top: 250px;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    transform-origin: 30px 8px;
+}
+
+.clock::before {
+    width: 270px;
+    height: 12px;
+    animation: minhand 1s linear infinite;
+
+}
+
+.clock::after {
+    width: 200px;
+    height: 16px;
+    animation: minhand 12s linear infinite;
+}
+
+
+@keyframes minhand {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* TYPING */
+
+.typing {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 25%;
+    position: absolute;
+
+    animation: typing 1s linear infinite alternate;
+}
+
+@keyframes typing {
+    0% {
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 100px 0px 0px 0px rgba(255, 255, 255, 0.2),
+            200px 0px 0px 0px rgba(255, 255, 255, 1);
+    }
+
+    25% {
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 100px 0px 0px 0px rgba(255, 255, 255, 1),
+            200px 0px 0px 0px rgba(255, 255, 255, 0.2);
+    }
+
+    75% {
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: 100px 0px 0px 0px rgba(255, 255, 255, 0.2),
+            200px 0px 0px 0px rgba(255, 255, 255, 0.2);
+    }
+}
+
+/* Location */
+
+.location {
+    position: relative;
+    left: 25%;
+}
+
+.location::after,
+.location::before {
+    content: "";
+    position: absolute;
+}
+
+.location::after {
+    position: absolute;
+    width: 100px;
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 1);
+    height: 100px;
+    transform: rotate(-45deg);
+    border-radius: 50% 50% 50% 0;
+    animation: mapper 1s linear infinite alternate;
+}
+
+.location::before {
+    width: 150px;
+    height: 20px;
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.3);
+    top: 150px;
+    left: -25px;
+    border-radius: 100%;
+}
+
+@keyframes mapper {
+    0% {
+        top: -20px;
+    }
+
+    50% {
+        top: 0px;
+    }
+
+    100% {
+        top: 20px;
+    }
+}
+
+
+/* SPEEDOMETER */
+
+.speedo {
+    position: relative;
+    border: 10px solid #ffffff;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.speedo::after,
+.speedo::before {
+    content: "";
+    position: absolute;
+}
+
+.speedo::after {
+    width: 550px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 1);
+    top: 330px;
+    left: -2px;
+}
+
+.speedo::before {
+    width: 250px;
+    height: 10px;
+    background: #fff;
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 1);
+    top: 330px;
+    /* left: 50px; */
+    transform-origin: 250px 5px;
+    transform: rotate(10deg);
+    animation: speeder 1.5s linear infinite alternate;
+}
+
+@keyframes speeder {
+    0% {
+        rotate: 160deg;
+    }
+}
+
+/* Battery */
+
+.battery {
+    position: relative;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    width: 500px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+}
+
+.battery::after {
+    content: "";
+    height: 100px;
+    position: absolute;
+    right: -40px;
+    border: 8px solid #fff;
+}
+
+.battery::before {
+    content: "";
+    background: #fff;
+    height: 180px;
+    animation-name: battery;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes battery {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.magnifier {
+    width: 150px;
+    height: 150px;
+    border: 10px solid #ffffff;
+    border-radius: 50%;
+    position: relative;
+    top: -5%;
+    left: 30%;
+    animation: magnify 1s linear infinite alternate;
+}
+
+.magnifier::after {
+    border: 10px solid #ffffff;
+    content: "";
+    position: absolute;
+    right: -20px;
+    rotate: -40deg;
+    height: 75px;
+    top: 150px;
+    border-radius: 15px;
+}
+
+.magnifier::before {
+    content: "me";
+    color: #fff;
+    font-size: 100px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+@keyframes magnify {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+/* Ring roll */
+
+.ring {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 10px solid #ffffff;
+    position: relative;
+
+}
+
+.ring::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 190px;
+    /* transform-origin: 150px 200px; */
+    transform-origin: 50px 250px;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    animation: revolve 1s ease-in-out infinite;
+}
+
+@keyframes revolve {
+    0% {
+        rotate: 360deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
+
+/* Cloud */
+
+.cloud {
+    width: 30px;
+    height: 200px;
+    /* background: #fff; */
+    box-shadow: 50px 0 0 0px rgba(255, 255, 255, 1), 100px 0 0 0px rgba(255, 255, 255, 1), 150px 0 0 0px rgba(255, 255, 255, 1), 200px 0 0 0px rgba(255, 255, 255, 1), 250px 0 0 0px rgba(255, 255, 255, 1), 300px 0 0 0px rgba(255, 255, 255, 1), 350px 0 0 0px rgba(255, 255, 255, 1);
+    animation: slip 1s ease-in-out infinite alternate;
+}
+
+@keyframes slip {
+    0% {
+        box-shadow: 50px 0 0 0px rgba(255, 255, 255, 0.8), 100px 0 0 0px rgba(255, 255, 255, 0.7), 150px 0 0 0px rgba(255, 255, 255, 0.6), 200px 0 0 0px rgba(255, 255, 255, 0.5), 250px 0 0 0px rgba(255, 255, 255, 0.3), 300px 0 0 0px rgba(255, 255, 255, 0.2), 350px 0 0 0px rgba(255, 255, 255, 0.1);
+    }
+
+    100% {
+        box-shadow: 50px 0 0 0px rgba(255, 255, 255, 0.1), 100px 0 0 0px rgba(255, 255, 255, 0.2), 150px 0 0 0px rgba(255, 255, 255, 0.3), 200px 0 0 0px rgba(255, 255, 255, 0.5), 250px 0 0 0px rgba(255, 255, 255, 0.6), 300px 0 0 0px rgba(255, 255, 255, 0.7), 350px 0 0 0px rgba(255, 255, 255, 0.8);
+    }
+}
+
+.cloud::before {
+    /* width: 400px; */
+    content: "";
+    position: absolute;
+    height: 200px;
+    background: #fff;
+    animation: slipper 3s linear infinite alternate;
+}
+
+@keyframes slipper {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 350px;
+    }
+}
+
+/* Eye ball */
+
+.eye {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 10px solid #ffffff;
+    background: #fff;
+    box-shadow: 400px 0 0 0px rgba(255, 255, 255, 1);
+    position: relative;
+}
+
+.eye::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    /* background: #000; */
+    background: #5b5b8b;
+    border-radius: 50%;
+    top: 100px;
+    /* left: 100px; */
+    box-shadow: 400px 0 0 0 #5b5b8b;
+    animation: move-eye 2s linear infinite alternate;
+}
+
+@keyframes move-eye {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 125px;
+    }
+}
+
+/* Hot Cup */
+
+.cup {
+    width: 350px;
+    height: 400px;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border: 10px solid #fff;
+    position: relative;
+}
+
+.cup::after {
+    content: "";
+    position: absolute;
+    border: 10px solid #fff;
+    border-left: none;
+    width: 100px;
+    height: 220px;
+    left: 108%;
+    border-radius: 0 100px 100px 0;
+}
+
+.cup::before {
+    content: "";
+    width: 7px;
+    height: 80px;
+    background: #fff;
+    position: absolute;
+    top: -150px;
+    left: 175px;
+    box-shadow: 100px 0 0 0 #fff, -100px 0 0 0 #fff, 0 -90px 0 0 #fff;
+    animation: hot 2s linear infinite;
+    filter: blur(5px);
+    transform-origin: 3px 80px;
+}
+
+@keyframes hot {
+    0% {
+        height: 80px;
+    }
+
+    50% {
+        height: 0px;
+    }
+
+    100% {
+        height: 80px;
+    }
+}
+
+/* Cuboid */
+
+.cuboid {
+    width: 300px;
+    height: 300px;
+    border: 10px solid #ffffff;
+    /* position: relative; */
+    animation: fillColor 4s linear infinite alternate;
+}
+
+.cuboid::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    top: 0px;
+    left: -100px;
+    height: 40px;
+    background: #fff;
+    animation: square_revolve 1.5s linear infinite;
+}
+
+@keyframes fillColor {
+    0% {
+        box-shadow: inset 0 0 0 0px rgba(255, 255, 255, 0.5);
+    }
+
+    100% {
+        box-shadow: inset 0 -300px 0 0px rgba(255, 255, 255, 0.5);
+    }
+}
+
+@keyframes square_revolve {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateX(480px);
+    }
+
+
+    50% {
+        transform: translateX(480px) translateY(480px);
+    }
+
+    75% {
+        transform: translateY(480px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Pendulum */
+
+.pendulum {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    position: relative;
+    box-shadow: -80px 0 0 rgba(255, 255, 255, 0.9);
+    animation: scale 1s ease-in-out infinite alternate;
+}
+
+@keyframes scale {
+    0% {
+        opacity: 0.1;
+        transform: rotate(0deg) scale(0.5);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(360deg) scale(1.2);
+    }
+}

@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+}
+
+.container1 {
+    height: 90vh;
+}
+
+.name h2{
+    margin:20px;
+    font-size: 2vw;
+    font-style: italic;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    color: #d6d6d6;
+}
+
+#hamberger {
+    display: inline-block;
+    margin-left: 22px;
+    position: relative;
+    z-index: 1;
+    top: 20px;
+}
+
+/* HAMBERGER BUTTON */
+
+input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    height: 28px;
+    width: 35px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+span {
+    display: block;
+    position: relative;
+    border: 1px solid #d7d7d7;
+    background: #d7d7d7;
+    margin-bottom: 6px;
+    width: 30px;
+    height: 2px;
+    border-radius: 30px;
+    transition: 500ms;
+}
+
+span:nth-child(4) {
+    margin-top: 2.5px;
+}
+/* 
+input[type="checkbox"]:checked~span {
+    border: 2px solid #000000;
+    background: #000000;
+} */
+
+input[type="checkbox"]:checked~span:nth-child(2) {
+    translate: 0 7px;
+    transform: rotate(45deg);
+}
+
+input[type="checkbox"]:checked~span:nth-child(3) {
+    opacity: 0;
+}
+
+input[type="checkbox"]:checked~span:nth-child(4) {
+    translate: 0 -11px;
+    transform: rotate(-45deg);
+}
+
+
+/* SIDEBAR */
+
+.sidebar {
+    padding: 20px;
+    background: rgb(255, 255, 255,0.3);
+    width: 10vw;
+    height: 85%;
+    font-size: 1.4vw;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    margin-top: -46px;
+    transition: 200ms;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.translate {
+    transform: translateX(0);
+}
+
+ul{
+    /* border: 1px solid #ff0000; */
+    position: relative;
+    height: 90%;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: #d6d6d6;
+    /* color: rgb(3, 3, 3); */
+    /* border: 1px solid #ff0000; */
+    width: 100%;
+    font-weight: 500;
+}
+
+ul li {
+    list-style: none;
+    margin-top: 30px;
+}
+
+ul li a:hover {
+    color: rgb(253, 172, 157);
+    /* border: 1px solid #ff0000; */
+}
+
+
+#logout{
+    /* margin-top: auto; */
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+#logout a:hover{
+    color: #ff0000;
+}
+
+
+footer{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    
+}
