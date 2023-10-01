@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: #dddddd;
+}
+
+.header{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    margin-top: 50px;
+}
+
+.open{
+    padding: 20px;
+    position: relative;
+    width: 50vw;
+}
+
+.section{
+    background: #283b4d;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px rgb(90, 90, 90);
+    margin-top: 20px;
+}
+
+input{
+    opacity: 0;
+    position: absolute;
+}
+
+label{
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    position: relative;
+    transition: all 0.5s;
+}
+
+label:hover{
+    background: #202f3d;
+}
+
+label::after{
+    content: '\2771';
+    position: absolute;
+    right: 10px;
+    transition: all 0.5s;
+    top: 15px;
+}
+
+#Lclose{
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    padding-right: 25px;
+}
+
+#Lclose::after{
+    content: '\2715';
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+.ItemContent{
+    background: #ffffff;
+    height: 0;
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+.openInp:checked ~ .ItemContent{
+    padding: 20px;
+    height: auto;
+    opacity: 100%;
+}
+
+.openInp:checked ~label::after{
+    transform: rotate(90deg);
+}

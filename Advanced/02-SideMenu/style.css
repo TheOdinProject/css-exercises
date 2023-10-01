@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid #000; */
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container1 {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav {
+    background: #FC466B;
+    display: block;
+    height: 50px;
+}
+
+.tog-icon {
+    padding-top: 10px;
+}
+
+input[type="checkbox"] {
+    margin-left: 5px;
+    height: 30px;
+    opacity: 0;
+    position: absolute;
+    width: 30px;
+}
+
+input[type='checkbox']:checked+label>div:first-child {
+    transform: rotate(135deg);
+    translate: 0px 8px;
+}
+
+input[type='checkbox']:checked+label>div:nth-child(2) {
+    display: none;
+}
+
+input[type='checkbox']:checked+label>div:last-child {
+    transform: rotate(-135deg);
+}
+
+input[type='checkbox']:checked~.sidebar {
+    transform: translateX(0);
+}
+
+label .icon {
+    height: 3px;
+    margin: 5px;
+    width: 30px;
+    background: #fff;
+    transition: all 0.5s;
+}
+
+.sidebar {
+    background: linear-gradient(#FC466B, #514be9);
+    display: block;
+    font-size: 25px;
+    height: 100vh;
+    margin-top: 11px;
+    position: absolute;
+    width: 400px;
+    transform: translateX(-400px);
+    transition: all 0.5s;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-left a {
+    border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+    border-top: 1px solid rgb(255, 255, 255, 0.1);
+    display: block;
+    padding: 20px;
+    text-transform: uppercase;
+    margin-top: auto;
+}
+.nav-left a:first-child span {
+    color: rgb(211, 210, 210);
+    display: block;
+    font-size: 15px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    font-size: 3.5vw;
+    align-items: center;
+}
+
+.main .main-inner {
+    display: flex;
+    align-items: center;
+    height: 98vh;
+    font-weight: 600;
+    text-transform: uppercase;
+}
