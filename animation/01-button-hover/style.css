@@ -1,3 +1,7 @@
+body{
+  background-color: #1a1a1a;
+}
+
 #transition-container {
   width: 100vw;
   height: 100vh;
@@ -11,9 +15,16 @@
 button {
   border-radius: 8px;
   border: none;
-  background-color: #2563eb;
+  background-color: transparent;
+  border: 2px solid red;
+  box-shadow: 4px 4px 10px red;
   color: white;
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  transition: ease-in-out 0.6s;
+}
+.button:hover{
+  /* translate: 0 -100px; */
+  scale: 2;
 }
