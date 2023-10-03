@@ -1,28 +1,32 @@
 body {
   max-width: 600px;
   margin: 0 auto;
+
 }
 
 .one {
   background: pink;
-  border: 3px solid blue;
+  border: 2px solid blue;
   /* CHANGE ME */
   padding: 0px;
   margin: 0px;
+  text-align: start;
 }
 
 .two {
   background: lightblue;
-  border: 3px solid purple;
+  border: 2px solid purple;
   /* CHANGE ME */
   margin-bottom: 0px;
+  text-align: center;
 }
 
 .three {
   background: peachpuff;
-  border: 3px solid brown;
+  border: 2px solid brown;
   width: 200px;
   /* CHANGE ME */
   padding: 0px;
   margin-left: 0px;
+margin-left: 300px;
 }
