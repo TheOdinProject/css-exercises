@@ -16,12 +16,12 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 24px;
 }
 
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
-  padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
 }
