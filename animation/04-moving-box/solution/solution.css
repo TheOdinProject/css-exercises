@@ -1,0 +1,26 @@
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  position: relative;
+  border-radius: 8px;
+  border: none;
+  background-color: #38fcff;
+  color: black;
+  font-size: 18px;
+  padding: 16px 24px;
+  text-align: center;
+  animation: movement 5s infinite;
+}
+@keyframes movement{
+  0%{top: -300px;}
+  50%{top: 300px;}
+  100%{top: -300px;}
+}
