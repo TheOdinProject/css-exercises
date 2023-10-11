@@ -1,0 +1,20 @@
+.odd {
+    background-color: rgb(231, 127, 150);
+    font-style: Verdana, DejaVu Sans, sans-serif;
+}
+
+#n2 {
+    color: blue;
+    font-size: 36px;
+}
+
+.cooler{
+    font-style: 24px;
+
+}
+
+#n4 {
+    background-color: lightgreen;
+    font-style: 24px;
+    font-weight: bold;
+}
