@@ -1,8 +1,13 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
 }
-
+li{
+  display: inline-block;
+  padding: 4px 32px;
+}
 .logo {
   font-size: 48px;
   font-weight: 900;
