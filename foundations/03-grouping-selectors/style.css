@@ -1,0 +1,28 @@
+/* .common {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.common#first_element {
+  background-color: black;
+  color: white;
+}
+
+.common#second_element {
+  background-color: yellow;
+} */
+
+.first_element,
+.second_element {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 28px;
+}
+
+.first_element {
+  background-color: black;
+  color: white;
+}
+
+.second_element {
+  background-color: yellow;
+}

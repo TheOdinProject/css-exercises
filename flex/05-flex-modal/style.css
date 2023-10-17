@@ -4,6 +4,11 @@ html, body {
   height: 100%;
 }
 
+.header {
+  font-weight: bold;
+  font-size: larger;
+}
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -16,6 +21,10 @@ body {
 }
 
 .modal {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -23,6 +32,8 @@ body {
 }
 
 .icon {
+  flex-shrink: 0;
+
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -66,4 +77,15 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.first-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
