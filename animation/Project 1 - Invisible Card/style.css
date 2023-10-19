@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(./images/andrzej-suwara-j4glkaOX-ds-unsplash.jpg) no-repeat center;
+}
+
+.card-wrapper {
+    height: 600px;
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(./images/andrzej-suwara-j4glkaOX-ds-unsplash.jpg) no-repeat center;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: box-shadow 1s;
+}
+
+.card-wrapper:hover {
+    box-shadow: 0 0 30px #fff;
+}
+
+.card {
+    position: absolute;
+    top: -100%;
+   height: 100%;
+   width: 100%;
+   background: linear-gradient(190deg, rgba(21, 199, 30, .8) 50%, rgba(233, 67, 67, .8) 0);
+   border-radius: inherit;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   transition: top .3s 1.5s;
+}
+
+.card-wrapper:hover .card {
+    top: 0;
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 15px;
+    border: 2px solid #fff;
+    padding: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .5);
+}
+
+.card-heading {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+    background: linear-gradient(#0a9751, #06831b);
+    width: 70%;
+    text-align: center;
+    padding: 5px 0;
+    transform: perspective(1000px) skewX(-20deg) rotateY(40deg);
+}
+
+.card-paragraph {
+    font-size: 18px;
+    color: #ddd;
+    width: 85%;
+    text-align: justify;
+    position: relative;
+}
+
+.card-paragraph::first-letter {
+    margin-left: 40px;
+}
+
+.card-paragraph i {
+    color: #fff;
+    font-size: 25px;
+    font-style: italic;
+    position: absolute;
+}
+
+.card-paragraph i:first-child {
+    top: -10%;
+}
+
+.card-paragraph i:last-child {
+    bottom: -10%;
+    margin-left: 10px;
+}
+
+.card-icons {
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.card-icon-link {
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: border .3s;
+}
+
+.card-icon-link:hover {
+    border: 1px solid #1b5cf5;
+}
+
+.card-icon {
+    font-size: 20px;
+    color: #fff;
+    transition: color .3s;
+}
+
+.card-icon-link:hover .card-icon {
+    color: #1b5cf5;
+}
+
+.card-btn {
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background: linear-gradient(#6837ee, #0d2b7e);
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
