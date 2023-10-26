@@ -8,6 +8,7 @@
 /* Below are some other possible descendant combinators:
 
 div p
+div > p
 div .text
 .container p
 
