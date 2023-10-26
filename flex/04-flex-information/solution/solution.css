@@ -33,14 +33,15 @@ body {
 
 .title {
   margin-bottom: 32px;
+  text-align: center;
 }
 
 .container {
   display: flex;
   justify-content: center;
-  gap: 52px;
+  gap: 50px;
 }
 
 .info {
-  max-width: 200px;
+  text-align: center;
 }
