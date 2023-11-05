@@ -1,0 +1,11 @@
+.agree, .disagree {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+.agree {
+background-color: black;
+color: white;
+}
+.disagree {
+background-color: yellow;
+}
