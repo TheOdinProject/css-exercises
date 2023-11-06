@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curves</title>
+    <style>
+        #myCanvas{
+            background-color: cornsilk;
+            border:1px;
+        }
+    </style>
+
+</head>
+<body>
+    <canvas id="myCanvas" width="400" height="400">
+
+    </canvas>
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx=canvas.getContext('2d');
+
+        ctx.beginPath();
+        ctx.moveTo(20, 20);
+        ctx.bezierCurveTo(20, 100, 200, 100, 200, 20);
+        ctx.strokeStyle='crimson';
+        ctx.lineWidth=2
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.moveTo(20, 100);
+        ctx.quadraticCurveTo(100, 200, 200, 100);
+        ctx.strokeStyle='brown';
+        ctx.lineWidth=2;
+        ctx.stroke();
+    </script>
+</body>
+</html>
