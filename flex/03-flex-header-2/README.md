@@ -12,7 +12,7 @@ You could probably approach this by editing the HTML a little bit. Often with fl
 Just like you did in the `02-flex-header` exercise, you'll be nesting flex containers inside each other.
 
 ### Approach 2:
-An alternative solution would be to not touch the predefined markup and just use flexbox to solve the approach.
+An alternative solution would be to not touch the predefined html and just use flexbox in your css file to solve the problem.
 
 ## Desired outcome
 As with the last example, this one needs to be flexible in the middle, with items pushed to the left and right.
