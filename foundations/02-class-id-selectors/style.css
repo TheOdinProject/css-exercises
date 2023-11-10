@@ -1,0 +1,16 @@
+.first,.third,.fifth{
+  background-color: pink;
+  font-family : "Verdana", "DejaVu Sans", sans-serif;
+}
+.second{
+  text=blue;
+  font-size=36px;
+}
+.third{
+  font-size=24px;
+}
+.fourth{
+  font-size=24px;
+  background-color= light green;
+  font-weight=700;
+}
