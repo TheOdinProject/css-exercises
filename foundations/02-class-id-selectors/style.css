@@ -1,0 +1,19 @@
+p {
+    background-color: lightpink;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#two{
+    color:blue;
+    font-size: 36px;
+}
+
+.add-font{
+    font-size:24px ;
+}
+
+.newbg{
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}

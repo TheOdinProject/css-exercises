@@ -1,0 +1,15 @@
+
+.new{
+    background-color: black;
+    color:white;
+}
+
+.change{
+    background-color: yellow;
+}
+
+.new,
+.change {
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
