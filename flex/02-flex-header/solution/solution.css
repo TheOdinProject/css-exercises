@@ -1,6 +1,10 @@
+/* This font is the typerwriter style font in the Desired output Image */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
 .header  {
-  font-family: monospace;
+  font-family: 'Courier Prime', monospace;
   background: papayawhip;
+  text-align: center;
 }
 
 .logo {
@@ -20,6 +24,7 @@ a {
   font-size: 22px;
   background: white;
   padding: 8px;
+  font-weight: 600;
   /* this removes the line under the links */
   text-decoration: none;
 }
