@@ -19,7 +19,7 @@ If you have suggestions to improve an exercise, ideas for a new exercise, or not
     * Depending on the instructions of the exercise, you may only need to make edits in one of these files.
 5. Once you successfully finish an exercise, check TOP's solution to compare it with yours.
    * You should not be checking the solution for an exercise until you finish it!
-   * Keep in mind that TOP's solution is not the only solution. If your solution differs wildly from TOP's solution (and still passes the self-check criteria), feel free to ask about it in the chatroom.
+   * If your solution differs wildly from TOP's solution (and still passes the self-check criteria), that's completely fine. Do feel free to ask about it in the chatroom if there are parts you do not understand.
 6. Do not submit your solutions to this repo, as any PRs that do so will be closed without merging.
 
 ## Some Hints
