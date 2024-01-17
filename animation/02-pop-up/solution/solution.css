@@ -72,3 +72,7 @@ button {
 .popup-modal.show {
   transform: translate(-50%, -50%);
 }
+
+.backdrop.show {
+  transition: opacity 0.5s;
+}
