@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
-
 .header  {
   font-family: monospace;
   background: papayawhip;
@@ -29,8 +27,6 @@ a {
 /* SOLUTION */
 
 .header {
-  /* Feel free to not worry too heavily on matching the font  */
-  font-family: 'Courier Prime', monospace;
   padding: 8px;
   display: flex;
   align-items: center;
@@ -42,8 +38,4 @@ ul {
   margin: 0;
   padding: 0;
   gap: 8px;
-}
-
-a {
-  font-weight: 400;
 }
