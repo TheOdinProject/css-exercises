@@ -1,0 +1,22 @@
+.num, .num5{
+    background-color: darksalmon;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#num2{
+    color: blue;
+    font-size: 50px;
+}
+
+.num3{
+    background-color: darksalmon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+#num4{
+    background-color: greenyellow;
+    font-weight: bold;
+    font-size: 30px;
+}
