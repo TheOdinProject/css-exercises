@@ -22,6 +22,7 @@ If you have suggestions to improve an exercise, ideas for a new exercise, or not
 5. Once you successfully finish an exercise, check TOP's solution to compare it with yours.
    * You should not be checking the solution for an exercise until you finish it!
    * Keep in mind that TOP's solution is not the only solution. If your solution differs wildly from TOP's solution (and still passes the self-check criteria), feel free to ask about it in the chatroom.
+6. Do not submit your solutions to this repo, as any PRs that do so will be closed without merging.
 
 ## Some Hints
 - The official solutions put all changes at the _end_ of the CSS file, which may duplicate some selectors (e.g. there might be a `body {}` in the given CSS and another `body {}` in the solution). When you are working on an exercise, it is best practice to add your CSS to existing selectors instead of duplicating them at the end of the file. We're sacrificing this best practice in our official solutions to make it extra clear to you what things we changed to solve the exercise.
