@@ -24,3 +24,21 @@ img {
   justify-content: center;
   background: #eee;
 }
+/*Solution*/
+body {
+  text-align: center; /*center the text*/
+}
+
+.title {
+  margin-bottom: 32px; /*Set Bottom Space between the title and info to 32px*/
+}
+
+.container {
+  display: flex; /*display items horizontally*/
+  justify-content: center; /*Center the items on the page horizontally*/
+  gap: 52px; /*Set A 52 space Between All items horizontally*/
+}
+
+.info {
+  max-width: 200px; /*set the max width of images text ...etc to 200px*/
+}
