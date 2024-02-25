@@ -4,7 +4,7 @@ These exercises consist of a series of CSS-related tasks intended to complement 
 
 When doing these exercises, please use all documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use Google, and do what you need to do (besides checking the solutions) to get them done.
 
-We encourage you to practice your git skills by committing your changes and pushing them to your own fork.  However, please **DO NOT** open a Pull Request to have your changes merged into the original repo.  If we were to merge your changes the exercises would no longer be available for new learners, therefore opening a PR only causes additional work for us, as we have to close it without merging.
+We encourage you to practice your git skills by committing your changes and pushing them to your own fork.  However, please **DO NOT** open a Pull Request to have your solutions merged into this repo or to show your solution.  If we were to merge your changes the exercises would no longer be available as intended for new learners, and opening a PR only causes additional work for us, as we have to close it without merging.
 
 ## Contributing
 
