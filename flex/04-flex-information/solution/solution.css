@@ -42,5 +42,8 @@ body {
 }
 
 .info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   max-width: 200px;
 }
