@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>AElf.Contracts.MyCharacter</RootNamespace>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <NoWarn>0436;CS2002</NoWarn>
+    </PropertyGroup>
+    <PropertyGroup>
+        <ObjPath>$(MSBuildProjectDirectory)/$(BaseIntermediateOutputPath)$(Configuration)/$(TargetFramework)/</ObjPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AElf.Testing.TestBase" Version="1.0.0" />
+        <PackageReference Include="AElf.EconomicSystem" Version="1.5.0" />
+        <PackageReference Include="AElf.GovernmentSystem" Version="1.5.0" />
+        <PackageReference Include="coverlet.msbuild" Version="2.5.1" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.3.0" />
+        <PackageReference Include="Shouldly" Version="3.0.2" />
+        <PackageReference Include="xunit" Version="2.4.1" />
+        <PackageReference Include="xunit.runner.console" Version="2.4.1" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
+        <PackageReference Include="AElf.ContractTestKit" Version="1.5.0" />
+        <PackageReference Include="AElf.Tools" Version="1.0.2">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Protobuf Include="Protobuf/base/*.proto">
+            <ContractOutputOptions>nocontract</ContractOutputOptions>
+        </Protobuf>
+        <Protobuf Include="Protobuf/message/*.proto">
+            <ContractOutputOptions>nocontract</ContractOutputOptions>
+        </Protobuf>
+        <Protobuf Include="Protobuf/stub/*.proto">
+            <ContractOutputOptions>stub</ContractOutputOptions>
+        </Protobuf>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Include="$(ObjPath)Protobuf/**/*.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="../src/MyCharacter.csproj" />
+    </ItemGroup>
+    
+</Project>

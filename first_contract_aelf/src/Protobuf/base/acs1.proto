@@ -1,0 +1,53 @@
+/**
+ * AElf Standards ACS1(Transaction Fee Standard)
+ *
+ * Used to manage the transaction fee.
+ */
+ syntax = "proto3";
+
+ package acs1;
+ 
+ import public "aelf/options.proto";
+ import public "google/protobuf/empty.proto";
+ import public "google/protobuf/wrappers.proto";
+ import "aelf/core.proto";
+ import "Protobuf/message/authority_info.proto";
+ 
+ option (aelf.identity) = "acs1";
+ option csharp_namespace = "AElf.Standards.ACS1";
+ 
+ service MethodFeeProviderContract {
+ 
+     // Set the method fees for the specified method. Note that this will override all fees of the method.
+     rpc SetMethodFee (MethodFees) returns (google.protobuf.Empty) {
+     }
+ 
+     // Change the method fee controller, the default is parliament and default organization.
+     rpc ChangeMethodFeeController (AuthorityInfo) returns (google.protobuf.Empty) {
+     }
+ 
+     // Query method fee information by method name.
+     rpc GetMethodFee (google.protobuf.StringValue) returns (MethodFees) {
+         option (aelf.is_view) = true;
+     }
+ 
+     // Query the method fee controller.
+     rpc GetMethodFeeController (google.protobuf.Empty) returns (AuthorityInfo) {
+         option (aelf.is_view) = true;
+     }
+ }
+ 
+ message MethodFees {
+     // The name of the method to be charged.
+     string method_name = 1;
+     // List of fees to be charged.
+     repeated MethodFee fees = 2;
+     bool is_size_fee_free = 3;// Optional based on the implementation of SetMethodFee method.
+ }
+ 
+ message MethodFee {
+     // The token symbol of the method fee.
+     string symbol = 1;
+     // The amount of fees to be charged.
+     int64 basic_fee = 2;
+ } 

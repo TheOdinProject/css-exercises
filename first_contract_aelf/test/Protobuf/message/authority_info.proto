@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "aelf/core.proto";
+
+option csharp_namespace = "AElf.Contracts.MyCharacter";
+
+message AuthorityInfo {
+  aelf.Address contract_address = 1;
+  aelf.Address owner_address = 2;
+}

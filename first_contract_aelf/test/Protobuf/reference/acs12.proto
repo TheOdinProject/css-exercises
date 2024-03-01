@@ -1,0 +1,35 @@
+/**
+ * AElf Standards ACS12(User Contract Standard)
+ *
+ * Used to manage user contract.
+ */
+ syntax = "proto3";
+
+ package acs12;
+ 
+ import public "aelf/options.proto";
+ import public "google/protobuf/empty.proto";
+ import public "google/protobuf/wrappers.proto";
+ import "aelf/core.proto";
+ 
+ option (aelf.identity) = "acs12";
+ option csharp_namespace = "AElf.Standards.ACS12";
+ 
+ service UserContract{
+ 
+ }
+ 
+ //Specified method fee for user contract.
+ message UserContractMethodFees {
+     // List of fees to be charged.
+     repeated UserContractMethodFee fees = 2;
+     // Optional based on the implementation of SetConfiguration method.
+     bool is_size_fee_free = 3;
+ }
+ 
+ message UserContractMethodFee {
+     // The token symbol of the method fee.
+     string symbol = 1;
+     // The amount of fees to be charged.
+     int64 basic_fee = 2;
+ }

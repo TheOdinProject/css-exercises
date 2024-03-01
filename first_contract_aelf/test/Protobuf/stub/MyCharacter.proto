@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+import "aelf/core.proto";
+import "aelf/options.proto";
+import "google/protobuf/empty.proto";
+import "google/protobuf/wrappers.proto";
+import "Protobuf/reference/acs12.proto";
+// The namespace of this class
+option csharp_namespace = "AElf.Contracts.MyCharacter";
+
+service MyCharacter {
+  // The name of the state class the smart contract is going to use to access blockchain state
+  option (aelf.csharp_state) = "AElf.Contracts.MyCharacter.MyCharacterState";
+  option (aelf.base) = "Protobuf/reference/acs12.proto";
+
+  // Actions
+    // Define methods name and input/output.
+    rpc Initialize (google.protobuf.Empty) returns (google.protobuf.Empty);
+    rpc CreateCharacter (google.protobuf.Empty) returns (Character);
+
+    // Views
+    rpc GetMyCharacter (aelf.Address) returns (Character) {
+        option (aelf.is_view) = true;
+    }
+}
+
+message Character {
+  int32 health = 1;
+  int32 strength = 2;
+  int32 speed = 3;
+}

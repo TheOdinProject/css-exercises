@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>AElf.Contracts.MyCharacter</RootNamespace>
+        <IsContract>true</IsContract>
+        <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    </PropertyGroup>
+    <PropertyGroup>
+        <ObjPath>$(MSBuildProjectDirectory)/$(BaseIntermediateOutputPath)$(Configuration)/$(TargetFramework)/</ObjPath>
+    </PropertyGroup>
+
+    <Target Name="ProtoGeneratedRecognition" AfterTargets="CoreCompile">
+        <ItemGroup>
+            <Compile Include="$(ObjPath)Protobuf/**/*.cs" />
+        </ItemGroup>
+    </Target>
+
+    <ItemGroup>
+        <PackageReference Include="AElf.Sdk.CSharp" Version="1.5.0" />
+        <PackageReference Include="AElf.Tools" Version="1.0.2">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+</Project>
+    
