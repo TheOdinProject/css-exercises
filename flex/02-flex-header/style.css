@@ -11,6 +11,8 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 
 }
 
@@ -27,4 +29,24 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  
+}
+
+.left-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.right-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+li {
+  margin-left: 10px;
+  margin-right: 10px;
 }
