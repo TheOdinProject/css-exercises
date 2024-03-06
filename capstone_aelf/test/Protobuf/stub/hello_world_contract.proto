@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+import "aelf/options.proto";
+import "google/protobuf/empty.proto";
+import "google/protobuf/wrappers.proto";
+// The namespace of this class
+option csharp_namespace = "AElf.Contracts.StackUpDAO";
+
+service StackUpDAO {
+  // The name of the state class the smart contract is going to use to access blockchain state
+  option (aelf.csharp_state) = "AElf.Contracts.StackUpDAO.StackUpDAOState";
+
+  // Actions (methods that modify contract state)
+  // Stores the value in contract state
+  rpc Update (google.protobuf.StringValue) returns (google.protobuf.Empty) {
+  }
+
+  // Views (methods that don't modify contract state)
+  // Get the value stored from contract state
+  rpc Read (google.protobuf.Empty) returns (google.protobuf.StringValue) {
+    option (aelf.is_view) = true;
+  }
+}
+
+// An event that will be emitted from contract method call
+message UpdatedMessage {
+  option (aelf.is_event) = true;
+  string value = 1;
+}

@@ -1,0 +1,63 @@
+syntax = "proto3";
+
+import "aelf/core.proto";
+import "aelf/options.proto";
+import "google/protobuf/empty.proto";
+import "Protobuf/reference/acs12.proto";
+
+// The namespace of this class
+option csharp_namespace = "AElf.Contracts.StackUpDAO";
+
+service StackUpDAO {
+  // The name of the state class the smart contract is going to use to access blockchain state
+  option (aelf.csharp_state) = "AElf.Contracts.StackUpDAO.StackUpDAOState";
+  option (aelf.base) = "Protobuf/reference/acs12.proto";
+
+  //Actions -> Methods that change state of smart contract
+  rpc Initialize (google.protobuf.Empty) returns (google.protobuf.Empty);
+  rpc JoinDAO (aelf.Address) returns (google.protobuf.Empty);
+  rpc CreateProposal (CreateProposalInput) returns (Proposal);
+  rpc VoteOnProposal (VoteInput) returns (Proposal);
+
+  // //Views -> Methods that does not change state of smart contract
+  rpc GetAllProposals (google.protobuf.Empty) returns (ProposalList) {
+    option (aelf.is_view) = true;
+  }
+}
+
+// Message definitions
+message Member {
+  aelf.Address address = 1;
+}
+
+message Proposal {
+  string id = 1;
+  string title = 2;
+  string description = 3;
+  repeated aelf.Address yesVotes = 4;
+  repeated aelf.Address noVotes = 5;
+  string status = 6;  // e.g., "IN PROGRESS", "PASSED", "DENIED"
+  int32 voteThreshold = 7;
+}
+
+message CreateProposalInput {
+  aelf.Address creator = 1;
+  string title = 2;
+  string description = 3;
+  int32 voteThreshold = 4;
+}
+
+message VoteInput {
+  aelf.Address voter = 1;
+  string proposalId = 2;
+  bool vote = 3; // true for yes, false for no
+}
+
+
+message MemberList {
+  repeated Member members = 1;
+}
+
+message ProposalList {
+  repeated Proposal proposals = 1;
+}
