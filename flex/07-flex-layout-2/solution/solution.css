@@ -73,11 +73,11 @@ a {
   padding: 32px;
   display: flex;
   flex-wrap: wrap;
+  gap: 16px;
 }
 
 .card {
   padding: 16px;
-  margin: 16px;
   width: 300px;
 }
 
