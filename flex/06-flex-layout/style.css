@@ -47,3 +47,10 @@ a {
 .header .left-links {
   padding-left: 0px;
 }
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
