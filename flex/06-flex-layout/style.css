@@ -26,7 +26,13 @@ input {
   margin-bottom: 16px;
 }
 
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
 .header {
   display: flex;
-  flex: 1;
 }
