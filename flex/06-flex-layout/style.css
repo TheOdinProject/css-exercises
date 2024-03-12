@@ -35,4 +35,15 @@ a {
 }
 .header {
   display: flex;
+  justify-content: space-between;
+  margin: 0px 16px;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
+}
+
+.header .left-links {
+  padding-left: 0px;
 }
