@@ -3,8 +3,8 @@ body {
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: auto;
 }
 
 .title {
@@ -19,9 +19,12 @@ ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 32px;
+  margin: 0 52px 0 52px;
 }
 
+li {
+  margin: 0px 52px 0px 52px;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
