@@ -26,6 +26,9 @@ body {
   height: 48px;
   flex-shrink: 0;
 }
+.notifications {
+  flex-shrink: 0;
+}
 
 .logo {
   color: rebeccapurple;
