@@ -24,6 +24,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -54,7 +55,7 @@ ul {
 .left-links {
   display: flex;
   margin-right: auto;
-  gap: 8px;
+  gap: 16px;
   margin-left: 8px;
   
 }
@@ -62,12 +63,12 @@ ul {
 .right-links {
   margin-left: auto;
   display: flex;
-  gap: 8px;
+  gap: 16px;
   margin-right: 8px;
 }
 
 .links {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 16px;
 }
