@@ -21,6 +21,7 @@ ul {
   align-items: center;
   margin: 0 52px 0 52px;
   list-style: none;
+  text-wrap: balance;
 }
 
 li {
