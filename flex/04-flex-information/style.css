@@ -20,10 +20,17 @@ ul {
   justify-content: space-evenly;
   align-items: center;
   margin: 0 52px 0 52px;
+  list-style: none;
 }
 
 li {
   margin: 0px 52px 0px 52px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  text-wrap: wrap;
 }
 /* do not edit this footer */
 .footer {
