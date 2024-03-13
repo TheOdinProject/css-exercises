@@ -73,7 +73,7 @@ a {
   padding: 32px;
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 32px;
 }
 
 .card {
