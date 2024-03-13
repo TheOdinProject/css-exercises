@@ -61,4 +61,9 @@ a {
 
 .footer {
   margin-top: auto;
+  background-color: #eeeeee;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
