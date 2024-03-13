@@ -2,31 +2,41 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
-body {
+body{
+  background-color:#eee ;
   margin: 0;
-  background: #eee;
-  font-family: Besley, serif;
+  font-family: 'Besley', serif;
 }
 
-.header {
-  background: white;
-  border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
-}
-
-.profile-image {
-  background: rebeccapurple;
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
-}
-
-.logo {
+.logo{
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+}
+
+.header{
+  height: 50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  padding: 8px;
+}
+
+.left-container, .right-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 button {
@@ -37,12 +47,15 @@ button {
   padding: 8px 24px;
 }
 
-a {
-  /* this removes the line under our links */
-  text-decoration: none;
-  color: rebeccapurple;
+.profile-image{
+  background-color: rebeccapurple;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
 }
 
-ul {
-  list-style-type: none;
+a{
+  text-decoration: none;
+  color: rebeccapurple;
 }
