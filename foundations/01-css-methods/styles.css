@@ -1,7 +1,8 @@
 div{
     background-color: red;
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
     color: white;
     font-weight: 600;
+    text-align: center;
 }
