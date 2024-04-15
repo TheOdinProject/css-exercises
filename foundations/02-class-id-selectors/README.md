@@ -20,6 +20,6 @@ Quick tip: in VS Code, you can change which format colors are displayed in RGB, 
 
 
 ### Self Check
-- Do the odd numbered `p` elements share a class?
-- Do the even numbered `div` elements have unique IDs?
-- Does the Number 3 element have multiple classes?
+- Do the odd numbered `p` elements share a class? yes
+- Do the even numbered `div` elements have unique IDs? yes
+- Does the Number 3 element have multiple classes? yes
