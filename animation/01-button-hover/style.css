@@ -17,3 +17,12 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+/* Solution for hovering on top of the button */
+
+button {
+  transform: 0.35s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.25)
+}
