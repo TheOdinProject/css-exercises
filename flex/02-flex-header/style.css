@@ -1,5 +1,6 @@
 .header  {
   font-family: monospace;
+  font-weight: 800;
   background: papayawhip;
 }
 
@@ -17,7 +18,7 @@ ul {
 }
 
 a {
-  font-size: 22px;
+  font-size: 25px;
   background: white;
   padding: 8px;
   /* this removes the line under the links */
@@ -27,15 +28,15 @@ a {
 /* Solution for this  */
 
 .header {
-  padding: 8px;
+  padding: 10px;
   display: flex; 
   align-items: center;
-  justify-content: space-between;
+  justify-content:  space-between;
 }
 
 ul {
   display: flex;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
   gap: 8px;
 }
