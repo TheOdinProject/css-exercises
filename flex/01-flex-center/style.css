@@ -13,3 +13,11 @@
   width: 80px;
   height: 80px;
 }
+
+/* Solution for this */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
