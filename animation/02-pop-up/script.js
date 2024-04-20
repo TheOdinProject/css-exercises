@@ -1,6 +1,6 @@
 const openButton = document.getElementById('trigger-modal');
 const closeButton = document.getElementById('close-modal');
-const backdrop = document.getElementById('backdrop')
+const backdrop = document.getElementById('backdrop') //Answer for javascript//
 
 function toggleModal() {
   const modalDiv = document.querySelector('.popup-modal');
