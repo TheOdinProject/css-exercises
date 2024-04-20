@@ -44,5 +44,54 @@ a {
 }
 
 ul {
+
+  /* Also this remove the dot in the list */
   list-style-type: none;
+}
+
+
+/* .header {
+  display: flex;
+  
+}
+
+.logo {
+  display: flex;
+  margin: 10px;
+  padding: 0;
+
+}
+
+experimenting new things i guess....
+
+.link {
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+
+}
+
+.a {
+  display: flex;
+  align-items: right;
+  justify-content: flex-end;
+} */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
