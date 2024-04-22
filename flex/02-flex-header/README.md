@@ -16,3 +16,5 @@ wide:
 - list-items are horizontal, and are centered vertically inside the header.
 - left-links and right-links are pushed all the way to the left and right, and stay at the edge of the header when the page is resized.
 - Your solution does not use floats, inline-block, or absolute positioning.
+
+- Note: For this exercise, it's completely acceptable to not match the font-family.

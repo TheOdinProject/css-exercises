@@ -1,5 +1,5 @@
 body{
-  font-family:Arial, Helvetica, sans-serif
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .para,
@@ -85,7 +85,7 @@ div.text {
   }
 
   Then we added another selector to create a descendant combinator. If we only created a descendant combinator, the specificity would be tied with the
-  div.text selector and it would come down to rule order, and if we only moved it the div.text selector would still have a higher specificity.
+  div.text selector and it would come down to rule order, and if we only moved it, the div.text selector would still have a higher specificity.
   
   Another solution would be to keep the rule where it was and just replace the div selector with the .text selector:
 
