@@ -1,3 +1,7 @@
+/* The method employed here is to chain selectors. However we could also move the rule declararations below,
+   so that the rule order applies. We could also use ID selectors instead of class selectors, as they have 
+   higher specificity. */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,7 +12,8 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+/* Chain selectors here, so that it has higher specificity */
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,7 +22,8 @@ body {
   font-size: 22px;
 }
 
-.confirm {
+/* Similar to above, chain selectors to get higher specificity */
+.confirm.button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,7 +35,8 @@ body {
   font-size: 20px;
 }
 
-.child {
+/* Chain selectors again to get higher specifictiy */
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
