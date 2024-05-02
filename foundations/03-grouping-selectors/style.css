@@ -9,3 +9,8 @@
     color: red;
     font-weight: bold;
 }
+
+button {
+    font-size: 28px;
+    font-family: helvetica, Times New Roman, sans-serif;
+}
