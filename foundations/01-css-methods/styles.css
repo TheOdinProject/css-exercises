@@ -3,5 +3,5 @@ div {
     color: white;
     size: 32px;
     text-align: center;
-    text-decoration: solid;
+    font-weight: bold;
 }
