@@ -1,16 +1,16 @@
 .pinkclass {
     background-color: pink;
     font-family: Verdana, 'DejaVu Sans', 'sans-serif';
-    size: 24px;
+    font-size: 24px;
 }
 
 #firstid {
     color: blue;
-    size: 36px;
+    font-size: 36px;
 }
 
 #secondid {
     background: lightgreen;
-    size: 24px;
+    font-size: 24px;
     font-weight: bold;
 }
