@@ -1,10 +1,10 @@
-#first {
+.first {
     background: black;
     color: white;
     font-weight: bold;
 }
 
-#second {
+.second {
     background: yellow;
     color: red;
     font-weight: bold;
