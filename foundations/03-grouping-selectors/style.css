@@ -1,16 +1,15 @@
 .first {
     background: black;
     color: white;
-    font-weight: bold;
 }
 
 .second {
     background: yellow;
     color: red;
-    font-weight: bold;
 }
 
 button {
     font-size: 28px;
     font-family: helvetica, Times New Roman, sans-serif;
+    font-weight: bold;
 }
