@@ -8,3 +8,9 @@
     color: blue;
     size: 36px;
 }
+
+#secondid {
+    background: lightgreen;
+    size: 24px;
+    font-weight: bold;
+}
