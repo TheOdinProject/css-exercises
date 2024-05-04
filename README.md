@@ -4,7 +4,8 @@ These exercises consist of a series of CSS-related tasks intended to complement 
 
 When doing these exercises, please use all documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use Google, and do what you need to do (besides checking the solutions) to get them done.
 
-We encourage you to practice your git skills by committing your changes and pushing them to your own fork.  However, please **DO NOT** open a Pull Request to have your solutions merged into this repo or to show your solution.  If we were to merge your changes the exercises would no longer be available as intended for new learners, and opening a PR only causes additional work for us, as we have to close it without merging.
+> [!IMPORTANT]
+> We encourage you to practice your git skills by committing your changes and pushing them to your own fork.  However, please **DO NOT** open a Pull Request to have your solutions merged into this repo or to show your solution.  If we were to merge your changes the exercises would no longer be available as intended for new learners, and opening a PR only causes additional work for us, as we have to close it without merging.
 
 ## Contributing
 
@@ -22,7 +23,9 @@ If you have suggestions to improve an exercise, ideas for a new exercise, or not
 1. Once you successfully finish an exercise, check TOP's solution to compare it with yours.
     - You should not be checking the solution for an exercise until you finish it!
     - If your solution differs wildly from TOP's solution (and still passes the exercise's requirements), that's completely fine. Do feel free to ask about it in our Discord if there are parts you do not understand.
-1. Do not submit your solutions to this repo, as any PRs that do so will be closed without merging.
+
+> [!IMPORTANT]
+> Do not submit your solutions to this repo, as any PRs that do so will be closed without merging.
 
 ## Some Hints
 - The official solutions put all changes at the _end_ of the CSS file, which may duplicate some selectors (e.g. there might be a `body {}` in the given CSS and another `body {}` in the solution). When you are working on an exercise, it is best practice to add your CSS to existing selectors instead of duplicating them at the end of the file. We're sacrificing this best practice in our official solutions to make it extra clear to you what things we changed to solve the exercise.
