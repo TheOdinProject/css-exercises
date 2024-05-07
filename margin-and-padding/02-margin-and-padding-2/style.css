@@ -28,8 +28,14 @@ body {
   display: block;
 }
 
+
+.button-container {
+    text-align: center;
+}
+
 button {
   background: white;
   border: 1px solid #eee;
   display: block;
+  margin: auto;
 }
