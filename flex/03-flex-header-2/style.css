@@ -19,10 +19,15 @@ body {
 
 .logo-links {
     display: flex;
+    padding: 10px;
+    justify-content: start;
 }
 
 .button-profile-image {
     display: flex;
+    padding: 10px 10px 10px 0px;
+    justify-content: space-between;
+    gap: 8px;
 }
 
 .profile-image {
@@ -57,5 +62,6 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  gap: 5px;
+  justify-content: space-between;
+  gap: 15px;
 }
