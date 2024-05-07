@@ -9,16 +9,20 @@ body {
   margin: 16px auto;
 }
 
+.card > * {
+    background: lightblue;
+}
+
 .title {
-  background: #e3f4ff;
+  
 }
 
 .content {
-  background: #e3f4ff;
+  
 }
 
 .button-container {
-  background: #e3f4ff;
+  
 }
 
 button {
