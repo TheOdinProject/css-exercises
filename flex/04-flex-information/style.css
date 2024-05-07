@@ -10,6 +10,9 @@ img {
 .page {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding: 0px 25px;
 }
 
 .content {
@@ -19,6 +22,7 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
 
 /* do not edit this footer */
