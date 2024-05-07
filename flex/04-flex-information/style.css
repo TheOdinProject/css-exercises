@@ -14,6 +14,7 @@ img {
 .page, .info {
     flex-direction: column;
     justify-content: center;
+    align-items: cetner;
 }
 
 .page {
@@ -30,7 +31,9 @@ img {
     width: 150px;
 }
 
-
+.text {
+    text-align: center;
+}
 
 .title {
   font-size: 36px;
