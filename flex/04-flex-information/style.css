@@ -7,6 +7,11 @@ img {
   height: 100px;
 }
 
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
