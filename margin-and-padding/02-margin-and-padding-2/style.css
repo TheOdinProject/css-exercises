@@ -6,8 +6,9 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
-  padding: 10px;
+  margin: auto;
+  padding: 0 10px;
+  display: inline-block;
 }
 
 .card > * {
