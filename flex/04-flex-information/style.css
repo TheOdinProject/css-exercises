@@ -12,6 +12,10 @@ img {
     flex-direction: column;
 }
 
+.content {
+    display: flex
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
