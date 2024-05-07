@@ -12,6 +12,7 @@ body {
 
 .card > * {
     background: lightblue;
+    padding: 10px;
 }
 
 .title {
