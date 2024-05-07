@@ -16,7 +16,13 @@ img {
 }
 
 .content {
-    display: flex
+    display: flex;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .title {
