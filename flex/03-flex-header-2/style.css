@@ -15,20 +15,15 @@ body {
 
   display: flex;
   justify-content: space-between;
+  padding: 8px;
 }
 
-.logo-links {
+.logo-links, .button-profile-image {
     display: flex;
-    padding: 10px;
-    justify-content: start;
+    align-items: center;
+    gap: 16px;
 }
 
-.button-profile-image {
-    display: flex;
-    padding: 10px 10px 10px 0px;
-    justify-content: space-between;
-    gap: 8px;
-}
 
 .profile-image {
   background: rebeccapurple;
