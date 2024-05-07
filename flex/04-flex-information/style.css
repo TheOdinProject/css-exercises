@@ -21,14 +21,16 @@ img {
     padding: 0px 25px;
 }
 
+.content {
+    justify-content: space-between;
+}
+
 .info {
     flex-wrap: wrap;
+    width: 150px;
 }
 
-.text {
-    display: flex;
 
-}
 
 .title {
   font-size: 36px;
