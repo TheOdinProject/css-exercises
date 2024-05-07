@@ -21,6 +21,10 @@ ul {
   justify-content: space-around;
 }
 
+li {
+    padding: 5px;
+}
+
 a {
   font-size: 22px;
   background: white;
