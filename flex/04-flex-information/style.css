@@ -7,23 +7,27 @@ img {
   height: 100px;
 }
 
-.page {
+.page, .content, .info, .text {
     display: flex;
+}
+
+.page, .info {
     flex-direction: column;
     justify-content: center;
+}
+
+.page {
     gap: 50px;
     padding: 0px 25px;
 }
 
-.content {
-    display: flex;
+.info {
+    flex-wrap: wrap;
 }
 
-.info {
+.text {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+
 }
 
 .title {
