@@ -51,19 +51,24 @@ ul {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   padding: 8px;
+  gap: 16px;
+}
+
+button {
+  margin-left: auto;
 }
 
 ul {
   display: flex;
+  gap: 16px;
   margin: 0;
   padding: 0;
-  gap: 16px;
 }
 
-.left, .right {
-  display: flex;
-  align-items: center;
-  gap: 16px;
+/* Optional: This will prevent the circle (profile image) from shrinking to oval shape */
+
+.profile-image {
+  flex-shrink: 0
 }
