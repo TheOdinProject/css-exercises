@@ -12,6 +12,31 @@ img {
   font-weight: 900;
 }
 
+/* solve is here */
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
+}
+ 
+.details {
+  display: flex;
+  flex-direction: row;
+  gap: 52px;
+}
+
+.one, .two, .three, .last  {
+ display: flex;
+ flex-direction: column;
+}
+
+.text {
+ text-align: center;
+ max-width: 200px;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
