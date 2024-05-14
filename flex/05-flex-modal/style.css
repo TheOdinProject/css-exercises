@@ -37,6 +37,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  flex: 1 1 50%;
 }
 
 .close-button {
