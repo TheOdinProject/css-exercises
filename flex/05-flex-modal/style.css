@@ -17,6 +17,8 @@ body {
 
 .modal {
   display: flex;
+  padding: 20px;
+
   background: white;
   width: 480px;
   border-radius: 10px;
