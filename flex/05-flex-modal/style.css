@@ -26,6 +26,11 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.header-close-button {
+  display: flex;
+  justify-content: space-between;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
