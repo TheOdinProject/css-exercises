@@ -51,6 +51,12 @@ body {
   flex: 1 1 50%;
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -63,7 +69,7 @@ body {
   align-items: center;
   justify-content: center;
   border: 1px solid #eee;
-  padding: 0;
+  padding: 15px;
 }
 
 button {
