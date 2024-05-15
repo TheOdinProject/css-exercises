@@ -57,6 +57,11 @@ body {
   justify-content: center;
 }
 
+.text {
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
