@@ -1,0 +1,16 @@
+.dec{
+    background-color: lightpink;
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+#wh{
+    color: blue;
+    font-size: 32px;
+}
+#we{
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
+.we{
+ font-size: 24px;
+}
