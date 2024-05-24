@@ -29,3 +29,9 @@ input {
 .header, .content, .footer {
   display: flex;
 }
+
+.left-links, .right-links {
+  display: flex;
+  gap: 8px;
+  list-style-type: none;
+}
