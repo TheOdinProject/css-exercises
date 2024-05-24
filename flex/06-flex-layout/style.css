@@ -30,10 +30,16 @@ input {
   display: flex;
 }
 
+.header, .footer {
+  justify-content: space-between;
+}
+
 .left-links, .right-links {
   display: flex;
   gap: 8px;
   list-style-type: none;
+  justify-content: space-between;
+  margin: auto;
 }
 
 a {
