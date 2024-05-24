@@ -35,6 +35,7 @@ input {
 
 .header, .footer {
   justify-content: space-between;
+  padding: 10px;
 }
 
 .content {
@@ -50,7 +51,8 @@ input {
   display: flex;
   gap: 8px;
   list-style-type: none;
-  justify-content: space-between;
+  margin: 0;
+  padding: 0px;
 }
 
 a {
