@@ -35,3 +35,8 @@ input {
   gap: 8px;
   list-style-type: none;
 }
+
+a {
+  text-decoration: none;
+  color: gray;
+}
