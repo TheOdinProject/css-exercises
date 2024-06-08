@@ -51,15 +51,18 @@ ul {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
   padding: 8px;
 }
-
-ul {
+.links{
+  margin-right: auto;
   display: flex;
+  gap: 16px;
+}
+ul {
   margin: 0;
   padding: 0;
-  gap: 16px;
 }
 
 .left, .right {
