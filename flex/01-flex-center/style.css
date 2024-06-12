@@ -1,15 +1,21 @@
-.container {
-  background: dodgerblue;
+.outside {
+  background: rgb(22, 61, 100);
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
 }
 
-.box {
+.inside {
   background: palevioletred;
   font-weight: bold;
   text-align: center;
-  border: 6px solid maroon;
+  border: 6px solid rgb(8, 7, 7);
   width: 80px;
   height: 80px;
+}
+
+.outside{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
