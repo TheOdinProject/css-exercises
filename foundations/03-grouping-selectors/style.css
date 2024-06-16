@@ -1,0 +1,12 @@
+.click-me{
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+.dont-click-me.btn{
+    background-color: yellow;
+}
+.btn{
+    font-size: 28px;
+    font-family: Helvetica,'Times New Roman', Times, sans-serif;
+}
