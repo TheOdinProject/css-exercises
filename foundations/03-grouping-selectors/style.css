@@ -1,0 +1,18 @@
+.click1, .click2{
+  font-size:28px;
+  font-family:"Helvetica Times New Roman",sans-serif;
+}
+
+.click1{
+  /*background-color:hsl(59,100%,50%);*/
+  background-color:#000000;
+  color:#ffffff;
+  font-weight:bold;
+}
+
+.click2{
+  /*background-color:#000000;
+  color:#ffffff;
+  font-weight:bold;*/
+  background-color:hsl(59,100%,50%)
+}
