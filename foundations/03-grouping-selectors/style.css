@@ -1,0 +1,12 @@
+.active, .non-active{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.active{
+    background-color: black;
+    color: white;
+}
+.non-active{
+    background-color: yellow;
+}
