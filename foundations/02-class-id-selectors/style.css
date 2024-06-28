@@ -1,0 +1,17 @@
+.odd-number{
+    background-color: pink;
+    font-size: 15px;
+}
+.cooler{
+    font-size: 20px;
+}
+#first-element{
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+#second-element{
+    background-color: green;
+    font-size: 25px;
+    font-weight: bold;
+}
