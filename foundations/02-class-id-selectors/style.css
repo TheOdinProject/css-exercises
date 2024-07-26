@@ -1,0 +1,19 @@
+.oddel {
+    background-color: #ff101055;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.oddel.thirdel {
+    font-size: 24px;
+}
+
+#twoid {
+    color: rgb(0, 17, 255);
+    font-size: 36px;
+}
+
+#fourid {
+    background-color: hsl(120, 90%, 73%);
+    font-size: 24px;
+    font-weight: 800;`
+}
