@@ -1,4 +1,4 @@
-# Popup
+cs# Popup
 
 In this exercise we have set up a simple pop-up dialog for you. It already works! Load up index.html and give it a shot!
 
