@@ -1,0 +1,25 @@
+
+
+.odd {
+background-color:lightcoral;
+font-family: verdana, 'Segoe UI', sans-serif;
+font-size: 24px;
+
+}
+
+.adjusted-font-size {
+    font-size: 24px;
+}
+
+#two {
+
+color: blue;
+font-size: 36px;
+}
+
+#four {
+    background-color: lightgreen; 
+    font-weight: bold;
+    font-size: 24px;
+    
+}
