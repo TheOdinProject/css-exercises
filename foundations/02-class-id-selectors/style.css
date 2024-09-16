@@ -1,13 +1,13 @@
 .number 
     {
-        background-color: pink;
+        background-color: rgb(255, 192, 203);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
 #n02
     {
         font-size: 36px;
-        color: rgb(54, 54, 206);
+        color: #0000ff;
     }
 
 .three
@@ -17,7 +17,7 @@
 
 #n04s
     {
-        background-color: green;
+        background-color: rgb(24, 165, 5);
         font-weight: bold;
         font-size: 24px;
     }
