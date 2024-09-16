@@ -1,0 +1,23 @@
+.number 
+    {
+        background-color: pink;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+#n02
+    {
+        font-size: 36px;
+        color: blue;
+    }
+
+.number.three
+    {
+        font-size: 24px;
+    }
+
+#n04
+    {
+        background-color: green;
+        font-weight: bold;
+        font-size: 24px;
+    }
