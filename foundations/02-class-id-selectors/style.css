@@ -7,7 +7,7 @@
 #n02
     {
         font-size: 36px;
-        color: blue;
+        color: rgb(54, 54, 206);
     }
 
 .number.three
@@ -15,7 +15,7 @@
         font-size: 24px;
     }
 
-#n04
+#n04s
     {
         background-color: green;
         font-weight: bold;
