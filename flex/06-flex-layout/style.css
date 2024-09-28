@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -23,4 +25,52 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin-bottom: 16px; /* Add margin-bottom property */
+}
+
+button {
+  padding: 8px 16px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background: #ffffff;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background: #eeeeee;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Add these styles */
+ul {
+  list-style: none; /* Remove bullets or numbers */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Make it a flex container */
+  gap: 16px; /* Add space between items */
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+  color: #666 /* Set text color */
 }

@@ -9,7 +9,6 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,6 +19,44 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  position: relative; /* Allow absolute positioning of the close button */
+  padding: 20px; /* Padding around the edge of the modal */
+}
+
+.left {
+  margin-right: 20px; /* Equal space between icon and text */
+}
+
+.right {
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between header text and close button */
+  width: 100%;
+  font-weight: 700; /* Bold header */
+  font-size: 1.2em; /* Slightly larger text-size for header */
+}
+
+.close-button {
+  position: absolute;
+  top: 20px; /* Adjust based on padding */
+  right: 20px; /* Adjust based on padding */
+  background: #eee;
+  border-radius: 50%;
+  color: #888;
+  font-weight: 400;
+  font-size: 16px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  padding: 0;
 }
 
 .icon {
@@ -35,25 +72,15 @@ body {
   justify-content: center;
 }
 
-.close-button {
-  background: #eee;
-  border-radius: 50%;
-  color: #888;
-  font-weight: 400;
-  font-size: 16px;
-  height: 24px;
-  width: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #eee;
-  padding: 0;
+.text {
+  margin-top: 10px;
 }
 
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  margin-top: 10px;
 }
 
 button.continue {
