@@ -69,29 +69,16 @@ button.cancel {
 }
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> main
 .modal {
   display: flex;
   gap: 16px;
   padding: 16px;
-<<<<<<< HEAD
-
-=======
->>>>>>> main
 }
 
 .icon {
   /* this keeps the icon from getting smashed by the text */
   flex-shrink: 0;
 }
-<<<<<<< HEAD
-/* header container should be wrapped around the button element as well in order for flex style to work */
-=======
-
->>>>>>> main
 .header {
   display: flex;
   align-items: center;
