@@ -10,7 +10,7 @@ body {
 .button-container {
   width: 100vw;
   height: 100vh;
-  background-color: #ffffff;
+  background-color: #001433;
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -19,8 +19,8 @@ body {
 
 button {
   padding: 20px;
-  color: #ffffff;
-  background-color: #0e79dd;
+  color: #eaf5eb;
+  background-color: #3e015b;
   border: none;
   border-radius: 5px;
   font-weight: 600;
@@ -51,6 +51,15 @@ button {
   inset: 0;
   background: #000;
   opacity: 0%;
+}
+
+.popup-modal.show {
+  opacity: 100%;
+  pointer-events: all;
+}
+
+.backdrop.show {
+  opacity: 30%;
 }
 
 .popup-modal.show {
