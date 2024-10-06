@@ -1,0 +1,31 @@
+.heading {
+  text-align: center;
+}
+.Box {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.Box1 {
+  width: 150px;
+  height: 180px;
+  padding: 10px;
+  background-color: orange;
+}
+.Box2 {
+  width: 150px;
+  height: 180px;
+  padding: 10px;
+  background-color: green;
+  text-align: right;
+}
+.Box3 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  background-color: skyblue;
+  text-align: center;
+  z-index: 1;
+}
