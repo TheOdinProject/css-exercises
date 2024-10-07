@@ -5,39 +5,68 @@ html {
 }
 
 .container {
-  text-align: center;
+  display: grid; /* Set the container to use grid layout */
+  grid-template-columns: 1fr 3fr; /* Two columns, second column is three times larger */
+  grid-template-rows: auto 1fr 5fr 1fr; /* Four rows, third row is five times larger */
+  gap: 15px; /* Gap between grid items */
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
 }
 
-.container div {
+.header {
+  grid-column: 1 / -1; /* Header spans across both columns */
   padding: 15px;
   font-size: 32px;
   font-family: Helvetica;
   font-weight: bold;
   color: white;
+  background-color: #006157;
   border-radius: 15px;
 }
 
-.header {
-  background-color: #006157;
-}
-
 .sidebar {
+  grid-column: 1; /* Sidebar only spans the first column */
+  padding: 15px;
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
   background-color: #005B94;
+  border-radius: 15px;
 }
 
 .nav {
+  grid-column: 2; /* Nav spans the second column */
+  padding: 15px;
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
   background-color: #642cde;
+  border-radius: 15px;
 }
 
 .article {
+  grid-column: 2; /* Article spans the second column */
+  padding: 15px;
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
   background-color: #7E1DC3;
+  border-radius: 15px;
 }
 
 .footer {
+  grid-column: 1 / -1; /* Footer spans across both columns */
+  padding: 15px;
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
   background-color: #393f4d;
+  border-radius: 15px;
 }
 
 .article p {
