@@ -1,34 +1,37 @@
+
 # CSS Exercises
 
-These exercises consist of a series of CSS-related tasks intended to complement the HTML and CSS content on The Odin Project (TOP). They should only be completed when instructed during the course of the curriculum.
+These exercises are designed to complement the HTML and CSS lessons from The Odin Project (TOP). They should only be completed when instructed during the course of the curriculum.
 
-When doing these exercises, please use all documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use Google, and do what you need to do (besides checking the solutions) to get them done.
+When doing these exercises, feel free to use any documentation or resources necessary to complete them. At this stage, you're not expected to have everything memorized. Check the docs, use Google, and do what you need to do (except checking the solutions) to get them done.
 
 > [!IMPORTANT]
-> We encourage you to practice your git skills by committing your changes and pushing them to your own fork.  However, please **DO NOT** open a Pull Request to have your solutions merged into this repo or to show your solution.  If we were to merge your changes the exercises would no longer be available as intended for new learners, and opening a PR only causes additional work for us, as we have to close it without merging.
+> We encourage you to practice using Git by committing and pushing your changes to your own fork of the repository. However, please **DO NOT** open a Pull Request to have your solutions merged into this repo. If we merge your changes, the exercises would no longer be available as intended for new learners, and it adds unnecessary work for us to close such PRs.
 
 ## Contributing
 
-If you have suggestions to improve an exercise, ideas for a new exercise, or notice an issue with an exercise, please feel free to open an issue after thoroughly reading our [contributing guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md).
+If you have suggestions to improve an exercise, ideas for new exercises, or notice any issues, feel free to open an issue after reading our [contributing guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md).
 
 ## How To Use These Exercises
 
-1. Fork and clone this repository. To learn how to fork a repository, see the GitHub documentation on how to [fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
-    - Copies of repositories on your machine are called clones. If you need help cloning to your local environment, you can learn how from the GitHub documentation on [cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository).
-1. Go to an exercise directory and open the HTML file in a web browser. You can open the file directly or use something like VSCode's Live Server extension.
-1. For each exercise, read the README thoroughly before starting any work.
-    - Each README has a "Self Check" list. Use this to ensure you haven't missed any important details in your implementation.
-1. Make your edits in the `index.html` and/or the `style.css` files in order to make the output in your browser look like the Desired Outcome image(s).
-    - Depending on the instructions of the exercise, you may only need to make edits in one of these files.
-1. Once you successfully finish an exercise, check TOP's solution to compare it with yours.
-    - You should not be checking the solution for an exercise until you finish it!
-    - If your solution differs wildly from TOP's solution (and still passes the exercise's requirements), that's completely fine. Do feel free to ask about it in our Discord if there are parts you do not understand.
+1. **Fork and clone this repository**: To learn how to fork a repository, refer to the GitHub documentation on how to [fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
+    - If you need help cloning a repository to your local environment, you can follow GitHub's [cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) guide.
+2. Navigate to an exercise directory and open the HTML file in your web browser.
+    - You can open it directly or use tools like VSCode’s Live Server extension.
+3. For each exercise, thoroughly read the README before starting.
+    - Each README contains a "Self Check" list. Use this to ensure you haven't missed any important details in your implementation.
+4. Make your changes in the `index.html` and/or `style.css` files to match the Desired Outcome image(s).
+    - Depending on the instructions, you might only need to modify one file.
+5. After completing an exercise, check TOP's solution to compare it with your own.
+    - Do not check the solution until you have finished the exercise!
+    - If your approach is different but still meets the requirements, that’s perfectly fine. Feel free to ask for clarification on our Discord if something is unclear.
 
 > [!IMPORTANT]
-> Do not submit your solutions to this repo, as any PRs that do so will be closed without merging.
+> Please do not submit your solutions to this repository. Any PRs that include solutions will be closed without merging.
 
 ## Some Hints
-- The official solutions put all changes at the _end_ of the CSS file, which may duplicate some selectors (e.g. there might be a `body {}` in the given CSS and another `body {}` in the solution). When you are working on an exercise, it is best practice to add your CSS to existing selectors instead of duplicating them at the end of the file. We're sacrificing this best practice in our official solutions to make it extra clear to you what things we changed to solve the exercise.
-- Unless listed in the self-check section, do not worry about getting the exact pixel value for things like margin, padding and font size. These exercises are intended to test your knowledge of CSS, not your ability to guess that a screenshot is using `font: sans-serif bold 16px` or that the margin is _exactly_ `42px`.
-- You may need to add some elements to your HTML to get things into the right spot. (For the first few exercises, we make it explicit when this needs to happen.)
-- You may need to add more selectors to your CSS file. The first few exercises have almost everything already done for you, but as you progress, you'll find that you need to add more and more selectors to get the correct result.
+
+- Official solutions often add changes to the _end_ of the CSS file, which may result in duplicate selectors (e.g., two `body {}` selectors). While working on the exercise, it's better practice to add your styles to existing selectors rather than duplicating them.
+- Unless specified in the self-check section, don't stress over getting the exact pixel value for margins, padding, or font sizes. These exercises are meant to test your understanding of CSS, not your ability to guess precise measurements.
+- You may need to add elements to your HTML to achieve the correct layout.
+- You might also need to add more selectors to your CSS file. In early exercises, most of the CSS is already written, but as you progress, you’ll be adding more to meet the requirements.
