@@ -3,21 +3,18 @@ body {
 }
 
 .para,
-.small-para {
+#small-paragraph {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
-}
-
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
+  font-size: 10px;
 }
 
 .para {
   font-size: 22px;
+  font-weight: 900;
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -39,4 +36,9 @@ div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+.text > .child {
+  font-weight: 900;
+  font-size: 14px;
 }
