@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph,
+.small-paragraph {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+}
+
+.paragraph {
+    font-size: 22px;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+div.text {
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-size: 22px;
+}
+
+/* SOLUTION */
+
+/* 
+  For the following rule, we removed it from its original position in the file:
+
+  .small-paragraph {
+    font-size: 14px;
+    font-weight: 800;
+  } 
+
+  Then we placed it after the .paragraph selector, taking advantage of the rule order since both selectors have the same specificity. 
+  
+  Another solution would be keeping it in its original place and just chaining selectors, giving this rule a higher specificity:
+
+  p.small-paragraph {
+    font-size: 14px;
+    font-weight: 800;
+  }
+*/
+
+.small-paragraph {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/* 
+  For the following rule we removed the original .confirm selector:
+
+  .confirm {
+    background: green;
+    color: white;
+    font-weight: bold;
+  } 
+
+  Then we used an ID selector instead, since it has a higher specificity than the .button selector.
+
+  Other solutions would be to simply move the .confirm rule below the .button rule, or to use the .button.confirm selector without moving it:
+
+  .button.confirm {
+    background: green;
+    color: white;
+    font-weight: bold;
+  }
+*/
+
+#confirm-button {
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+
+/*
+  For the following rule we first removed it from its original position in the file: 
+
+  .child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+  }
+
+  Then we added another selector to create a descendant combinator. If we only created a descendant combinator, the specificity would be tied with the
+  div.text selector and it would come down to rule order, and if we only moved it, the div.text selector would still have a higher specificity.
+  
+  Another solution would be to keep the rule where it was and just replace the div selector with the .text selector:
+
+  .text .child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+  }
+*/
+
+div .child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+}
