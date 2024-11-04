@@ -1,0 +1,20 @@
+.element1,
+.element3,
+.element5 {
+    background-color: hsl(351, 100%, 86%);
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+}
+
+#element2 {
+    color: hsl(240, 100%, 50%);
+    font-size: 36px;
+}
+
+.element3 {
+    font-size: 24px;
+}
+
+#element4 {
+    background-color: hsl(120, 73%, 75%);
+    font-size: 24px;
+}
