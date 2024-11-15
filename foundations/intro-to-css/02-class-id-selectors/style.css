@@ -1,0 +1,15 @@
+.one{
+  background-color: light red; 
+  font-family: "Verdana", "DejaVu sans", sans-serif;
+}
+#first{
+  color: #0000FF;
+  font-size: 36px;
+}
+.one.cls{
+  font-size: 24px;
+}
+.two.cls{
+  background-color: light green;
+  font-weight: bold; 
+}
