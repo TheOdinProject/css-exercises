@@ -1,17 +1,16 @@
 .odd{
-  background-color: light pink; 
+  background-color: lightpink; 
   font-family: "Verdana", "DejaVu sans", sans serif;
 }
 #one{
-  color: rgb(0, 0, 255)
+  color: rgb(0, 0, 255);
   font-size: 36px;
 }
 .odd.one{
   font-size: 24px;
 }
-#two{
-  background-color: light green; 
-  font-size: 24px;
-  font-wight: bold;
+.odd.two{
+  background-color: lightgreen; 
+  font-weight: bold;
 }
   
