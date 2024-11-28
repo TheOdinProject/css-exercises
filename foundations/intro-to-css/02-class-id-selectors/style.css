@@ -1,0 +1,23 @@
+.boom
+{
+    background-color: pink;
+    font-family: Verdana,"DejaVu Sans",sans-serif ;
+}
+
+#id
+{
+    color: blue;
+    font-size: 36px;
+}
+
+#third-id
+{
+    font-size: 24px;
+}
+
+#boomid
+{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
