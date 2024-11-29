@@ -3,7 +3,7 @@ you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
 body {
-  margin: 0;
+  margin: 0 auto;
   background: #eee;
   font-family: Besley, serif;
 }
@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;  
 }
 
 .profile-image {
@@ -40,9 +43,19 @@ button {
 a {
   /* this removes the line under our links */
   text-decoration: none;
-  color: rebeccapurple;
+  color: rgb(135, 76, 195);
+
 }
 
 ul {
+  gap: 10px;
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
