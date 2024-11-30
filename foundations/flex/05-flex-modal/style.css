@@ -2,11 +2,12 @@
 
 html, body {
   height: 100%;
+
 }
 
 body {
   font-family: Roboto, sans-serif;
-  margin: 0;
+  margin:auto auto;
   background: #aaa;
   color: #333;
   /* I'll give you this one for free lol */
@@ -20,6 +21,22 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  margin: 20px auto;
+  padding: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .icon {
@@ -34,7 +51,10 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+.text {
+  display: flex;
+  margin-bottom: 30px;
+}
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -56,14 +76,22 @@ button {
   border-radius: 8px;
 }
 
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  justify-content: flex-start;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  display: inline;
+  justify-content: flex-end;
 }
