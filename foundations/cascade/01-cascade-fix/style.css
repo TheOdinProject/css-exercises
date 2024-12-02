@@ -2,6 +2,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.para {
+  font-size: 22px;
+}
+
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
@@ -13,20 +17,24 @@ body {
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
-
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-
 .button {
+  font-size: 20px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-size: 20px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.button.confirm {
+  background-color: green;
+  color: white;
+}
+
+.button.cancel {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
 }
 
 .child {
@@ -39,4 +47,10 @@ div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+/* New style for the specific child div */
+div.text .child {
+  font-size: 12px;
+  font-weight: 800;
 }
