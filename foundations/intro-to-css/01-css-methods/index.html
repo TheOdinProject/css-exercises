@@ -1,14 +1,36 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .fp{
+        color: brown;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        font-style: oblique;
+      }
+    </style>
   </head>
+
   <body>
     <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <p class="fp">I would like to be styled with the internal method, please.</p>
+    <button 
+    style="padding: 10px;
+    margin-left: 13px;
+    background-color: #2C2C2C;
+    border-radius: 40px;
+    border-color: #2C2C2C;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;">Inline Method</button>
   </body>
+
 </html>
