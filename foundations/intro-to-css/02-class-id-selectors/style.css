@@ -1,0 +1,26 @@
+.num1{
+    font-size: 30px;
+    background-color: #FFA7A7;
+    font-weight: bold;
+    font-family:  monospace;
+}
+
+#num2{
+    color: blue;
+    font-size: 50px;
+}
+
+.num3{
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    background-color: #FFA7A7;
+}
+#num4{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: lightgreen;
+}
+.num5{
+    font-size: 26px;
+    background-color: #FFA7A7;
+}
