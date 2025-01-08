@@ -3,11 +3,23 @@
 body {
   height: 100vh;
   margin: 0;
+  padding: 0; 
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
 
-img {
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.header .left-links, .header .right-links {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
   width: 600px;
 }
 
@@ -16,6 +28,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -23,4 +36,103 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  display: flex;
+  margin-bottom: 2%;
 }
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  background: #eee;
+  justify-content: space-between;
+}
+
+.left-links {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16px;
+  font-size: medium;
+
+}
+
+.right-links {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 16px;
+  font-size: medium;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+
+/* 
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background: #eee;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+} */
