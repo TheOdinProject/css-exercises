@@ -4,6 +4,10 @@ html, body {
   height: 100%;
 }
 
+.text{
+  margin-bottom: 16px;
+}
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -20,6 +24,18 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
 .icon {
@@ -33,6 +49,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
