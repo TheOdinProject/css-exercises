@@ -23,5 +23,6 @@ When the browser is stretched wide:
 - The grid tracks do not use static sizes (no pixels!)
 - The second column is three times larger than the other
 - The third row is five times larger than the others
-- The rows and columns stretch wider when making the browser window bigger
-- The rows and columns stretch taller when making the browser window smaller
+- The columns narrow and widen as the viewport changes size
+- Row 3 gets taller to accomodate text wrapping as you narrow the viewport size 
+
