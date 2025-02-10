@@ -29,8 +29,8 @@ body {
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
-
-.child {
+/*chained three selectors to target the child div element, and give this precedence over the 2-chained selector below. */
+div.child.text { 
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
