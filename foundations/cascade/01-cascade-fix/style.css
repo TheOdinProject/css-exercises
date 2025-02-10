@@ -17,9 +17,9 @@ body {
   font-size: 14px;
   font-weight: 800;
 }
-
-.confirm {
-  background: green;
+/*changed background to background-color as error correction. Also, chained classes together to get precedence.*/
+.confirm.button {
+  background-color: green;
   color: white;
   font-weight: bold;
 } 
