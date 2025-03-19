@@ -1,0 +1,21 @@
+/* exercise 2 styles */
+.pink-bg {
+    background-color: hotpink;
+    font-family: Verdana, DejaVu San, sans-serif;
+}
+.pink-bg.bigger-font {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#blue-text {
+    color: blue;
+    font-size: 36px;
+}
+
+#green-bg {
+    background-color: rgb(97, 235, 189);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
