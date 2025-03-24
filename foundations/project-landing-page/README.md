@@ -1,4 +1,5 @@
 Assignment:
+
 Don’t forget to commit early & often! You can reference the Commit Message lesson!
 
 Download the design images and take a look at what you’re going to be creating here. Image One (Full Design), Image Two (Color and Fonts)
