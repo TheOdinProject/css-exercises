@@ -16,5 +16,5 @@ You don't need to worry about the actual functionality here; we've just written 
 
 ### Self Check
 
-- The pop-up slides down into position when you click the open button and slides back up when you click 'close modal'
-- The opacity fades smoothly in and out when toggling the modal
+- [ ] The pop-up slides down into position when you click the open button and slides back up when you click 'close modal'
+- [ ] The opacity fades smoothly in and out when toggling the modal
