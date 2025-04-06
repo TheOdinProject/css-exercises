@@ -1,11 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
 }
+.header {
+  display: flex;
+  margin: 10px;
+  flex-basis: 100%;
+  
+}
+.left-links {
+  display: flex;
+  flex: 1;
+  flex-basis: auto;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 10px;
+  
+}
 
+.right-links {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  align-self: center;
+  padding: 0 10px;
+}
 .logo {
+  width: 180px;
+  margin: 18px;
+  display: flex;
+ 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 48px;
   font-weight: 900;
+  
   color: tomato;
   background: white;
   padding: 4px 32px;
@@ -14,6 +50,8 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  gap: 10px;
 }
 
 a {
@@ -22,20 +60,4 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-}
-
-/* SOLUTION */
-
-.header {
-  padding: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-ul {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  gap: 8px;
 }
