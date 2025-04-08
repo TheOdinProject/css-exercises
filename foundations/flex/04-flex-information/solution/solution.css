@@ -8,9 +8,48 @@ img {
 }
 
 .title {
+  text-align: center;
   font-size: 36px;
   font-weight: 900;
 }
+
+.flex.container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 2em 10% 0 10%;
+}
+
+.card {
+  
+  
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 40px;
+}
+.text {
+  text-align: center;
+  text-justify: center;
+}
+/* img {
+  flex: 0 0 25%;
+  order: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  text-align: center;
+} */
+
+
 
 /* do not edit this footer */
 .footer {
@@ -23,24 +62,4 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
-}
-
-/* SOLUTION */
-
-body {
-  text-align: center;
-}
-
-.title {
-  margin-bottom: 32px;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  gap: 52px;
-}
-
-.info {
-  max-width: 200px;
 }
