@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 img {
@@ -13,9 +15,8 @@ img {
 
 button {
   font-family: Roboto, sans-serif;
-  border: none;
-  border-radius: 8px;
-  background: #eee;
+  all: unset;
+  padding: 2em;
 }
 
 input {
@@ -24,47 +25,60 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
-
-/* SOLUTION */
-
-body {
+/*MAKING FLEX THE DIV OF LINKS*/
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+div li a {
+  color: #2e2e2e;
+  opacity: .5;
+  text-decoration: none;
+  margin: 0em 1em 0em 0em;
+}
+ul li {
+  list-style: none;
 }
 
-button {
-  padding: 8px 16px;
+.left-links, .right-links {
+  display: flex;
+  flex-direction: row;;
 }
+
+.left-links {
+
+  justify-items: flex-start;
+}
+
+.right-links {
+  justify-items: flex-end;
+} 
+
+/*content*/
 
 .content {
-  flex: 1;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  gap: 16px;
+  justify-content: center;
+  align-items: center;
+
+  height: 82vh;
+  margin: 0 auto;
 }
 
-a {
-  color: #666;
-  text-decoration: none;
-}
-
-.header,
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  align-items: center;
 }
 
-.footer {
-  background: #eee;
-}
+/*buttons*/
 
-ul {
+.buttons {
   display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 16px
+}
+
+.buttons button {
+  background-color: none;
 }
