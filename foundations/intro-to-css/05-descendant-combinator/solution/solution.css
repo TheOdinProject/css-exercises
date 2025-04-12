@@ -1,14 +1,4 @@
-.container .text {
+.ancestor .child {
   background-color: yellow;
-  color: #E00000;
-  font-size: 20px;
-  text-align: center;
+  color: red;
 }
-
-/* Below are some other possible descendant combinators:
-
-div p
-div .text
-.container p
-
-*/

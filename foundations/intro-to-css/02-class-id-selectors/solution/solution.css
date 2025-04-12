@@ -1,27 +1,22 @@
-.odd {
-  background-color: rgb(255, 167, 167);
-  font-family: Verdana, "DejaVu Sans", sans-serif;
+.number.p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightcoral;
 }
 
-.adjust-font-size {
-  font-size: 24px;
-}
-
-#two {
-  color: #0000ff;
+#secondElement {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 36px;
+  color: blue;
 }
 
-/*
-    In the id selector 'four' below, we could have also
-    added a rule to set the font size to 24px.
+#thirdElement {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
 
-    However, since the elements 'Number 3' and 'Number 4'
-    in the HTML file share the same font size, we reused
-    the 'adjust-font-size' class above to help reduce
-    duplicate code.
-*/
-#four {
-  background-color: hsl(120, 100%, 75%);
+}
+
+#fourthElement {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
   font-weight: bold;
 }

@@ -1,103 +1,76 @@
-body{
-  font-family:Arial, Helvetica, sans-serif;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
-.small-para {
+
+/*
+  SOLUTION 1: WE CHANGE THE SELECTORS TO GROUPING SELECTORS  
+
+*/
+body p.para{
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
+/*
+  SOLUTION 2: WE CHANGE SPECIFICITY OF THE SELECTORS AND ADD OTHER INSTANCE OF THE CLASS
 
-.para {
-  font-size: 22px;
+*/
+.para.small-para {
+  font-size: 14px;
+  font-weight: 800;
 }
 
-.button {
+/*
+  SOLUTION 3: WE CHANGE THE SELECTORS AND ADD MORE SPECIFICITY
+  WITH A PARENT SELECTOR AND THE CHILD SELECTOR AND CLASS
+*/
+
+body p.para {
+  font-size: 22px;
+}
+  
+  /*
+      SOLUTION 4: WE CHANGE THE SELECTORS AND 
+      ADD THE SELECTOR ID, SELECTOR TAG AND CLASS 
+  */
+#confirm-button.button.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+/*
+  SOLUTION 5: WE CHANGE THE SELECTORS AND
+  JUST ADD THE SELECTOR TAG TO MAKE THIS STYLES TO THE TWO BUTTONS
+
+*/
+button  {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-weight: 100;
-  font-size: 22px;
-}
 
-/* SOLUTION */
+/*
+  SOLUTION 6: CHANGE THE SELECTORS AND
+  ADD THE SPECIFICITY OF THE SELECTORS
+  WITH A TAG SELECTOR AND CLASS SELECTOR IN THIS CASE A DIV THAT HAVE THE CLASS text
 
-/* 
-  For the following rule, we removed it from its original position in the file:
-
-  .small-para {
-    font-size: 14px;
-    font-weight: 800;
-  } 
-
-  Then we placed it after the .para selector, taking advantage of the rule order since both selectors have the same specificity. 
   
-  Another solution would be keeping it in its original place and just chaining selectors, giving this rule a higher specificity:
-
-  p.small-para {
-    font-size: 14px;
-    font-weight: 800;
-  }
 */
-
-.small-para {
-  font-size: 14px;
+div.text{
+  color: rgb(0, 0, 0);
   font-weight: 800;
-}
-
-/* 
-  For the following rule we removed the original .confirm selector:
-
-  .confirm {
-    background: green;
-    color: white;
-    font-weight: bold;
-  } 
-
-  Then we used an ID selector instead, since it has a higher specificity than the .button selector.
-
-  Other solutions would be to simply move the .confirm rule below the .button rule, or to use the .button.confirm selector without moving it:
-
-  .button.confirm {
-    background: green;
-    color: white;
-    font-weight: bold;
-  }
-*/
-
-#confirm-button {
-  background: green;
-  color: white;
-  font-weight: bold;
+  font-size: 14px;
 }
 
 /*
-  For the following rule we first removed it from its original position in the file: 
+  SOLUTION 7: WE CHANGE THE SELECTORS AND 
+  ADD SELECTOR  PARENT TAG AND CHILD SELECTOR TAG AND SAME CHILD ORDER CLASS
 
-  .child {
-    color: rgb(0, 0, 0);
-    font-weight: 800;
-    font-size: 14px;
-  }
-
-  Then we added another selector to create a descendant combinator. If we only created a descendant combinator, the specificity would be tied with the
-  div.text selector and it would come down to rule order, and if we only moved it, the div.text selector would still have a higher specificity.
-  
-  Another solution would be to keep the rule where it was and just replace the div selector with the .text selector:
-
-  .text .child {
-    color: rgb(0, 0, 0);
-    font-weight: 800;
-    font-size: 14px;
-  }
 */
-
-div .child {
+div div.text.child {
   color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
+  font-size: 22px;
+  font-weight: 100;
 }
+

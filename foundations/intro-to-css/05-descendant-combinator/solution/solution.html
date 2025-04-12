@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descendant Combinator</title>
     <link rel="stylesheet" href="solution.css">
-  </head>
-  <body>
-    <div class="container">
-      <p class="text">This should be styled.</p>
+    <title>05-descendant-combinator</title>
+</head>
+<body>
+    <h1>05-descendant-combinator</h1>
+
+    <div class="ancestor">
+        <p class="child">This should be styled</p>
     </div>
-    <p class="text">This should be unstyled.</p>
-    <p class="text">This should be unstyled.</p>
-    <div class="container">
-      <p class="text">This should be styled.</p>
-      <p class="text">This should be styled.</p>
+    <p>This should not be styled</p>
+    <p>This should not be styled</p>
+    <div class="ancestor">
+        <p class="child">This should be styled</p>
     </div>
-  </body>
+    
+    <div class="ancestor">
+        <p class="child">This should be styled</p>
+    </div>
+</body>
 </html>

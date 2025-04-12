@@ -1,14 +1,22 @@
-.inverted,
-.fancy {
-  font-family: Helvetica, "Times New Roman", sans-serif;
-  font-size: 28px;
+.easy,
+.hard {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', 'sans-serif';
+    border-radius: 2em;
 }
 
-.inverted {
-  background-color: black;
-  color: white;
+.easy {
+    background-color: #000;
+    color: #fff;
 }
 
-.fancy {
-  background-color: yellow;
+.easy:hover, 
+.hard:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.hard {
+    background-color: yellow;
+    color: #000;
 }
