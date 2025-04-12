@@ -9,7 +9,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free */
+  /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,22 +17,44 @@ body {
 
 .modal {
   background: white;
-  width: 480px;
+  width: 580px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
 .icon {
+  
   color: royalblue;
-  font-size: 26px;
+  font-size: 2em;
+  margin: 0.5em 0.8em 0em 0.8em;
   font-weight: 700;
   background: lavender;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
+  border-radius:50%;
   display: flex;
   align-items: center;
   justify-content: center;
+
+}
+
+.header {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.title {
+  flex: 6 1 0;
+}
+
+.box-button {
+  flex: 0.7 0 0;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header h1 {
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 0;
 }
 
 .close-button {
@@ -56,6 +78,10 @@ button {
   border-radius: 8px;
 }
 
+.buttons {
+  margin-top: .8em;
+}
+
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
@@ -68,28 +94,31 @@ button.cancel {
   color: royalblue;
 }
 
-/* SOLUTION: */
-
 .modal {
   display: flex;
-  gap: 16px;
-  padding: 16px;
 }
 
-.icon {
-  /* this keeps the icon from getting smashed by the text */
-  flex-shrink: 0;
+.modal .container {
+  flex: 5 0 0;
 }
-/* header container should be wrapped around the button element as well in order for flex style to work */
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 8px;
+.modal .column1 {
+  
+  flex: 1 1 0;
 }
 
 .text {
-  margin-bottom: 16px;
+  width: 90%;
+  margin: 4px 2px 5px 0px;
+  font-size: 1em;
+  text-justify: justify;
 }
+
+.container {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+}
+
