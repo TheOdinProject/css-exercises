@@ -1,0 +1,14 @@
+
+div{
+color:white;
+background-color:red;
+}
+
+p{
+color:white;
+backgground-color:green;
+}
+button{
+color:white;
+background-color:orange;
+}
