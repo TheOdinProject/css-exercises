@@ -1,0 +1,21 @@
+.odd {
+    background-color: #FFA8B5;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#header {
+    color: #1515cd;
+    font-size: 36px;
+}
+
+.sub-header {
+    font-size: 24px;
+}
+
+#main-content {
+    background-color: #01fe03;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
