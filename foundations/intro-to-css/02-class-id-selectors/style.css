@@ -1,0 +1,17 @@
+.odds{
+    color: black;
+    background-color: lightcoral;
+    font-family: Verdana, "DejaVu Sans",sans-serif;
+}
+.odds.adjust-font-size{
+    font-size: 24px;
+}
+#even1{
+    color:blue;
+    font-size: 36px;
+}
+#even2{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
