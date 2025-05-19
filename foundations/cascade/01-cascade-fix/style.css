@@ -1,7 +1,20 @@
+*:not(body):not(html){
+  background-color: antiquewhite;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#title{
+  margin: 0 auto;
+  text-align: center;
+  width: fit-content;
+}
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
@@ -17,6 +30,12 @@ body {
   font-size: 22px;
 }
 
+#button_container{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
 #confirm-button {
   background: green;
   color: white;
@@ -27,6 +46,7 @@ body {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
+  
 }
 
 .text.child {
