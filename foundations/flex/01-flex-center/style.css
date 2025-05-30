@@ -3,9 +3,12 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  justify-content: center; /* centers the flex items horizontally */
+  align-items: center;
 }
 
-.box {
+.container > .box {
   background: palevioletred;
   font-weight: bold;
   text-align: center;
