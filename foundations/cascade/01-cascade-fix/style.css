@@ -1,6 +1,9 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+.para {
+  font-size: 22px;
+}
 
 .para,
 .small-para {
@@ -13,11 +16,8 @@ body {
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,13 +29,13 @@ body {
   font-size: 20px;
 }
 
-.child {
+
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
-
-div.text {
+.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
