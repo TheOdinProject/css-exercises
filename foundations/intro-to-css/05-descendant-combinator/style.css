@@ -1,0 +1,13 @@
+/* .container .text {
+    background-color: #fff000;
+    color: #ff0000;
+    font-size: 20px;
+    text-align: center;
+} */
+
+div p {
+    background-color: #fff000;
+    color: #ff0000;
+    font-size: 20px;
+    text-align: center;
+}
