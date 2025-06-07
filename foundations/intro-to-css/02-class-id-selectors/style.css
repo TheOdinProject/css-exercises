@@ -1,0 +1,22 @@
+.description.odd  {
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+    background-color:#dd77b1 ;
+}
+
+.description.odd.cool {
+    font-size: 24px;;
+}
+
+.text {
+    color: #153bc5;
+}
+
+#even-two {
+    background-color: #74be6a;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#even-one {
+    font-size: 36px;
+}
