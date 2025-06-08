@@ -2,10 +2,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
-.small-para {
-  color: hsl(0, 0%, 0%);
-  font-weight: 800;
+.para {
+  font-size: 22px;
 }
 
 .small-para {
@@ -13,11 +11,17 @@ body {
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
+.para,
+.small-para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
 }
 
-.confirm {
+/* 
+  I used an ID selector to target the Confirm button as .confirm wasn't working
+ */
+
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,14 +33,18 @@ body {
   font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
-
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+/* 
+I combined the type and class to target the div with a class child
+*/
+
+div.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
 }
