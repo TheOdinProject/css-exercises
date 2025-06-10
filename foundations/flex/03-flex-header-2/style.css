@@ -17,8 +17,6 @@ body {
   justify-content: space-between;
   /* This inserts a space between the items and the header */
   padding: 8px;
-  /* This add 16px of space between the left and right items */
-  gap: 16px;
 }
 
 /* 
@@ -29,7 +27,7 @@ body {
 .left-items {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 16px;
 }
 
 .profile-image {
