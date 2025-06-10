@@ -12,6 +12,24 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* This inserts a space between the items and the header */
+  padding: 8px;
+  /* This add 16px of space between the left and right items */
+  gap: 16px;
+}
+
+/* 
+  This centers the logo and links on the right and the button and profile-image on the left
+*/
+
+.right-items,
+.left-items {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .profile-image {
@@ -45,4 +63,8 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
 }
