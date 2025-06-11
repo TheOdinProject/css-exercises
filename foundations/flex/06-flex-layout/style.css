@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* Add this to center the three main containers (.header, .footer, and .content) vertically. */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -16,6 +20,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  /* Add space around the content of the button and space between the input and the buttons */
+  padding: 10px;
+  margin-top: 10px;
 }
 
 input {
@@ -23,4 +30,43 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+/* Centers the items horizontally with space between the left and right links */
+.header, 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.left-links, 
+.right-links,
+ul.left-links, 
+ul.right-links {
+  display: flex;
+  gap: 10px;
+  padding: 0 8px;
+}
+/* Add this to remove the bullet point style */
+ul {
+  list-style-type: none;
+}
+
+/* Add this to remove the text underline */
+li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Add this to center the main content. The input, img and buttons */
+.content {
+  display: flex; 
+  flex-direction: column;   
+  align-items: center;      /* horizontal alignment of the div */
+  justify-content: center;   /* Vertical alignment of the div */
+  gap: 10px;
 }
