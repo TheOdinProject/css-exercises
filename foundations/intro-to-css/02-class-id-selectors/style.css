@@ -1,0 +1,19 @@
+.odd{
+    background-color: lightcoral;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#p2{
+    color: blue;
+    font-size: 36px;
+}
+
+#p3{
+    font-size: 24px;
+}
+
+#p4{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
