@@ -15,11 +15,29 @@ body {
   justify-content: center;
 }
 
+div .header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 18px;
+}
+/* flex container for the header, close button and the main text */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1; /* Flex 1 on the container makes the container grow to take rest of the space */
+  gap: 10px;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;  /* Add flexbox to the modal container to align icon next to the content */
+  display: flex;  /* Space between layout */
+  gap: 15px;
 }
 
 .icon {
@@ -32,7 +50,8 @@ body {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;  /* Prevents icon from shrinking */
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -48,6 +67,11 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+/* container for the continue and cancel buttons */
+.btn-container {
+  display: flex; /* makes the container a flexbox and aligns the buttons horizontally as the default flex direction is row */
+  gap: 10px;
 }
 
 button {
