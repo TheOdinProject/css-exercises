@@ -1,0 +1,14 @@
+.click{
+    background-color: black;
+    color:white;
+}
+
+.unclick{
+    background-color: yellow;
+    color: black;
+}
+
+.click, .unclick{
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
