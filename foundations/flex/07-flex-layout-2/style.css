@@ -14,10 +14,7 @@ body {
   font-weight: 900;
   display: flex;
   align-items: center;
-}
-
-.title{
-  margin-left: 16px;
+  padding: 0 16px;
 }
 
 .cont2{
@@ -42,20 +39,26 @@ body {
 }
 
 ul{
-  font-size: 24px;
+ 
   color: white;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-
+li{
+  margin-bottom: 16px;
+}
 a{
   color:white;
   text-decoration: none;
+  font-size: 24px;
 }
 
 .content{
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 16px;
 }
 
 .card {
@@ -68,5 +71,5 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+
 }
