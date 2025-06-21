@@ -1,0 +1,17 @@
+.odd,
+.odd-enhance{
+    background-color: lightpink;
+    font-family: verdana, DejaVu Sans,sans-serif;
+}
+#second{
+    color: blue;
+    font-size: 36px;
+}
+.odd-enhance{
+    font-size: 24px;
+}
+#fourth{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
