@@ -1,0 +1,18 @@
+.botonsi,
+.botonno{
+    font-size: 28px;
+    font-family: helvetica 'Times New Roman', sans-serif;
+    border-radius: 15px;
+}
+
+.botonsi{
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-style: dotted;
+}
+
+.botonno{
+    background-color: yellow;
+    border: dashed;
+}
