@@ -49,3 +49,10 @@ html {
   background-color: #393f4d;
   grid-column: 1 / 3;
 }
+
+/**** Solution *********/
+.container{
+  display: grid;
+  grid-template: 1fr 1fr 5fr 1fr/ 1fr 3fr;
+  gap: 15px;
+}
