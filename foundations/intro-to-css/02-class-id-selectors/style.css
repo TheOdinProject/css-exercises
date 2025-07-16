@@ -1,0 +1,19 @@
+p{
+    background-color: lightcoral;
+    font-family: Verdana,"DejaVu Sans", sans-serif;
+}
+
+.segundo {
+    color: blue;
+    font-size: 36px;
+}
+
+.tercero {
+    font-size: 24px;
+}
+
+.cuarto {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
