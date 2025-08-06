@@ -1,0 +1,18 @@
+p {
+    font-family: Verdana, DejaVu Sans, Tahoma, sans-serif;
+    background-color: lightpink;
+}
+ #dois {
+    color: blue;
+    font-size: 36px;
+ }
+
+#tres {
+    font-size: 24px;
+}
+
+#quatro {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: 700;
+}
