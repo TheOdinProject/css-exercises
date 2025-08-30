@@ -1,51 +1,66 @@
 body,
 html {
-  height: 100%;
-  margin: 0;
+    height: 100%;
+
+    margin: 0;
 }
 
 .container {
-  text-align: center;
-  height: 100%;
-  padding: 16px;
-  box-sizing: border-box;
+    resize: both;
+    overflow: auto;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
 }
 
 .container div {
-  padding: 15px;
-  font-size: 32px;
-  font-family: Helvetica;
-  font-weight: bold;
-  color: white;
-  border-radius: 15px;
+    padding: 15px;
+    font-size: 32px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
 }
 
 .header {
-  background-color: #006157;
-  grid-column: 1 / 3;
+    background-color: #006157;
+    grid-column: 1 / 3;
+    grid-row:1/1;
 }
 
 .sidebar {
-  background-color: #005B94;
-  grid-row: 2 / 4;
+    background-color: #005B94;
+    grid-row: 2 / 4;
+    grid-column: 1/2;
 }
 
 .nav {
-  background-color: #642cde;
+    background-color: #642cde;
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
 .article {
-  background-color: #7E1DC3;
+     grid-column: 2/3;
+      grid-row: 3/4;
+    background-color: #7E1DC3;
 }
 
 .article p {
-  font-size: 18px;
-  font-family: sans-serif;
-  color: white;
-  text-align: left;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    text-align: left;
 }
 
 .footer {
-  background-color: #393f4d;
-  grid-column: 1 / 3;
+    background-color: #393f4d;
+    grid-column: 1 / 3;
+     grid-row: 4/5;
 }
