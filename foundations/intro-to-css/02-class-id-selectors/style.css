@@ -1,1 +1,6 @@
 /* Add CSS Styling */
+
+p {
+    background-color: pink;
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
