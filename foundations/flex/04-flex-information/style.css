@@ -31,4 +31,16 @@ img {
 .container {
   display: flex;
   justify-content: center;
+  gap: 52px;
+}
+
+.image1, .image2, .image3, .image4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.text {
+  text-align: center;
 }
