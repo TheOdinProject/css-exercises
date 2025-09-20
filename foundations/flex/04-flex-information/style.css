@@ -27,3 +27,12 @@ img {
   background: #eee;
 }
 
+.image1, .image2, .image3, .image4{
+  display: flex;
+  justify-content: center;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+}
