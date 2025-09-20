@@ -12,6 +12,7 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -27,12 +28,7 @@ img {
   background: #eee;
 }
 
-.image1, .image2, .image3, .image4{
-  display: flex;
-  justify-content: center;
-}
-
-.text{
+.container {
   display: flex;
   justify-content: center;
 }
