@@ -1,4 +1,4 @@
-.avatar.proportioned {
+/* .avatar.proportioned {
   height: auto;
   width: 300px;
 }
@@ -6,4 +6,31 @@
 .avatar.distorted {
   height: 400px;
   width: 200px;
+} */
+
+
+/* 
+
+aspect-ratio: 1 / 1; → width and height are equal → square.
+
+aspect-ratio: 2 / 1; → width is twice the height → wider.
+
+aspect-ratio: 1 / 2; → width is half the height → taller.
+
+*/
+
+
+.avatar.proportioned{
+    width: 300px;
+    /* aspect-ratio: calc(width); */
+    aspect-ratio: 1/1;
+}
+
+.avatar.distorted{
+    width: 200px;
+
+    /*this makes the height half of it not twice */
+    /* aspect-ratio: 2/1; */
+    aspect-ratio: 1/2;
+    /* height: 400px; */
 }
