@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.fixed-header {
+  background-color: #333;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Make this header stick to the top of the viewport */
+  /* Add appropriate positioning and z-index */
+}
+
+.fixed-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.fixed-header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+.fixed-header nav a:hover {
+  color: #4ecdc4;
+}
+
+.content {
+  /* Add top padding to prevent content from hiding behind the fixed header */
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.content h2 {
+  color: #333;
+  border-bottom: 2px solid #4ecdc4;
+  padding-bottom: 0.5rem;
+}
+
+.content p {
+  margin-bottom: 1rem;
+  color: #666;
+}

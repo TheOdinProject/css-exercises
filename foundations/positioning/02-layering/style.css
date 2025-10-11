@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border: 2px solid #333;
+  background-color: #f9f9f9;
+  /* Add position property here */
+}
+
+.layer {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  /* All layers should be absolutely positioned */
+}
+
+.background {
+  background-color: #ff6b6b;
+  /* Position this layer behind all others */
+  /* Position at: top: 20px, left: 20px */
+}
+
+.middle {
+  background-color: #4ecdc4;
+  /* Position this layer in the middle */
+  /* Position at: top: 60px, left: 60px */
+}
+
+.foreground {
+  background-color: #45b7d1;
+  /* Position this layer above middle but below top */
+  /* Position at: top: 100px, left: 100px */
+}
+
+.top {
+  background-color: #96ceb4;
+  /* Position this layer on top of all others */
+  /* Position at: top: 140px, left: 140px */
+}

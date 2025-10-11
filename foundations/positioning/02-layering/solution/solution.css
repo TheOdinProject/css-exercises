@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border: 2px solid #333;
+  background-color: #f9f9f9;
+  /* SOLUTION: Set positioning context */
+  position: relative;
+}
+
+.layer {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  /* SOLUTION: All layers absolutely positioned */
+  position: absolute;
+}
+
+.background {
+  background-color: #ff6b6b;
+  /* SOLUTION: Background layer - lowest z-index */
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.middle {
+  background-color: #4ecdc4;
+  /* SOLUTION: Middle layer */
+  top: 60px;
+  left: 60px;
+  z-index: 2;
+}
+
+.foreground {
+  background-color: #45b7d1;
+  /* SOLUTION: Foreground layer */
+  top: 100px;
+  left: 100px;
+  z-index: 3;
+}
+
+.top {
+  background-color: #96ceb4;
+  /* SOLUTION: Top layer - highest z-index */
+  top: 140px;
+  left: 140px;
+  z-index: 4;
+}

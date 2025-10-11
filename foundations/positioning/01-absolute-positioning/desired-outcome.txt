@@ -1,0 +1,8 @@
+This would be an image showing the desired outcome:
+- A grey container with a black border
+- Red box positioned in the top-left corner
+- Blue box positioned in the top-right corner  
+- Green box positioned in the bottom-left corner
+- White overlay with dashed border centered in the container
+
+You can create this image by taking a screenshot of the solution.html file in a browser.

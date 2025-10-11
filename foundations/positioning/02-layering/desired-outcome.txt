@@ -1,0 +1,10 @@
+This would be an image showing the desired outcome:
+- A grey container with a black border
+- Four colored squares overlapping in a diagonal cascade pattern
+- Background layer (red) at top-left
+- Middle layer (teal) overlapping background
+- Foreground layer (blue) overlapping middle
+- Top layer (green) overlapping foreground
+- Each layer properly stacked using z-index
+
+You can create this image by taking a screenshot of the solution.html file in a browser.

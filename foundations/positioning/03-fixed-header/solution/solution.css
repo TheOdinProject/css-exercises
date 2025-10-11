@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.fixed-header {
+  background-color: #333;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* SOLUTION: Fixed positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.fixed-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.fixed-header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+.fixed-header nav a:hover {
+  color: #4ecdc4;
+}
+
+.content {
+  /* SOLUTION: Add top padding to account for fixed header height */
+  padding: 2rem;
+  padding-top: 6rem; /* Adjust based on header height */
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.content h2 {
+  color: #333;
+  border-bottom: 2px solid #4ecdc4;
+  padding-bottom: 0.5rem;
+}
+
+.content p {
+  margin-bottom: 1rem;
+  color: #666;
+}

@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  /* Add position property here */
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+}
+
+.red {
+  background-color: #ff6b6b;
+  /* Position this box in the top-left corner of the container */
+}
+
+.blue {
+  background-color: #4ecdc4;
+  /* Position this box in the top-right corner of the container */
+}
+
+.green {
+  background-color: #45b7d1;
+  /* Position this box in the bottom-left corner of the container */
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px dashed #999;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  /* Position this element in the center of the container, overlapping other elements */
+}
