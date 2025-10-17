@@ -20,7 +20,7 @@ If you have suggestions to improve an exercise, ideas for a new exercise, or not
     - Each README has a "Self Check" list. Use this to ensure you haven't missed any important details in your implementation.
 1. Make your edits in the `index.html` and/or the `style.css` files in order to make the output in your browser look like the Desired Outcome image(s).
     - Depending on the instructions of the exercise, you may only need to make edits in one of these files.
-1. The **"Desired Outcome"** image and the **"Self Check"** list together define the **requirements** for completing each exercise.
+1. The **"Desired Outcome"** image and the **"Self Check"** list are both part of the **requirements** for completing each exercise.
 1. Once you successfully finish an exercise, check TOP's example solution.
     - You should not be checking the solution for an exercise until you finish it!
     - If your solution differs from TOP's solution (and still passes the exercise's requirements), that is completely fine. The provided solution is only an example and there are always multiple approaches. Feel free to ask in our Discord if there are parts of the example solution you do not understand.
