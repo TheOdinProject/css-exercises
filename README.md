@@ -17,7 +17,7 @@ If you have suggestions to improve an exercise, ideas for a new exercise, or not
     - Copies of repositories on your machine are called clones. If you need help cloning to your local environment, you can learn how from the GitHub documentation on [cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository).
 1. Go to an exercise directory and open the HTML file in a web browser. You can open the file directly or use something like VSCode's Live Server extension.
 1. For each exercise, read the README thoroughly before starting any work.
-    - Each README has a "Self Check" list. Use this to ensure you haven't missed any important details in your implementation.
+    - Each README has a "Self Check" list. Use it as a list of **requirements** to make sure your solution matches the "Desired Outcome" image.
 1. Make your edits in the `index.html` and/or the `style.css` files in order to make the output in your browser look like the Desired Outcome image(s).
     - Depending on the instructions of the exercise, you may only need to make edits in one of these files.
 1. Once you successfully finish an exercise, check TOP's example solution.
