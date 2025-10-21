@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacktoberfest 2025 Project Submission</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Custom styles for the page */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        /* Custom glowing text effect for the main header */
+        .glow-text {
+            text-shadow:
+                0 0 7px rgba(236, 72, 153, 0.7),
+                0 0 10px rgba(236, 72, 153, 0.7),
+                0 0 21px rgba(236, 72, 153, 0.7),
+                0 0 42px rgba(34, 211, 238, 0.7),
+                0 0 82px rgba(34, 211, 238, 0.7);
+        }
+
+        /* A subtle animation for the submission card */
+        .card-fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white min-h-screen flex items-center justify-center p-4">
+
+    <!-- Main container for the submission form -->
+    <div class="w-full max-w-lg mx-auto card-fade-in">
+        <div class="bg-gray-800/50 backdrop-blur-sm border border-cyan-500/20 rounded-2xl shadow-2xl shadow-cyan-500/10 p-8 md:p-12 text-center">
+            
+            <!-- Header Section -->
+            <header class="mb-8">
+                <h1 class="text-4xl md:text-5xl font-black tracking-tighter glow-text">HACKTOBERFEST 2025</h1>
+                <p class="text-cyan-400 mt-2 text-lg">Project Submission Portal</p>
+            </header>
+
+            <!-- Submission Form -->
+            <div class="space-y-6">
+                <!-- Project Name Input Box -->
+                <div>
+                    <label for="projectName" class="sr-only">Enter Your Project Name</label>
+                    <input 
+                        type="text" 
+                        id="projectName" 
+                        placeholder="Enter Your Project Name"
+                        class="w-full bg-gray-900 border-2 border-pink-500/50 rounded-lg px-4 py-3 text-white placeholder-gray-500 text-center text-lg focus:outline-none focus:ring-4 focus:ring-pink-500/50 focus:border-pink-500 transition-all duration-300"
+                    >
+                </div>
+
+                <!-- Submit Button -->
+                <button id="submitButton" class="w-full bg-cyan-500 text-gray-900 font-bold py-3 px-6 rounded-lg text-lg hover:bg-cyan-400 focus:outline-none focus:ring-4 focus:ring-cyan-500/50 transform hover:scale-105 transition-all duration-300 shadow-lg shadow-cyan-500/20">
+                    Submit Project
+                </button>
+            </div>
+            
+            <!-- Message area for submission confirmation -->
+            <div id="messageArea" class="mt-6 min-h-[24px] text-lime-400 font-medium transition-opacity duration-500"></div>
+
+        </div>
+        
+        <!-- Footer -->
+        <footer class="text-center mt-8">
+            <p class="text-gray-500">Happy Hacking!</p>
+        </footer>
+    </div>
+
+    <script>
+        // JavaScript for simple interaction
+        const submitButton = document.getElementById('submitButton');
+        const projectNameInput = document.getElementById('projectName');
+        const messageArea = document.getElementById('messageArea');
+
+        submitButton.addEventListener('click', () => {
+            const projectName = projectNameInput.value.trim();
+            
+            // Clear previous message
+            messageArea.textContent = '';
+            messageArea.style.opacity = 0;
+
+            if (projectName === '') {
+                messageArea.textContent = 'Please enter a project name!';
+                messageArea.classList.remove('text-lime-400');
+                messageArea.classList.add('text-red-400');
+            } else {
+                messageArea.textContent = `Project "${projectName}" submitted! Good luck!`;
+                messageArea.classList.remove('text-red-400');
+                messageArea.classList.add('text-lime-400');
+                projectNameInput.value = ''; // Clear the input field
+            }
+            
+            // Fade in the message
+            setTimeout(() => {
+                messageArea.style.opacity = 1;
+            }, 10);
+        });
+    </script>
+
+</body>
+</html>
