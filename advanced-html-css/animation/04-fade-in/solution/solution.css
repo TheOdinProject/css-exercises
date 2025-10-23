@@ -1,0 +1,31 @@
+.fadein-container {
+  max-width: 300px;
+  margin: 80px auto;
+  text-align: center;
+  line-height: 60px;
+  font-size: 18px;
+  color: rgb(247, 247, 247);
+  background-color: rgb(52, 152, 219);
+  border-radius: 10px;
+  opacity: 0; /* Start invisible */
+}
+
+/* SOLUTION */
+
+.visible {
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
