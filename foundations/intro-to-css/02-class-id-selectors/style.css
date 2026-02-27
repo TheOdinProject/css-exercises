@@ -1,1 +1,22 @@
-/* Add CSS Styling */
+.class{
+background-color: pink;
+font-family: Verdana," DejaVu Sans", sans-serif;
+}
+#id{
+color: blue;
+font-size: 36px;
+}
+.class2{
+background-color: pink;
+font-family: Verdana," DejaVu Sans", sans-serif;
+font-size: 24px;
+}
+#id2{
+background-color: lightgreen;
+font-size: 24px;
+font-weight: bold;
+}
+.class3{
+background-color: pink;
+font-family: Verdana," DejaVu Sans", sans-serif;
+}
