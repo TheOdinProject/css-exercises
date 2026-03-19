@@ -1,0 +1,21 @@
+p, div {
+    color: white;
+}
+
+p {
+    background-color: green;
+}
+
+div {
+    background-color: red;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}   
+
+button {
+    color: black;
+    background-color: orange;
+    border-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+}
