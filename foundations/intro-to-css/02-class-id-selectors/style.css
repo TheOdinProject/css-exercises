@@ -1,1 +1,23 @@
-/* Add CSS Styling */
+.odd {
+    background-color: #eca9a7;
+    color: black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#line2 {
+    color: #2a27f1;
+    font-size: 50px;
+    font-weight: 549;
+}
+
+#line4 {
+    background-color: #a6f98e;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.odd.line3 {
+    font-size: 35px;
+}
