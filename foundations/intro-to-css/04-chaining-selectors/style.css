@@ -1,1 +1,14 @@
-/* Add CSS Styling */
+/* Images with class "proportioned" should keep their aspect ratio */
+.avatar.proportioned,
+.original.proportioned {
+    width: 300px;
+    height: auto;
+} 
+
+/* Images with class "distorted" should have fixed width and height */
+.avatar.distorted,
+.original.distorted {
+    width: 200px;
+    height: 300px;
+}
+    
