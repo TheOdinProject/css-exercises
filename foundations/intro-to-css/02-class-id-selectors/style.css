@@ -1,1 +1,23 @@
-/* Add CSS Styling */
+/* All odd class elements */
+.odd {
+    background-color: light pink;
+    font-family: verdana, DejaVu Sans, sans-serif;
+}
+
+/* The cooler one (Number 3) */
+.cool {
+    font-size: 24px;
+
+}
+
+/* ID for Number 2 */
+#two {
+    color: blue;
+    font-size: 36px;
+}
+
+/* ID for Number 4 */
+#four {
+    background-color: lightgreen;
+    font-weight: bold; 
+}
