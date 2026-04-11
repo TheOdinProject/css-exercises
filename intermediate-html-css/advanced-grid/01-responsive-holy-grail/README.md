@@ -24,5 +24,5 @@ When the browser is stretched wide:
 - The second column is three times as large as the other
 - The third row is five times as large as the others
 - The columns narrow and widen as the viewport changes size
-- Row 3 gets taller to accomodate text wrapping as you narrow the viewport size 
+- Row 3 gets taller to accommodate text wrapping as you narrow the viewport size 
 
