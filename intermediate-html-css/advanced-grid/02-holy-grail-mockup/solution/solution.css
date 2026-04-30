@@ -23,6 +23,7 @@
 .menu ul,
 .menu li {
   font-size: 16px;
+  list-style-type: none;
 }
 
 .sidebar {
@@ -117,11 +118,6 @@
 .menu ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.menu ul,
-.menu li {
-  list-style-type: none;
 }
 
 .sidebar {
