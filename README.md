@@ -14,7 +14,7 @@ If you have suggestions to improve an exercise, ideas for a new exercise, or not
 ## How To Use These Exercises
 
 1. Fork this repository.
-   - A *fork* is your own copy of a repository stored on your GitHub account. To learn how to fork a repository, see the GitHub documentation on how to [fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
+   - A *fork* is your own copy of a repository stored on your GitHub account. To learn how to fork a repository, see the GitHub documentation on [how to fork a repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository).
 1. Clone your *forked* repository.
    - A *clone* is a copy of a repository on your local machine. If you need help cloning to your local environment, you can learn how from the GitHub documentation on [cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository).
 1. Go to an exercise directory and open the HTML file in a web browser. You can open the file directly or use something like VSCode's Live Preview extension.
