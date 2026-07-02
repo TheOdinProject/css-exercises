@@ -1,1 +1,16 @@
-/* Add CSS Styling */
+p {
+    background-color: lightpink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+#numbertwo {
+    font-size: 36px;
+    color: blue;
+}
+#numberthree {
+    font-size: 24px;
+}
+#numberfive {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
