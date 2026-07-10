@@ -9,15 +9,8 @@ body {
   margin: 16px auto;
 }
 
-.title {
-  background: dodgerblue
-;
-}
-
-.content {
-  background: dodgerblue;
-}
-
+.title,
+.content,
 .button-container {
   background: dodgerblue;
 }
