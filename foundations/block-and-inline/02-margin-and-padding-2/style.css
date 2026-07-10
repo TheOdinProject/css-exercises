@@ -10,15 +10,16 @@ body {
 }
 
 .title {
-  background: #e3f4ff;
+  background: dodgerblue
+;
 }
 
 .content {
-  background: #e3f4ff;
+  background: dodgerblue;
 }
 
 .button-container {
-  background: #e3f4ff;
+  background: dodgerblue;
 }
 
 button {
